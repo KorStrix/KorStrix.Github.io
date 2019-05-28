@@ -1,0 +1,9 @@
+---
+title: "Unity) ML-Agents 머신러닝으로 타겟을 향해 나아가는 공"
+date: 28-05-2019
+categories: Unity ML-Agents 머신러닝
+---
+
+우연히 유튜브에 한글로 된 Unity - 머신러닝 튜토리얼 강의 영상을 보고, 따라하게 되었습니다.
+
+{% include Youtube_Helper.html id="twcmguIedhY&list=PLctzObGsrjfwYHL1obWlVdPRbpubkuKWp" %}  
