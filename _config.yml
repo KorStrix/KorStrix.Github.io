@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "스트릭스의 Unity & C# Blog"
+title                    : "스트릭스의 Unity & C# Tech Blog"
 title_separator          : "-"
 name                     : "Strix"
-description              : "Unity & C# 개발자의 블로그입니다."
+description              : "Unity & C# 개발자의 기술 블로그입니다."
 url                      : "https://korstrix.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "KorStrix/korstrix.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
