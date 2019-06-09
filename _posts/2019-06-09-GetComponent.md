@@ -4,34 +4,33 @@ categories: Unity, Attribute
 ---
 
 ## 개요
-이 글은 GetComponent Attribute이 무엇이고 왜 사용하는지,<br>
-그리고 어떻게 제작하는지와 퍼포먼스 비교에 대해 포스팅합니다.
+이 글은 GetComponent Attribute가 무엇이고 왜 사용하는지,<br>
+어떻게 제작하는지와 퍼포먼스 비교에 대해 포스팅합니다.
 
 ## GetComponent Attribute가 무엇인가요?
 ### GetComponent?
-Unity를 어느정도 다뤄보셨으면 **GetComponent** 를 사용해보셨을 겁니다.
+Unity를 다뤄보셨으면 **GetComponent** 함수를 보셨을 겁니다.<br>
+비슷한 함수로 GetComponent뿐만 아니라,<br>
+ GetComponentInChildren, GetComponentsInChildren,<br>
+GetComponentInParents 등이 있으며, 이 글에선 이를 묶어 **GetComponent류** 라 칭하겠습니다.
 <br>
-비슷한 함수로 GetComponent뿐만 아니라, GetComponentInChildren, GetComponentsInChildren,<br>
-GetComponentInParents 등이 있으며, 이 포스트에서는 이들을 묶어 **GetComponent류** 라 칭하겠습니다.
-<br>
-~~굳이 류를 붙인 이유는 없으면 GetComponent 하나만 생각할 수 있기 때문에..~~
+~~`류`를 붙인건, 없으면 GetComponent만 생각할 수 있기 때문에..~~
 <br>
 ### Attribute?
-GetComponent는 들어봤지만, Attribute는 생소하실 수 있습니다.
-**Attribute는 C# 문법이며, 속성이라고도 합니다.**
-아마 마찬가지로, Unity를 어느정도 다뤄보셨으면 다음과 같은 코드를 보셨을 것입니다.
+GetComponent는 들어봤지만, Attribute는 생소하실 수 있습니다.<br>
+**Attribute는 C# 문법이며, 속성이라고도 합니다.**<br>
+다음은 흔히 볼 수 있는 예시입니다.
 
 ```csharp
 public class SomthingMono : MonoBehaviour
 {
-    [SerializeField] // 접근제한자가 private지만 인스펙터에 이 변수를 노출합니다.
+    // 접근제한자가 private지만 인스펙터에 이 변수를 노출.
+    [SerializeField]
     private Rigidbody rigidbody;
 }
 ```
 
-여기서 **[SerializeField]** 와 같은 문법을 Attribute라고 합니다.
-
-<br>
+여기서 **[SerializeField]** 와 같은 문법을 Attribute라고 합니다. <br>
 
 ##### 다른 Unity Attribute 예시
 - **[HideInInspector]** : 접근제한자와 상관없이 인스펙터에 노출하지 않음.
@@ -39,15 +38,16 @@ public class SomthingMono : MonoBehaviour
 - **[Header(문자열)]** : 인스펙터에 해당 변수 위의 위치에 굵은 글씨로 문자열을 노출.
 
 <br>
-
 위의 Attribute는 변수용 Attribute이며, 클래스, 함수전용 혹은 포함시키는 Attribute를 선언할 수 있습니다.
 
 ---
 ## 그래서 GetComponent Attribute를 왜 사용해야 하냐구요?
 ### 케이스 1
-GetComponent Attribute를 작성하면 하단과 같은 일이 여러분의 VS(Visual Studio)에서 가능해집니다.
+GetComponent Attribute를 작성하면 하단과 같은 일이<br>
+여러분의 VS(Visual Studio)에서 가능해집니다.
 ```csharp
-[GetComponent] // 이 한줄로 하단의 주석처리 된 코드의 기능을 합니다.
+// 밑의 한줄로 하단의 주석처리 된 코드의 기능을 합니다.
+[GetComponent]
 Rigidbody rigidbody;
 // void Awake()
 // {
@@ -83,50 +83,50 @@ Transform transform_RightLeg;
 
 //    // 물론 못찾았을 때 처리도 로그로 띄우자..
 //    if (rigidbody_Head == null)
-//        Debug.LogWarning(name + " Head is Null", this);
+//        Debug.LogWarning("Head is Null");
 //    if (transform_LeftLeg == null)
-//        Debug.LogWarning(name + " LeftLeg is Null", this);
+//        Debug.LogWarning("LeftLeg is Null");
 //    if (transform_RightLeg == null)
-//        Debug.LogWarning(name + " RightLeg is Null", this);
+//        Debug.LogWarning("RightLeg is Null");
 //}
 ```
 
 ### 케이스 3
 이 글의 기술을 응용하면 다음과 같은 기능도 가능합니다.
 ```csharp
-enum BodyParts // Enum에 검색할 자식 오브젝트의 이름을 추가합니다.
+// Enum에 검색할 자식 오브젝트의 이름을 추가합니다.
+enum BodyParts
 {
     Head,
     Right_Leg,
     Left_Leg,
 }
 
-[GetComponentInChildren] // 이 한줄이면 Dictionary에 해당 이름의 Rigidbody가 할당됩니다.
+// 밑의 한줄로 Dictionary에 해당 이름의 Rigidbody가 할당.
+[GetComponentInChildren]
 Dictionary<BodyParts, Rigidbody> bodyparts;
 ```
 
 ---
 ## 구조 및 설계
 ~~구조 및 설계는 구현하다 보면 항상 틀리기 마련이지만,~~ <br>
-제가 기존에 **이미 작성하고 사용하고 있는** GetComponent Attribute를 기준으로 설명하겠습니다.
+제가 기존에 **이미 작성하고 사용하고 있는**<br>
+GetComponent Attribute를 기준으로 설명하겠습니다.
 
 ### 필요 기능
-어떤 **(이 포스트에 설명한 GetComponent Attribute가 되었든, 무엇이 되었든.)** Attribute를 사용하더라도,
+어떤 Attribute를 사용하더라도, <br>
+**(이 포스트에 설명한 GetComponent Attribute외 다른것도.)**<br>
+**결과적으로 GetCustomAttributes 함수를 통해<br>
+ 우리가 제작한 Attribute를 찾아야 합니다.**<br>
+우리는 이 함수를 호출하려면 ~~귀찮은~~ 절차를 밟아야 합니다.
 
 <br>
-
-**결과적으로 GetCustomAttributes함수를 통해 우리가 제작한 Attribute를 찾아야 합니다.**
-우리는 이 함수를 호출하기까지 다소 ~~귀찮은~~ 절차를 밟아야 합니다.
-
-<br>
-
 차근차근 스텝을 밟아봅시다.
 1. 먼저 GetComponent Attribute는 멤버 변수용 Attribute입니다.
 2. 멤버 변수는 어떠한 클래스 혹은 구조체(줄여서 클래스)가 선언한 변수입니다.
 **= 따라서 어떠한 클래스와 멤버 변수가 필요합니다.**
 
 <br>
-
 클래스를 찾고, 멤버 변수를 찾았으면,
 1. 찾은 멤버 변수에 어떤 Custom Attribute가 있는지 찾을 수 있습니다.
 2. 위에서 우리가 제작한 GetComponent Attribute를 찾을 수 있습니다.
