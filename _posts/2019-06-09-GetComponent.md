@@ -7,7 +7,7 @@ categories: Unity, Attribute
 이 글은 GetComponent Attribute가 무엇이고 왜 사용하는지,<br>
 어떻게 제작하는지와 퍼포먼스 비교에 대해 포스팅합니다.
 
-## GetComponent Attribute가 무엇인가요?
+## GetComponent Attribute가<br> 무엇인가요?
 ### GetComponent?
 Unity를 다뤄보셨으면 **GetComponent** 함수를 보셨을 겁니다.<br>
 비슷한 함수로 GetComponent뿐만 아니라,<br>
@@ -33,15 +33,19 @@ public class SomthingMono : MonoBehaviour
 여기서 **[SerializeField]** 와 같은 문법을 Attribute라고 합니다. <br>
 
 ##### 다른 Unity Attribute 예시
-- **[HideInInspector]** : 접근제한자와 상관없이 인스펙터에 노출하지 않음.
-- **[Range(최소 숫자, 최대 숫자)]** : 인스펙터에 해당 범위만 설정할 수 있는 슬라이더를 노출.
-- **[Header(문자열)]** : 인스펙터에 해당 변수 위의 위치에 굵은 글씨로 문자열을 노출.
+- **[HideInInspector]**
+  - 접근제한자와 상관없이 인스펙터에 노출하지 않음.
+- **[Range(최소 숫자, 최대 숫자)]**
+  - 인스펙터에 해당 범위만 설정하는 슬라이더를 노출.
+- **[Header(문자열)]**
+  - 인스펙터에 변수 위에 굵은 글씨로 문자열을 노출.
 
 <br>
-위의 Attribute는 변수용 Attribute이며, 클래스, 함수전용 혹은 포함시키는 Attribute를 선언할 수 있습니다.
+위의 Attribute는 변수용 Attribute이며<br>
+클래스, 함수전용 혹 포함하는 Attribute를 선언할 수 있습니다.
 
 ---
-## 그래서 GetComponent Attribute를 왜 사용해야 하냐구요?
+## 그래서 왜<br> GetComponent Attribute를<br> 사용해야 하냐구요?
 ### 케이스 1
 GetComponent Attribute를 작성하면 하단과 같은 일이<br>
 여러분의 VS(Visual Studio)에서 가능해집니다.
@@ -123,16 +127,18 @@ GetComponent Attribute를 기준으로 설명하겠습니다.
 <br>
 차근차근 스텝을 밟아봅시다.
 1. 먼저 GetComponent Attribute는 멤버 변수용 Attribute입니다.
-2. 멤버 변수는 어떠한 클래스 혹은 구조체(줄여서 클래스)가 선언한 변수입니다.
+2. 멤버 변수는 어떠한 클래스 혹은 구조체(줄여서 클래스)가<br> 선언한 변수입니다.<br>
+
 **= 따라서 어떠한 클래스와 멤버 변수가 필요합니다.**
 
 <br>
 클래스를 찾고, 멤버 변수를 찾았으면,
-1. 찾은 멤버 변수에 어떤 Custom Attribute가 있는지 찾을 수 있습니다.
-2. 위에서 우리가 제작한 GetComponent Attribute를 찾을 수 있습니다.
+1. 찾은 멤버 변수에 어떤 Custom Attribute가 있는지<br> 찾을 수 있습니다.
+2. 위에서 우리가 제작한 GetComponent Attribute를 찾습니다.
 3. 이 Attribute가 있으면 해당 변수에 할당합니다.
-4. **따라서, Attribute를 선언할 때 어떤 GetComponent류로 할당할 지 정해야 합니다.**
-4. 근데 어떤 **인스턴스** 의 변수에 할당해야 할까요? 클래스만 가지고는 할당이 불가능합니다.
+4. **따라서, Attribute를 선언할 때<br> 어떤 GetComponent류로 할당할 지 정해야 합니다.**
+4. 근데 어떤 **인스턴스** 의 변수에 할당해야 할까요?<br> 클래스만 가지고는 할당이 불가능합니다.<br>
+
 **= Attribute에 어떤 식으로 변수를 할당할지 담아야 합니다. <br>
 또한 변수를 할당할 인스턴스를 찾아야 합니다.**
 
@@ -149,6 +155,7 @@ GetComponent Attribute를 기준으로 설명하겠습니다.
 ## 깃허브 링크 (완성된 프로젝트)
 ![](https://github.com/KorStrix/Unity_GetComponentAttribute/raw/master/Images_ForGhithub/Preview.gif?raw=true)
 
-예제와 프로파일러, 사용방법 등이 간단하게 적혀있는 깃허브 프로젝트입니다.
+예제와 프로파일러, 사용방법 등이<br>
+적혀있는 깃허브 프로젝트입니다.
 
 https://github.com/KorStrix/Unity_GetComponentAttribute
