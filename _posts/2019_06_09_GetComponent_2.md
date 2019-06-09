@@ -1,6 +1,6 @@
 ---
 title: "Unity GetComponent Attribute"
-date: 27-05-2019 17:39
+date: 09-06-2019 00:00
 categories: Unity Attribute
 ---
 
