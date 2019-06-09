@@ -4,24 +4,18 @@ categories: Unity, Attribute
 ---
 
 ## 개요
-이 글은 GetComponent Attribute이 무엇이고 왜 사용하는지,
+이 글은 GetComponent Attribute이 무엇이고 왜 사용하는지,<br>
 그리고 어떻게 제작하는지와 퍼포먼스 비교에 대해 포스팅합니다.
 
----
 ## GetComponent Attribute가 무엇인가요?
 ### GetComponent?
 Unity를 어느정도 다뤄보셨으면 **GetComponent** 를 사용해보셨을 겁니다.
-
 <br>
-
-비슷한 함수로 GetComponent뿐만 아니라, GetComponentInChildren, GetComponentsInChildren, GetComponentInParents 등이 있으며, 이 포스트에서는 이들을 묶어 **GetComponent류** 라 칭하겠습니다.
-
+비슷한 함수로 GetComponent뿐만 아니라, GetComponentInChildren, GetComponentsInChildren,<br>
+GetComponentInParents 등이 있으며, 이 포스트에서는 이들을 묶어 **GetComponent류** 라 칭하겠습니다.
 <br>
-
 ~~굳이 류를 붙인 이유는 없으면 GetComponent 하나만 생각할 수 있기 때문에..~~
-
 <br>
-
 ### Attribute?
 GetComponent는 들어봤지만, Attribute는 생소하실 수 있습니다.
 **Attribute는 C# 문법이며, 속성이라고도 합니다.**
