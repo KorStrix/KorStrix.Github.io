@@ -1,6 +1,6 @@
 ---
 title: "Unity GetComponent Attribute - 1 GetComponent Attribute는 무엇이고, 왜 사용해야 하는가?"
-date: 27-05-2019
+date: 27-05-2019 17:39
 categories: Unity, Attribute
 ---
 
