@@ -1,6 +1,6 @@
 ---
 title: "Unity GetComponent Attribute"
-categories: Unity, Attribute
+categories: Unity Attribute
 ---
 
 ## 개요
@@ -152,10 +152,30 @@ GetComponent Attribute를 기준으로 설명하겠습니다.
 #### 구조 및 설계 (제가 작성한 것 기준)
 ![](https://github.com/KorStrix/korstrix.github.io/blob/master/_images/GetComponent%20Attribute.png?raw=true)
 
+저같은 경우는 **ChildRequireComponent Attribute** 를<br>
+별도로 제작하였습니다.
+
+비 개발자가 세팅할 때 필요한 것들을<br>
+**인스펙터로 바로 알려주기 위함입니다.**
+
+~~이게 없으면 동작이 안되서 괜히 개발자만 고생~~
+
+#### ChildRequireComponent Attribute 적용 예시
+![](https://github.com/KorStrix/Unity_GetComponentAttribute/blob/master/Images_ForGhithub/ChildRequireComponent_BeforeOdin.png?raw=true)
+
+본래 네이밍 규칙은 RequireChildComponent지만,<br>
+RequireComponent Attribute랑 접두어가 겹쳐서<br>
+사용시 불편하더라구요. (VS 인텔리전스)
+
+<br>
+GetComponent Attribute를 인터페이스로 구현한 이유중 하나는<br>
+다른 **새로운 Attribute에서 GetComponent 로직을<br>
+사용하기 쉽게 하기 위해서** 입니다.
+
 <br>
 <br>
 ## 성능 테스트
-GetComponent 함수와 transform Property, Attribute<br>의
+GetComponent 함수와 transform Property, Attribute의 <br>
 성능 비교 코드입니다.
 
 ```csharp
