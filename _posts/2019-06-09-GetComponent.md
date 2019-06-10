@@ -150,6 +150,7 @@ GetComponent Attribute를 기준으로 설명하겠습니다.
 3. Attribute에는 어떤 방법으로 GetComponent를 할지 담겨있어야 합니다.
 
 #### 구조 및 설계 (제가 작성한 것 기준)
+![](https://github.com/KorStrix/korstrix.github.io/blob/master/_images/GetComponent%20Attribute.png?raw=true)
 
 ---
 ## 깃허브 링크 (완성된 프로젝트)
