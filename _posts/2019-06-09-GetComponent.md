@@ -126,7 +126,7 @@ GetComponent Attribute를 기준으로 설명하겠습니다.
 
 <br>
 차근차근 스텝을 밟아봅시다.
-1. 먼저 GetComponent Attribute는 멤버 변수용 Attribute입니다.
+1. GetComponent Attribute는 멤버 변수용 Attribute입니다.
 2. 멤버 변수는 어떠한 클래스 혹은 구조체(줄여서 클래스)가<br> 선언한 변수입니다.<br>
 
 **= 따라서 어떠한 클래스와 멤버 변수가 필요합니다.**
@@ -151,6 +151,74 @@ GetComponent Attribute를 기준으로 설명하겠습니다.
 
 #### 구조 및 설계 (제가 작성한 것 기준)
 ![](https://github.com/KorStrix/korstrix.github.io/blob/master/_images/GetComponent%20Attribute.png?raw=true)
+
+<br>
+<br>
+#### 성능 테스트
+GetComponent 함수와 transform Property, Attribute<br>의
+성능 비교 코드입니다.
+
+```csharp
+string strTestCase = ETestCase.GetComponent_DefulatProperty.ToString();
+ for(int i = 0; i < iTestCase; i++)
+ {
+     SCManagerProfiler.DoStartTestCase(strTestCase);
+     GetComponent_Property = null;
+     GetComponent_Property = transform;
+     GetComponent_Property.GetType();
+     SCManagerProfiler.DoFinishTestCase(strTestCase);
+ }
+
+ strTestCase = ETestCase.GetComponet_Function.ToString();
+ for (int i = 0; i < iTestCase; i++)
+ {
+     SCManagerProfiler.DoStartTestCase(strTestCase);
+     GetComponent_Function = null;
+     GetComponent_Function = GetComponent<Transform>();
+     GetComponent_Function.GetType();
+     SCManagerProfiler.DoFinishTestCase(strTestCase);
+ }
+
+ strTestCase = ETestCase.GetComponetsInChildren_Function.ToString();
+ for (int i = 0; i < iTestCase; i++)
+ {
+     SCManagerProfiler.DoStartTestCase(strTestCase);
+     GetComponentsChildren_Children_Function = null;
+     GetComponentsChildren_Children_Function = GetComponentsInChildren<Transform>();
+     GetComponentsChildren_Children_Function[0].GetType();
+     SCManagerProfiler.DoFinishTestCase(strTestCase);
+ }
+
+ strTestCase = ETestCase.GetComponet_Attribute_Individual.ToString();
+ for (int i = 0; i < iTestCase; i++)
+ {
+     SCManagerProfiler.DoStartTestCase(strTestCase);
+     GetComponent_Attribute = null;
+     SCManagerGetComponent.DoUpdateGetComponentAttribute(this, this, pMemberInfo);
+     GetComponent_Attribute.GetType();
+     SCManagerProfiler.DoFinishTestCase(strTestCase);
+ }
+
+ strTestCase = ETestCase.GetComponet_Attribute_All.ToString();
+ for (int i = 0; i < iTestCase; i++)
+ {
+     SCManagerProfiler.DoStartTestCase(strTestCase);
+     GetComponentsChildren_Children_Attribute = null;
+     SCManagerGetComponent.DoUpdateGetComponentAttribute(this);
+     GetComponentsChildren_Children_Attribute[0].GetType();
+     SCManagerProfiler.DoFinishTestCase(strTestCase);
+ }
+
+ SCManagerProfiler.DoPrintResult_PrintLog_IsError(true);
+```
+
+<br>
+#### 성능 결과
+1만번 호출 결과 GetComponent, Property의 경우<br>
+밀리 세컨드단위로 떨어질정도로 작지만,<br>
+GetComponent Attribute도 1초정도로 짧은 편입니다.
+
+![](https://github.com/KorStrix/Unity_GetComponentAttribute/blob/master/Images_ForGhithub/Profiler.png?raw=true)
 
 ---
 ## 깃허브 링크 (완성된 프로젝트)
