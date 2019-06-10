@@ -1,6 +1,6 @@
 ---
 title: "Unity GetComponent Attribute"
-categories: Unity Attribute
+categories: Unity UnityLibrary Attribute
 ---
 
 ## 개요
