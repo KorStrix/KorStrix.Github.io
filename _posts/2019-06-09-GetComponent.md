@@ -154,7 +154,7 @@ GetComponent Attribute를 기준으로 설명하겠습니다.
 
 <br>
 <br>
-#### 성능 테스트
+## 성능 테스트
 GetComponent 함수와 transform Property, Attribute<br>의
 성능 비교 코드입니다.
 
@@ -213,7 +213,7 @@ string strTestCase = ETestCase.GetComponent_DefulatProperty.ToString();
 ```
 
 <br>
-#### 성능 결과
+## 성능 결과
 1만번 호출 결과 GetComponent, Property의 경우<br>
 밀리 세컨드단위로 떨어질정도로 작지만,<br>
 GetComponent Attribute도 1초정도로 짧은 편입니다.
