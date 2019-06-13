@@ -10,7 +10,7 @@ categories: Unity UnityLibrary Attribute
 ## 옵저버 패턴이란?
 일단 옵저버 패턴이라는 용어부터 설명하기 전에, 디자인 패턴부터 설명해야 될것같네요.
 
-#### 디자인 패턴
+### 디자인 패턴
 옛날에 GOF(**G** ang **O** f **F** our = 사천왕)라는 네명의 천재 소프트웨어 개발자가<br>
 소프트웨어에서 공통적으로 자주 나타나는 구조 및 설계들을 모아서 **디자인 패턴** 이라고 칭하였습니다.
 
@@ -21,23 +21,23 @@ https://namu.wiki/w/%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4
 
 <br>
 
-#### 옵저버 패턴
+### 옵저버 패턴
 옵저버 패턴은 디자인 패턴 중에 나오는 패턴중에 하나로, <br>
 관찰자와 관찰대상으로 이루어진 패턴입니다.
 
 <br>
 
-##### 예시 상황
+#### 예시 상황
 게임속 유닛의 체력이 있고, 체력을 그릴 UI가 있다고 했을때, <br>
 
 <br>
 
-##### 구현 방법 - 비옵저버 패턴
+#### 구현 방법 - 비옵저버 패턴
 체력을 담당하는 클래스의 코드에 UI 로직을 적기, <br>
 
 <br>
 
-##### 문제점
+#### 문제점
 이렇게 구현할 경우, 체력을 구동하려면 <br>
 UI 로직이 반드시 필요하게 됩니다. <br>
 
@@ -49,13 +49,13 @@ UI가 필요 없는 체력 시스템의 경우는 **어떻게 될까요?** <br>
 
 <br>
 
-##### 구현 방법 - 옵저버 패턴
+#### 구현 방법 - 옵저버 패턴
 체력을 담당하는 클래스는 체력이 변경되고 변경될 때만 <br>
 필요한 클래스들에게 어떻게 변경되었다고 알려주기
 
 <br>
 
-##### 차이점
+#### 차이점
 옵저버 패턴으로 구현할 경우, 체력을 그릴 UI 클래스가 <br>
 체력을 담당하는 클래스에게 **체력이 변경될 때만** <br>
 **어떤 함수를 호출해** 달라 하면 됩니다.
@@ -97,7 +97,7 @@ SRP(단일 책임 원칙)과 OCP(개방 폐쇄 원칙)인데요.
 <br>
 <br>
 
-#### 유니티에서 어떻게 구현해야 하는지?
+## 유니티에서 어떻게 구현해야 하는지?
 위의 예시 상황을 기준으로 유니티에 구현해 보겠습니다.
 
 예시) 체력을 담당하는 클래스의 코드. <br>
@@ -107,7 +107,7 @@ SRP(단일 책임 원칙)과 OCP(개방 폐쇄 원칙)인데요.
 
 <br>
 
-##### 구현 방법 - 비옵저버 패턴
+### 구현 방법 - 비옵저버 패턴
 
 ```csharp
 public class ObserverSubject_Example_Legacy : MonoBehaviour
@@ -160,7 +160,7 @@ public class ObserverSubject_Example_Legacy : MonoBehaviour
 <br>
 <br>
 
-##### 구현 방법 - 옵저버 패턴
+### 구현 방법 - 옵저버 패턴 사용
 ```csharp
 public class ObserverSubject_Example_UseObserverPattern : MonoBehaviour
 {
@@ -214,7 +214,7 @@ public class ObserverSubject_Example_UseObserverPattern : MonoBehaviour
 <br>
 <br>
 
-##### UI를 담당하는 객체의 코드
+### UI를 담당하는 객체의 코드
 ```csharp
 public class ObserverSubject_Example_UI : MonoBehaviour
 {
@@ -234,7 +234,7 @@ public class ObserverSubject_Example_UI : MonoBehaviour
 
 <br>
 
-##### 이펙트 출력을 담당하는 객체의 코드
+### 이펙트 출력을 담당하는 객체의 코드
 ```csharp
 public class ObserverSubject_Example_PlayEffect : MonoBehaviour
 {
