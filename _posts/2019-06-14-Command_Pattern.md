@@ -8,6 +8,16 @@ categories: Unity UnityLibrary DesignPattern
 유니티에서 어떻게 사용하는지에 대해 포스팅합니다.<br>
 
 ### 커맨드 패턴
+만약에 디자인 패턴을 모르시면 <br>
+디자인 패턴은 블로그의 다른 글을 참고 해주시기 바랍니다. <br>
+
+<br>
+
+**유니티 개발자가 본 디자인 패턴**
+https://korstrix.github.io/designpattern/Design_Pattern/
+
+<br>
+
 커맨드 패턴은 디자인 패턴 중에 나오는 패턴중에 하나로, <br>
 어떠한 요청사항을 객체화하여
 

@@ -33,6 +33,7 @@ https://namu.wiki/w/%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4
 
 ### 공부한 책
 제가 디자인 패턴에 대해 읽은 책으로 기억에 나는것은 <br>
+<br>
 
 ![](https://github.com/KorStrix/korstrix.github.io/blob/master/_images/%EC%B1%85_Headfirst%20-%20%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4.png?raw=true)
 
@@ -40,12 +41,14 @@ https://namu.wiki/w/%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4
 https://book.naver.com/bookdb/review.nhn?bid=1882446
 
 <br>
+<br>
 
 ![](https://github.com/KorStrix/korstrix.github.io/blob/master/_images/%EC%B1%85_GoF%EC%9D%98%20%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4.png?raw=true)
 
 **GOF의 디자인 패턴**
 https://book.naver.com/bookdb/book_detail.nhn?bid=8942623
 
+<br>
 <br>
 
 ![](https://github.com/KorStrix/korstrix.github.io/blob/master/_images/%EC%B1%85_%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EA%B3%BC%20%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4.png?raw=true)
@@ -134,9 +137,7 @@ https://book.naver.com/bookdb/book_detail.nhn?bid=7255217
 
 <br>
 
-### 유니티에 적용시키니까 효과가 있었나요?
-
-**대답부터 하면, 네 있었습니다.** <br>
+### 유니티에 적용후 장점
 
 디자인 패턴 공부하면 생기는 장점은 다음과 같습니다.
 1. **전문 용어로서의 기능** <br>
@@ -162,12 +163,19 @@ Headfirst-Design Patterns에서 나온 예시로, <br>
 이미 자타공인의 소프트웨어 전문가(**GOF**)가 분석하고<br>
 추려내서 선정하고 세계에 발표한 설계방법이며, <br>
 이 내용을 토대로 다른 소프트웨어 전문가들이 <br>
- **다시 연구하며 계속 개량한 학문** 입니다. (**현재진행**)
+ **다시 연구하며 계속 개량한 학문** 입니다. (**현재진행**) <br>
+<br>
+이에 대해 공부하면서 꼭 맞는 케이스를 찾기 보다, <br>
+더 근본적인 객체지향 설계법을 익히는 것이죠.
 
 <br>
 
 **공통적인 결과로 유지보수를 편하게 해준다는 장점이 있습니다.** <br>
 근데 왜 위와 같은 장점이 있는데, 부정적인 시각이 있을까요? <br>
+
+<br>
+
+### 디자인패턴이 왜 호불호가 있는지 고찰
 
 <br>
 제 생각을 말하자면, (제 경험에 따른 생각입니다.) <br>
@@ -190,12 +198,24 @@ https://www.youtube.com/watch?v=di_1cZn9ztE
 <br>
 요구사항 및 향후 행보가 어떻게 될지 모르기 때문에, <br>
 상대적으로 설계에 대한 중요도가 떨어지고, <br>
-디자인 패턴은 이러한 설계기법 중 하나이기 때문에, <br>
+이러한 설계기법 중 하나가 디자인 패턴이기때문에, <br>
 디자인 패턴을 프로젝트에 맞게 적용시키기가 매우 힘든 편이죠. <br>
 
 <br>
 
 **(위 의견은 국내 온라인/모바일 게임 기준입니다.)**
+
+<br>
+
+### 유니티에서의 사용 예시 (블로그 다른글)
+
+사용 예시는 블로그에 하나씩 포스팅하였습니다.
+
+1. **옵저버 패턴**
+https://korstrix.github.io/unity/unitylibrary/designpattern/Observer_Pattern/
+
+2. **커맨드 패턴**
+https://korstrix.github.io/unity/unitylibrary/designpattern/Command_Pattern/
 
 ---
 ## 목차 링크
