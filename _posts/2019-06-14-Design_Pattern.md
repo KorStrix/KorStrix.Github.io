@@ -34,7 +34,7 @@ https://namu.wiki/w/%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4
 ### 공부한 책
 제가 디자인 패턴에 대해 읽은 책으로 기억에 나는것은 <br>
 
-![](https://github.com/KorStrix/korstrix.github.io/blob/master/_images/%EC%B1%85_Headfirst%20-%20%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4.png)
+![](https://github.com/KorStrix/korstrix.github.io/blob/master/_images/%EC%B1%85_Headfirst%20-%20%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4.png?raw=true)
 
 **Head First - Design Pattern**
 https://book.naver.com/bookdb/review.nhn?bid=1882446
@@ -48,7 +48,7 @@ https://book.naver.com/bookdb/book_detail.nhn?bid=8942623
 
 <br>
 
-![](https://github.com/KorStrix/korstrix.github.io/blob/master/_images/%EC%B1%85_%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EA%B3%BC%20%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4.png)
+![](https://github.com/KorStrix/korstrix.github.io/blob/master/_images/%EC%B1%85_%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EA%B3%BC%20%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4.png?raw=true)
 
 **객체 지향과 디자인 패턴**
 https://book.naver.com/bookdb/book_detail.nhn?bid=7255217
