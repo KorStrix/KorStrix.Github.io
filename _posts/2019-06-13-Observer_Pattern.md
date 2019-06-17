@@ -262,3 +262,7 @@ public class ObserverSubject_Example_PlayEffect : MonoBehaviour
 위의 예시가 구현된 깃허브 프로젝트입니다.
 
 https://github.com/KorStrix/Unity_ObserverPattern
+
+---
+## 목차 링크
+https://korstrix.github.io/index/Index/
