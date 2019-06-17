@@ -66,7 +66,7 @@ https://book.naver.com/bookdb/book_detail.nhn?bid=7255217
 대표적으로 Singleton Pattern이 있습니다. <br>
 
 <details>
-<summary>Singleton Pattern?</summary>
+<summary>Singleton Pattern? (펼치기)</summary>
 <div markdown="1">
 
 싱글톤은 이름에 들어있듯이 프로그램에 인스턴스가 하나만 <br>
