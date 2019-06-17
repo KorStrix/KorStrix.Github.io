@@ -1,5 +1,5 @@
 ---
-title: "유니티 개발자가 겪은 디자인 패턴"
+title: "유니티 개발자가 본 디자인 패턴"
 categories: DesignPattern
 ---
 
@@ -16,7 +16,6 @@ categories: DesignPattern
 
 ~~저는 처음 디자인 패턴을 들었을 때<br>
 디자인쪽에서 쓰는 기술 이름인줄 알았습니다.~~ <br>
-
 
 <br>
 
