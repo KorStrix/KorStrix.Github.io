@@ -7,7 +7,7 @@ categories: Unity UnityLibrary DesignPattern
 이 글은 커맨드 패턴이 무엇이고,
 유니티에서 어떻게 사용하는지에 대해 포스팅합니다.<br>
 
-### 커맨드 패턴
+## 커맨드 패턴
 만약에 디자인 패턴을 모르시면 <br>
 디자인 패턴은 블로그의 다른 글을 참고 해주시기 바랍니다. <br>
 
@@ -19,7 +19,7 @@ https://korstrix.github.io/designpattern/Design_Pattern/
 <br>
 
 커맨드 패턴은 디자인 패턴 중에 나오는 패턴중에 하나로, <br>
-어떠한 요청사항을 객체화하여
+어떠한 요청사항을 함수가 아니라 객체화하여 구현하는 것을 말합니다. <br>
 
 <br>
 
@@ -102,156 +102,6 @@ SRP(단일 책임 원칙)과 OCP(개방 폐쇄 원칙)인데요.
 **기능 3.** 데미지를 입었거나 죽었을 때 그에 맞는 이펙트 출력.
 
 <br>
-
-### 구현 방법 - 비옵저버 패턴
-
-```csharp
-public class ObserverSubject_Example_Legacy : MonoBehaviour
-{
-    public Image p_Image_HP;
-
-    public int p_iHP_Init = 10;
-
-    [SerializeField]
-    private int _iHP_Max;
-    [SerializeField]
-    private int _iHP_Current;
-
-    public void Damaged(int iDamageAmount)
-    {
-        _iHP_Current -= iDamageAmount;
-        if(_iHP_Current <= 0)
-        {
-            _iHP_Current = 0;
-            Debug.Log(name + " Play On Dead Effect - Legacy");
-        }
-        else
-        {
-            Debug.Log(name + " Play On Damage Effect - Legacy");
-        }
-
-        // float / 를 해야 결과값이 float이 됩니다.
-        // float을 안쓸 경우 결과값이 int가 되어 0을 리턴.
-        OnChange_HP(_iHP_Current / (float)_iHP_Max);
-    }
-
-    private void Awake()
-    {
-        _iHP_Max = p_iHP_Init;
-    }
-
-    private void OnEnable()
-    {
-        _iHP_Current = _iHP_Max;
-        OnChange_HP(_iHP_Current / (float)_iHP_Max);
-    }
-
-    private void OnChange_HP(float fHeath_0_1)
-    {
-        p_Image_HP.fillAmount = fHeath_0_1;
-    }
-}
-```
-
-<br>
-<br>
-
-### 구현 방법 - 옵저버 패턴 사용
-```csharp
-public class ObserverSubject_Example_UseObserverPattern : MonoBehaviour
-{
-    public struct OnChangeHP_Arg
-    {
-        public ObserverSubject_Example_UseObserverPattern pMessenger {get; private set;}
-        public float fCurrentHP_0_1 { get; private set; }
-        public bool bIsDamaged { get; private set; }
-        public bool bIsDead { get; private set; }
-
-        public OnChangeHP_Arg(ObserverSubject_Example_UseObserverPattern pMessenger, bool bIsDamaged, float fCurrentHP_0_1)
-        {
-            this.pMessenger = pMessenger;
-            this.fCurrentHP_0_1 = fCurrentHP_0_1;
-            this.bIsDamaged = bIsDamaged;
-            this.bIsDead = fCurrentHP_0_1 == 0f;
-        }
-    }
-
-    public CObserverSubject<OnChangeHP_Arg> p_Event_OnChangeHP { get; private set; } = new CObserverSubject<OnChangeHP_Arg>();
-
-    public int p_iHP_Init = 10;
-
-    [SerializeField]
-    private int _iHP_Max;
-    [SerializeField]
-    private int _iHP_Current;
-
-    public void Damaged(int iDamageAmount)
-    {
-        _iHP_Current -= iDamageAmount;
-        if (_iHP_Current <= 0)
-            _iHP_Current = 0;
-
-        p_Event_OnChangeHP.DoNotify(new OnChangeHP_Arg(this, true, _iHP_Current / (float)_iHP_Max));
-    }
-
-    private void Awake()
-    {
-        _iHP_Max = p_iHP_Init;
-    }
-
-    private void OnEnable()
-    {
-        _iHP_Current = _iHP_Max;
-        p_Event_OnChangeHP.DoNotify(new OnChangeHP_Arg(this, false, _iHP_Current / (float)_iHP_Max));
-    }
-}
-```
-
-<br>
-<br>
-
-### UI를 담당하는 객체의 코드
-```csharp
-public class ObserverSubject_Example_UI : MonoBehaviour
-{
-    public Image p_Image_HP;
-
-    private void Awake()
-    {
-        GetComponent<ObserverSubject_Example_UseObserverPattern>().p_Event_OnChangeHP.Subscribe += OnChange_HP;
-    }
-
-    private void OnChange_HP(ObserverSubject_Example_UseObserverPattern.OnChangeHP_Arg pArg)
-    {
-        p_Image_HP.fillAmount = pArg.fCurrentHP_0_1;
-    }
-}
-```
-
-<br>
-
-### 이펙트 출력을 담당하는 객체의 코드
-```csharp
-public class ObserverSubject_Example_PlayEffect : MonoBehaviour
-{
-    private void Awake()
-    {
-        GetComponent<ObserverSubject_Example_UseObserverPattern>().p_Event_OnChangeHP.Subscribe += OnChange_HP;
-    }
-
-    private void OnChange_HP(ObserverSubject_Example_UseObserverPattern.OnChangeHP_Arg pArg)
-    {
-        if (pArg.bIsDamaged == false)
-            return;
-
-        if (pArg.bIsDead)
-            Debug.Log(pArg.pMessenger.name + " Play On Dead Effect - Use Observer");
-        else
-            Debug.Log(pArg.pMessenger.name + " Play On Damage Effect - Use Observer");
-    }
-}
-```
-
 
 ---
 ## 깃허브 링크 (완성된 프로젝트)
