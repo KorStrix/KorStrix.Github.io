@@ -1,6 +1,6 @@
 ---
 title: "Unity Observer Pattern"
-categories: Unity UnityLibrary Attribute
+categories: Unity UnityLibrary DesignPattern
 ---
 
 ## 개요
