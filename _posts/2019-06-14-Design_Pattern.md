@@ -14,7 +14,7 @@ categories: DesignPattern
 소프트웨어에서 공통적으로 자주 나타나는 구조 및 설계들을 <br>
 모아서 **디자인 패턴** 이라고 칭하였습니다.
 
-![](https://github.com/KorStrix/korstrix.github.io/blob/master/_images/GOF.png?raw=true)
+![](https://github.com/KorStrix/korstrix.github.io/blob/master/_images/GOF.png?raw=true) <br>
 **이미지 출처 :  How important are design patterns in software development?.** <br>
 https://www.quora.com/How-important-are-design-patterns-in-software-development <br>
 (좌측부터 Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides) <br>
@@ -192,7 +192,8 @@ Headfirst-Design Patterns에서 나온 예시로, <br>
 ~~(심지어 개발 중에도 많이 바뀔 수 있습니다.)~~
 
 ![](https://github.com/KorStrix/korstrix.github.io/blob/master/_images/%EB%B0%94%EB%9E%8C%EC%9D%98%EB%82%98%EB%9D%BC_%EB%AA%A8%EC%95%84%EC%9A%94.png?raw=true)
-**이미지 출처 :  [기승전모] '바람의 나라'의 과거와 현재에 대해 알아보자.** <br>
+**이미지 출처 : <br>
+[기승전모] '바람의 나라'의 과거와 현재에 대해 알아보자.** <br>
 https://www.youtube.com/watch?v=di_1cZn9ztE
 
 <br>
