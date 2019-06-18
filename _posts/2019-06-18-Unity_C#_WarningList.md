@@ -1,5 +1,5 @@
 ---
-title: "Unity C# 작성 시 주의사항 모음"
+title: "유니티속 C# 작성 시 주의사항 모음"
 categories: Unity C# Coding Know
 ---
 
@@ -50,6 +50,7 @@ categories: Unity C# Coding Know
 | 노하우 | 주석은 함수로 대체할 수 있으면 함수로 대체하기. | 권장 |
 | 퍼포먼스 | Dictionary의 Key는 Struct일 경우 IEqualityComparer 구현. | 권장 |
 | 노하우 | public Field는 되도록 프로퍼티로 작성하기. | 권장 |
+| 노하우 | Enum에 Flags Attribute 사용시 <br> Type에 명시하기. | 권장 |
 
 <br>
 <br>
@@ -403,11 +404,35 @@ public class SomeClass
 {
   // public으로는 get, private으로 set
   public int Value { get; private set; }
-m
+
   // 접근제한은 위와 같지만, 생성과 동시에 2로 초기화.
   public int Value_2 { get; private set; } = 2;
 }
 ```
+
+### Enum에 Flags Attribute 사용시 <br> Type에 명시하기. (권장)
+Enum의 Flag Attribute는 Bit Mask를 통해 <br>
+한 필드 값에 여러 값을 넣을 수 있는 장점이 있습니다. <br>
+하지만 Flag라는 것을 알지 못해 여러값이 들어있는지 <br>
+안들어있는지 **사용자 입장에서는 한번에 알기 힘듭니다.** <br>
+
+```csharp
+[System.Flag]
+enum State
+{
+  Idle,  Battle,
+}
+
+Not Good
+//========================================
+Good
+
+[System.Flags]
+enum StateFlag // 접미어로 Flag를 붙입니다.
+{
+  Idle,  Battle,
+}
+
 
 ---
 ## 다른 글 보기 (이미지 클릭)
