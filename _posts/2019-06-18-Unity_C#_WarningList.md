@@ -1,6 +1,6 @@
 ---
 title: "Unity C# 작성 시 주의사항 모음"
-categories: Unity C# Coding
+categories: Unity C# Coding Know
 ---
 
 ## 개요
@@ -18,15 +18,16 @@ categories: Unity C# Coding
 
 ---
 #### 190618
-네이버->깃허브 블로그로 옮겼습니다. <br>
-마크다운을 활용하여 목차 표를 작성하였습니다. <br>
+- 네이버->깃허브 블로그로 글을 옮겼습니다. <br>
+- 마크다운을 활용하여 목차 표를 작성하였습니다. <br>
+- 항목을 추가했습니다. <br>
 
 #### 190520
-항목 옆에 (필수), (권장)을 적었습니다. <br>
-항목을 추가했습니다. <br>
+- 항목 옆에 (필수), (권장)을 적었습니다. <br>
+- 항목을 추가했습니다. <br>
 
 #### 181219
-최초 작성
+- 최초 작성
 
 ---
 
@@ -45,6 +46,8 @@ categories: Unity C# Coding
 | 노하우 | 코드 내에 string을 최대한 피하기 <br> - Enum 및 nameof 사용 | **필수** |
 | 퍼포먼스 | Struct의 인스턴스는 ref를 통해 주고받기 | 권장 |
 | 퍼포먼스 | List 클래스의 insert 함수는 최대한 피하기. | **필수** |
+| 노하우 | 주석은 함수로 대체할 수 있으면 함수로 대체하기. | 권장 |
+| 퍼포먼스 | Dictionary의 Key는 Struct일 경우 IEqualityComparer 구현. | 권장 |
 
 <br>
 <br>
@@ -329,3 +332,52 @@ C# List의 insert함수의 기능은 특정 index에 item을 삽입하는 것입
 ##### 참고 링크
 - Does List.Insert have any performance penalty?
 https://stackoverflow.com/questions/18587267/does-list-insert-have-any-performance-penaltyDoes
+
+<br>
+
+#### 주석은 함수로 대체할 수 있으면 <br> 함수로 대체하기. (권장)
+주석의 작성방법은 아직도 논쟁이 있지만, <br>
+실무가 바쁘다는 가정 하에, 주석이 많고 설계가 변경될 경우 <br>
+변경된 사항을 주석에 깜빡하고 업데이트를 못할 수 있습니다. <br>
+함수로 대체할 수 있는 주석은 함수로 작성합시다. <br>
+
+```csharp
+
+// 예시는 단순한 덧셈 곱셈 예시를 들었으나,
+// 덧셈 곱셈의 단위를 실무 속의 기능 하나로 생각하시면 됩니다.
+void Something_Complex_Logic()
+{
+  int a = 1;
+  a = a + 1; // 1을 더합니다.
+  a = a * 1; // 1을 곱합니다.
+}
+
+Not Good
+//========================================
+Good
+
+void Something_Complex_Logic()
+{
+  int a = 1;
+  a = AddNumber(a, 1);
+  a = Multiply_Number(a, 1);
+}
+
+int AddNumber(int iNumber_A, int iNumber_B) { return iNumber_A + iNumber_B; }
+int Multiply_Number(int iNumber_A, int iNumber_B) { return iNumber_A * iNumber_B; }
+
+```
+
+
+#### Dictionary의 Key가 Struct일 경우 <br> IEqualityComparer<> 구현. (권장)
+C# Dictionary의 경우 Ke를 Object.Equals를 통해 비교하는데, <br>
+Struct도 Object(참조형)으로 변환하여 Equals를 호출합니다. <br>
+IEqualityComparer<>를 구현하면 Key를 Get/Set 할 때마다 <br>
+가비지가 쌓이지 않습니다. <br>
+
+<br>
+예시는 참고 링크의 경우가 더 잘되있으므로 생략하겠습니다. <br>
+
+##### 참고 링크
+- GC없이 C# Dictionary에서 enum을 key로 쓰기
+  https://libsora.so/posts/csharp-dictionary-enum-key-without-gc/
