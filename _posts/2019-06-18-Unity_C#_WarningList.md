@@ -144,9 +144,9 @@ string Logic_String_Good()
 
 #### 리턴 함수에 null 리턴시 함수 명에 표기 (권장)
 사실 null 리턴 시 별도 분기처리가 좋지는 않습니다. <br>
-위의 사항이 있을 땐 디자인 패턴 중 Null Object Pattern으로 <br>
+위의 사항이 있을 땐 **디자인 패턴 중 Null Object Pattern으로 <br>
 처리하는 방식이 가장 이상적인 방식이나, <br>
-실무에서는 항상 이상적으로 처리할만한 여유가 없습니다. <br>
+실무에서는 항상 이상적으로 처리할만한 여유가 없습니다.** <br>
 
 ```csharp
 class ClassA
@@ -186,7 +186,7 @@ ClassA SomthingReturn_OrNull(bool bCreateInstance)
 #### 숫자를 담고있는 변수의 변수명에 상수 범위 표시 (권장)
 멤버 변수 혹은 매개변수에 범위가 정해져 있는 경우가 있습니다. <br>
 내부에서 어차피 Clamp처리를 하는 경우라면, <br>
-변수에 표기하여 함수 사용자가 알게끔 하는것이 좋습니다. <br>
+**변수에 표기하여 함수 사용자가 알게끔 하는것이 좋습니다.** <br>
 
 ```csharp
 float Somthing_Lerp(int iFrom, int iTo, float fProgress)
@@ -247,8 +247,8 @@ void Function_Set_IsRanker(Player pSomePlayer)
 <br>
 
 #### 코드 내에 string을 최대한 피하기 <br> - Enum 및 nameof 사용 (필수)
-string을 직접 대입하는 것은 오타로 인해 버그를 유발할 수 있고, <br>
-변경에 대한 유지보수에 좋지 않습니다. <br>
+string을 직접 대입하는 것은 **오타로 인해 버그를 유발할 수 있고, <br>
+변경에 대한 유지보수에 좋지 않습니다.** <br>
 nameof 연산자는 C# 6.0부터 지원하는 기능이며, <br>
 Class, Enum 등을 컴파일 과정에서 string으로 변환합니다. <br>
 
@@ -289,7 +289,7 @@ void SpawnMonster_GoblinGroup_Enum() // string 버젼 함수와 성능은 같습
 #### Struct의 인스턴스는 ref를 통해 주고받기 - (권장)
 Struct는 변수를 정의할 때마다 생성자를 통해 값을 통째로 복사합니다. <br>
 이 때 생성자 비용은 struct의 데이터 양만큼입니다. <br>
-하지만 ref를 통해서 주고받을 경우 생성자 비용이 없습니다. <br>
+하지만 **ref를 통해서 주고받을 경우 생성자 비용이 없습니다.** <br>
 
 ```csharp
 struct TestStruct
@@ -322,10 +322,10 @@ https://stackoverflow.com/questions/3395873/pass-by-value-vs-pass-by-reference-p
 <br>
 
 #### List<T> 클래스의 insert 함수는 최대한 피하기. (필수)
-C# List의 insert함수의 기능은 특정 index에 item을 삽입하는 것입니다. <br>
+C# List의 insert함수는 index에 item을 삽입하는 것입니다. <br>
 편한 기능이지만, List는 내부가 Array로 구현되있습니다. <br>
-따라서 insert를 하면 insert 함수의 index의 item을 <br>
-모두 한칸씩 뒤로 옮기는 비용이 발생합니다. <br>
+**따라서 insert를 하면 insert 함수의 index의 item을 <br>
+모두 한칸씩 뒤로 옮기는 비용이 발생합니다.** <br>
 
 <br>
 예) 1000개가 들어있는 List에 insert(0)을 호출할 경우 <br>
@@ -341,10 +341,9 @@ https://stackoverflow.com/questions/18587267/does-list-insert-have-any-performan
 주석의 작성방법은 아직도 논쟁이 있지만, <br>
 실무가 바쁘다는 가정 하에, 주석이 많고 설계가 변경될 경우 <br>
 변경된 사항을 주석에 깜빡하고 업데이트를 못할 수 있습니다. <br>
-함수로 대체할 수 있는 주석은 함수로 작성합시다. <br>
+**함수로 대체할 수 있는 주석은 함수로 작성합시다.** <br>
 
 ```csharp
-
 // 예시는 단순한 덧셈 곱셈 예시를 들었으나,
 // 덧셈 곱셈의 단위를 실무 속의 기능 하나로 생각하시면 됩니다.
 void Something_Complex_Logic()
@@ -367,15 +366,14 @@ void Something_Complex_Logic()
 
 int AddNumber(int iNumber_A, int iNumber_B) { return iNumber_A + iNumber_B; }
 int Multiply_Number(int iNumber_A, int iNumber_B) { return iNumber_A * iNumber_B; }
-
 ```
 
 
 #### Dictionary의 Key가 Struct일 경우 <br> IEqualityComparer<> 구현. (권장)
 C# Dictionary의 경우 Ke를 Object.Equals를 통해 비교하는데, <br>
 Struct도 Object(참조형)으로 변환하여 Equals를 호출합니다. <br>
-IEqualityComparer<>를 구현하면 Key를 Get/Set 할 때마다 <br>
-가비지가 쌓이지 않습니다. <br>
+**IEqualityComparer<>를 구현하면 Key를 Get/Set 할 때마다 <br>
+가비지가 쌓이지 않습니다.** <br>
 
 <br>
 예시는 참고 링크의 경우가 더 잘되있으므로 생략하겠습니다. <br>
@@ -388,10 +386,9 @@ IEqualityComparer<>를 구현하면 Key를 Get/Set 할 때마다 <br>
 
 #### public Field는 되도록 프로퍼티로 작성하기. (권장)
 객체는 외부에 최대한 노출하는 것을 자제해야 합니다. <br>
-객체지향적으로 이것을 은닉성이라고 합니다. <br>
+**객체지향적으로 이것을 은닉성이라고 합니다.** <br>
 
 ```csharp
-
 public class SomeClass
 {
   // public으로 get, set
@@ -410,5 +407,4 @@ public class SomeClass
   // 접근제한은 위와 같지만, 생성과 동시에 2로 초기화.
   public int Value_2 { get; private set; } = 2;
 }
-
 ```
