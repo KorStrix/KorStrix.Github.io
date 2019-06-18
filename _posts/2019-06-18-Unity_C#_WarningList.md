@@ -56,7 +56,7 @@ categories: Unity C# Coding Know
 
 ## Unity C# 작성 시 주의사항
 
-#### Class는 new 연산자를 최대한 피하기 (필수)
+### Class는 new 연산자를 최대한 피하기 (필수)
 Class를 new를 하면 힙에 쌓이며 <br>
 결과적으로 가비지가 될 수 있는 코드이므로, 피해야 합니다. <br>
 
@@ -86,14 +86,14 @@ public List<int> GetSomthingList_Good()
 
 <br>
 
-#### 자주 생성되고 파괴되는 오브젝트는 <br> 풀링 기법을 사용 (권장)
+### 자주 생성되고 파괴되는 오브젝트는 <br> 풀링 기법을 사용 (권장)
 Monobehavior도 Class여서 파괴할 때 가비지를 생성합니다. <br>
 또한 유니티 GameObject의 경우Create / Destory 을 처리하는데 <br>
 걸리는 시간이 Enable/Disable을 처리시간보다 오래 걸립니다. <br>
 
 <br>
 
-#### C#에서 string을 수정할 때는 + 연산자가 있지만, <br> StringBuilder 혹은 String.format을 활용 (권장)
+### C#에서 string을 수정할 때는 + 연산자가 있지만, <br> StringBuilder 혹은 String.format을 활용 (권장)
 string은 + 연산자를 사용할 때마다 기존 string을 버리고 <br>
 새 메모리를 할당하여 string생성 비용 & 가비지를 생성합니다.
 
@@ -142,7 +142,7 @@ string Logic_String_Good()
 
 <br>
 
-#### 리턴 함수에 null 리턴시 함수 명에 표기 (권장)
+### 리턴 함수에 null 리턴시 함수 명에 표기 (권장)
 사실 null 리턴 시 별도 분기처리가 좋지는 않습니다. <br>
 위의 사항이 있을 땐 **디자인 패턴 중 Null Object Pattern으로 <br>
 처리하는 방식이 가장 이상적인 방식이나, <br>
@@ -183,7 +183,7 @@ ClassA SomthingReturn_OrNull(bool bCreateInstance)
 
 <br>
 
-#### 숫자를 담고있는 변수의 변수명에 상수 범위 표시 (권장)
+### 숫자를 담고있는 변수의 변수명에 상수 범위 표시 (권장)
 멤버 변수 혹은 매개변수에 범위가 정해져 있는 경우가 있습니다. <br>
 내부에서 어차피 Clamp처리를 하는 경우라면, <br>
 **변수에 표기하여 함수 사용자가 알게끔 하는것이 좋습니다.** <br>
@@ -206,7 +206,7 @@ float Somthing_Lerp(int iFrom, int iTo, float fProgress_0_1)
 
 <br>
 
-#### 조건이 있을 땐 최대한 사전에 체크 (권장)
+### 조건이 있을 땐 최대한 사전에 체크 (권장)
 함수 내 괄호문은 유지보수를 위해 최대한 줄이는 것이 좋습니다.
 
 ```csharp
@@ -246,7 +246,7 @@ void Function_Set_IsRanker(Player pSomePlayer)
 
 <br>
 
-#### 코드 내에 string을 최대한 피하기 <br> - Enum 및 nameof 사용 (필수)
+### 코드 내에 string을 최대한 피하기 <br> - Enum 및 nameof 사용 (필수)
 string을 직접 대입하는 것은 **오타로 인해 버그를 유발할 수 있고, <br>
 변경에 대한 유지보수에 좋지 않습니다.** <br>
 nameof 연산자는 C# 6.0부터 지원하는 기능이며, <br>
@@ -286,7 +286,7 @@ void SpawnMonster_GoblinGroup_Enum() // string 버젼 함수와 성능은 같습
 
 <br>
 
-#### Struct의 인스턴스는 ref를 통해 주고받기 - (권장)
+### Struct의 인스턴스는 ref를 통해 주고받기 - (권장)
 Struct는 변수를 정의할 때마다 생성자를 통해 값을 통째로 복사합니다. <br>
 이 때 생성자 비용은 struct의 데이터 양만큼입니다. <br>
 하지만 **ref를 통해서 주고받을 경우 생성자 비용이 없습니다.** <br>
@@ -321,7 +321,7 @@ https://stackoverflow.com/questions/3395873/pass-by-value-vs-pass-by-reference-p
 
 <br>
 
-#### List<T> 클래스의 insert 함수는 최대한 피하기. (필수)
+### List<T> 클래스의 insert 함수는 최대한 피하기. (필수)
 C# List의 insert함수는 index에 item을 삽입하는 것입니다. <br>
 편한 기능이지만, List는 내부가 Array로 구현되있습니다. <br>
 **따라서 insert를 하면 insert 함수의 index의 item을 <br>
@@ -337,7 +337,7 @@ https://stackoverflow.com/questions/18587267/does-list-insert-have-any-performan
 
 <br>
 
-#### 주석은 함수로 대체할 수 있으면 <br> 함수로 대체하기. (권장)
+### 주석은 함수로 대체할 수 있으면 <br> 함수로 대체하기. (권장)
 주석의 작성방법은 아직도 논쟁이 있지만, <br>
 실무가 바쁘다는 가정 하에, 주석이 많고 설계가 변경될 경우 <br>
 변경된 사항을 주석에 깜빡하고 업데이트를 못할 수 있습니다. <br>
@@ -369,7 +369,7 @@ int Multiply_Number(int iNumber_A, int iNumber_B) { return iNumber_A * iNumber_B
 ```
 
 
-#### Dictionary의 Key가 Struct일 경우 <br> IEqualityComparer<> 구현. (권장)
+### Dictionary의 Key가 Struct일 경우 <br> IEqualityComparer<> 구현. (권장)
 C# Dictionary의 경우 Ke를 Object.Equals를 통해 비교하는데, <br>
 Struct도 Object(참조형)으로 변환하여 Equals를 호출합니다. <br>
 **IEqualityComparer<>를 구현하면 Key를 Get/Set 할 때마다 <br>
@@ -384,7 +384,7 @@ Struct도 Object(참조형)으로 변환하여 Equals를 호출합니다. <br>
 
 <br>
 
-#### public Field는 되도록 프로퍼티로 작성하기. (권장)
+### public Field는 되도록 프로퍼티로 작성하기. (권장)
 객체는 외부에 최대한 노출하는 것을 자제해야 합니다. <br>
 **객체지향적으로 이것을 은닉성이라고 합니다.** <br>
 
