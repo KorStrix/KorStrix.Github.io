@@ -408,3 +408,7 @@ public class SomeClass
   public int Value_2 { get; private set; } = 2;
 }
 ```
+
+---
+## 다른 글 보기
+![https://korstrix.github.io/index/Index/](https://github.com/KorStrix/korstrix.github.io/blob/master/_images/Index_Preview.png?raw=true)
