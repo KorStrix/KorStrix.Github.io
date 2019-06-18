@@ -49,6 +49,7 @@ categories: Unity C# Coding Know
 | 퍼포먼스 | List 클래스의 insert 함수는 최대한 피하기. | **필수** |
 | 노하우 | 주석은 함수로 대체할 수 있으면 함수로 대체하기. | 권장 |
 | 퍼포먼스 | Dictionary의 Key는 Struct일 경우 IEqualityComparer 구현. | 권장 |
+| 노하우 | public Field는 되도록 프로퍼티로 작성하기. | 권장 |
 
 <br>
 <br>
@@ -382,3 +383,32 @@ IEqualityComparer<>를 구현하면 Key를 Get/Set 할 때마다 <br>
 ##### 참고 링크
 - GC없이 C# Dictionary에서 enum을 key로 쓰기
   https://libsora.so/posts/csharp-dictionary-enum-key-without-gc/
+
+<br>
+
+#### public Field는 되도록 프로퍼티로 작성하기. (권장)
+객체는 외부에 최대한 노출하는 것을 자제해야 합니다. <br>
+객체지향적으로 이것을 은닉성이라고 합니다. <br>
+
+```csharp
+
+public class SomeClass
+{
+  // public으로 get, set
+  public int Value;
+}
+
+Not Good
+//========================================
+Good
+
+public class SomeClass
+{
+  // public으로는 get, private으로 set
+  public int Value { get; private set; }
+
+  // 접근제한은 위와 같지만, 생성과 동시에 2로 초기화.
+  public int Value_2 { get; private set; } = 2;
+}
+
+```
