@@ -403,12 +403,12 @@ public class SomeClass
 {
   // public으로는 get, private으로 set
   public int Value { get; private set; }
-
+m
   // 접근제한은 위와 같지만, 생성과 동시에 2로 초기화.
   public int Value_2 { get; private set; } = 2;
 }
 ```
 
 ---
-## 다른 글 보기
-![https://korstrix.github.io/index/Index/](https://github.com/KorStrix/korstrix.github.io/blob/master/_images/Index_Preview.png?raw=true)
+## 다른 글 보기 (이미지 클릭)
+[![](https://github.com/KorStrix/korstrix.github.io/blob/master/_images/Index_Preview.png?raw=true)](https://korstrix.github.io/index/Index/)

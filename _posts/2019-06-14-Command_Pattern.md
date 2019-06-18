@@ -111,5 +111,5 @@ void Update()
 https://github.com/KorStrix/Unity_ObserverPattern
 
 ---
-## 목차 링크
-https://korstrix.github.io/index/Index/
+## 다른 글 보기 (이미지 클릭)
+[![](https://github.com/KorStrix/korstrix.github.io/blob/master/_images/Index_Preview.png?raw=true)](https://korstrix.github.io/index/Index/)
