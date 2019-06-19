@@ -23,13 +23,15 @@ https://korstrix.github.io/designpattern/Design_Pattern/
 
 <br>
 
+
 #### 예시 상황
 게임속 유닛의 체력이 있고, 체력을 그릴 UI가 있다고 했을때, <br>
+![](https://github.com/KorStrix/Unity_ObserverPattern/blob/master/Image_ForGithub/GIF2.gif?raw=true)
 
 <br>
 
 #### 구현 방법 - 비옵저버 패턴
-체력을 담당하는 클래스의 코드에 UI 로직을 적기, <br>
+체력을 담당하는 클래스의 코드에 UI 로직을 적기. <br>
 
 <br>
 
@@ -38,23 +40,22 @@ https://korstrix.github.io/designpattern/Design_Pattern/
 UI 로직이 반드시 필요하게 됩니다. <br>
 
 UI가 필요 없는 체력 시스템의 경우는 **어떻게 될까요?** <br>
-혹은, <br>
+**혹은** , <br>
 어떤 유닛은 체력이 변경될 경우 이펙트가 터진다면 <br>
-**어떻게 코드를 작성해야 할까요?**
-
+**어떻게 코드를 작성해야 할까요?** <br>
 
 <br>
 
 #### 구현 방법 - 옵저버 패턴
 체력을 담당하는 클래스는 체력이 변경되고 변경될 때만 <br>
-필요한 클래스들에게 어떻게 변경되었다고 알려주기
+필요한 클래스들에게 어떻게 변경되었다고 알려주기 <br>
 
 <br>
 
 #### 차이점
 옵저버 패턴으로 구현할 경우, 체력을 그릴 UI 클래스가 <br>
 체력을 담당하는 클래스에게 **체력이 변경될 때만** <br>
-**어떤 함수를 호출해** 달라 하면 됩니다.
+**어떤 함수를 호출해** 달라 하면 됩니다. <br>
 
 체력을 그릴 필요가 없으면 UI 클래스는 연결하지 않으면 되구요. <br>
 <br>
