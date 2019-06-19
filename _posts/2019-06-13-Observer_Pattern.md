@@ -1,6 +1,6 @@
 ---
-title: "유니티속 옵저버 패턴"
-categories: Unity UnityLibrary DesignPattern
+title: "유니티에서 옵저버 패턴 활용하기"
+categories: Unity UnityLibrary DesignPattern Github
 ---
 
 ## 개요

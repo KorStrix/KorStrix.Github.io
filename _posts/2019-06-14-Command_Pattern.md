@@ -1,6 +1,6 @@
 ---
-title: "유니티속 커맨드 패턴"
-categories: Unity UnityLibrary DesignPattern
+title: "유니티에서 커맨드 패턴 활용하기"
+categories: Unity UnityLibrary DesignPattern Github
 ---
 
 ## 개요
@@ -85,24 +85,75 @@ https://korstrix.github.io/designpattern/Design_Pattern/
 
 ### 구현 방법 - 비커맨드 패턴
 ```csharp
-
-List<Vector2> listPosition;
+Queue<Vector3> queuePosition;
 bool bIsRecord;
 bool bIsReplay;
 
 void Update()
 {
   if(bIsRecord)
-    listPosition.Add(transform.position);
-  if(bIsReplay)
   {
-    transform.position = listPosition;
+    queuePosition.Enqueue(transform.position);
+  }
+  else if(bIsReplay)
+  {
+    if(queuePosition.Count == 0)
+      return;
+
+    transform.position = queuePosition.Dequeue();
+  }
+}
+```
+
+### 구현 방법 - 커맨드 패턴
+
+```csharp
+enum ECommandType : short
+{
+  Move,
+}
+
+class Command
+{
+  int iUnitID;
+  ECommandType eCommand;
+  Vector3 vecPos;
+}
+
+struct CommandExecute
+{
+  Command pCommandExecuted;
+  float fExecuteTime;
+
+  // 생성자 구현은 생략
+  public CommandExecute(Command pCommandExecuted, float fExecuteTime);
+}
+
+Queue<CommandExecute> _queueCommand;
+bool bIsRecord;
+bool bIsReplay;
+
+void Update()
+{
+  if(bIsRecord)
+  {
+    if(ExecuteCommand)
+    {
+      _queueCommand.Enqueue(new CommandExecute(ExecuteCommand, Time.time));
+    }    
+  }
+  else if(bIsReplay)
+  {
+    CommandExecute pExecuteCommand = _queueCommand.Dequeue());
+    pExecuteCommand.Execute();
+
+    // 다음 커맨드의 실행시간까지 대기
   }
 }
 
-
 ```
 
+Queue
 
 ---
 ## 깃허브 링크 (완성된 프로젝트)

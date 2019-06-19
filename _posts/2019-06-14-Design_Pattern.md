@@ -104,7 +104,7 @@ https://book.naver.com/bookdb/book_detail.nhn?bid=7255217
 
 
 <details>
-<summary>Singleton Pattern이란? (펼치기)</summary>
+<summary><b>Singleton Pattern이란? (펼치기)</b></summary>
 <div markdown="1">
 
 ---
