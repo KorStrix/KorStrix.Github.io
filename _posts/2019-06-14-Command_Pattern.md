@@ -160,14 +160,11 @@ void Update()
 
 ---
 ## 깃허브 링크 (완성된 프로젝트)
-위의 예시가 구현된 깃허브 프로젝트입니다.
-
 유니티 무료 에셋인 플래피 버드에 <br>
-리플레이 시스템을 탑재하였습니다.
+리플레이 시스템을 탑재한 프로젝트입니다. <br>
+https://github.com/KorStrix/Unity_CommandPattern
 
 ![](https://github.com/KorStrix/Unity_CommandPattern/blob/master/Image_ForGithub/Replay.gif?raw=true)
-
-https://github.com/KorStrix/Unity_CommandPattern
 
 ---
 ## 다른 글 보기 (이미지 클릭)
