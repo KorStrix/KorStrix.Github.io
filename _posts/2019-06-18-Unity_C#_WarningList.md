@@ -416,7 +416,9 @@ Enum의 Flag Attribute는 Bit Mask를 통해 <br>
 하지만 Flag라는 것을 알지 못해 여러값이 들어있는지 <br>
 안들어있는지 **사용자 입장에서는 한번에 알기 힘듭니다.** <br>
 
+
 ```csharp
+
 [System.Flag]
 enum State
 {
