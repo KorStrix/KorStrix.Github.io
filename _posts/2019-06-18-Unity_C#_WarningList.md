@@ -418,7 +418,6 @@ Enum의 Flag Attribute는 Bit Mask를 통해 <br>
 
 
 ```csharp
-
 [System.Flag]
 enum State
 {
@@ -434,7 +433,7 @@ enum StateFlag // 접미어로 Flag를 붙입니다.
 {
   Idle,  Battle,
 }
-
+```
 
 ---
 ## 다른 글 보기 (이미지 클릭)
