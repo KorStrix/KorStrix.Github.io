@@ -77,13 +77,18 @@ https://korstrix.github.io/designpattern/Design_Pattern/
 리플레이를 할 때에는 해당 명령을 다시 실행하면 됩니다. <br>
 
 ## 유니티에서 어떻게 구현해야 하는지?
-위의 예시 상황을 기준으로 유니티에 구현해 보겠습니다.
-**(간단하게 구현하겠습니다.)**
+위의 예시 상황을 기준으로 유니티에 구현해 보겠습니다. <br>
+
+<br>
+
+**코드 양이 많아 간단하게 구현하겠습니다. <br>
+완성된 프로젝트는 맨 밑에 링크로 올렸습니다.**
 
 예시) 유닛의 위치 명령 후 움직임을 리플레이하는 코드 <br>
 <br>
 
 ### 구현 방법 - 비커맨드 패턴
+
 ```csharp
 Queue<Vector3> queuePosition;
 bool bIsRecord;
@@ -129,7 +134,7 @@ struct CommandExecute
   public CommandExecute(Command pCommandExecuted, float fExecuteTime);
 }
 
-Queue<CommandExecute> _queueCommand;
+Queue<CommandExecute> queueCommand;
 bool bIsRecord;
 bool bIsReplay;
 
@@ -153,13 +158,14 @@ void Update()
 
 ```
 
-Queue
-
 ---
 ## 깃허브 링크 (완성된 프로젝트)
 위의 예시가 구현된 깃허브 프로젝트입니다.
 
-https://github.com/KorStrix/Unity_ObserverPattern
+유니티 무료 에셋인 플래피 버드에 <br>
+리플레이 시스템을 탑재하였습니다.
+
+https://github.com/KorStrix/Unity_CommandPattern
 
 ---
 ## 다른 글 보기 (이미지 클릭)
