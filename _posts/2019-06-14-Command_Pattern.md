@@ -165,6 +165,8 @@ void Update()
 유니티 무료 에셋인 플래피 버드에 <br>
 리플레이 시스템을 탑재하였습니다.
 
+![](https://github.com/KorStrix/Unity_CommandPattern/blob/master/Image_ForGithub/Replay.gif?raw=true)
+
 https://github.com/KorStrix/Unity_CommandPattern
 
 ---
