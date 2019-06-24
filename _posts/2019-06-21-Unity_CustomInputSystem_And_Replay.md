@@ -35,8 +35,14 @@ PC 기반 프로젝트에서 Joystick과 PC 키보드 마우스 입력을 <br>
 
 <br>
 3번정도 갈아 엎은 결과, <br>
-이런 툴이 만들어 졌습니다.
+이런 툴이 만들어 졌습니다. <br>
 
+<br>
+
+![](https://github.com/KorStrix/Unity_RelatedElementList/raw/master/ImageForGithub/InputEventSetting.gif?raw=true)
+**인스펙터에서 작업 가능한 <br>
+커스텀 식트리와 예시 중 인풋 세팅 화면** <br>
+[깃허브 링크](https://github.com/KorStrix/Unity_RelatedElementList)
 
 ---
 작성중
