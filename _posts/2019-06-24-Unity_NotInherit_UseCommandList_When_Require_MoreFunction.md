@@ -58,7 +58,81 @@ TwoLeg, FourLeg와 같이 클래스를 구현하면 되지요. <br>
 
 제가 제안하는 실행자 리스트는 이렇습니다.
 
+![](https://github.com/KorStrix/Unity_ExecuterList/blob/master/ImageForGithub/ExecuterList.gif?raw=true)
 
+<br>
+<br>
+
+### 코드는 다음과 같습니다.
+
+```csharp
+public class TwoLeg_Walking : Executer_HowMove
+{
+    [Range(0, 10)]
+    public int WalkingSpeed_2Leg;
+    public bool bIsError = false;
+
+    public override void Move(MonoBehaviour pCaller)
+    {
+        Debug.Log(pCaller.name + " 두발로 걷는중.." + " Speed : " + WalkingSpeed_2Leg, pCaller);
+    }
+
+    public override void IExecuter_Check_IsInvalid_OnEditor(CObjectBase pScriptOwner, ref bool bIsInvalid_Default_IsFalse, ref string strErrorMessage_Default_Is_Error)
+    {
+        if (bIsError)
+        {
+            bIsInvalid_Default_IsFalse = bIsError;
+            strErrorMessage_Default_Is_Error = "두발로 걷기 로직에 Error가 체크되었습니다.";
+        }
+    }
+}
+
+public class FourLeg_Walking : Executer_HowMove
+{
+    [Range(0f, 10f)]
+    public float WalkingSpeed_4Leg;
+
+    public override void Move(MonoBehaviour pCaller)
+    {
+        Debug.Log(pCaller.name + " 네발로 걷는중.." + " Speed : " + WalkingSpeed_4Leg, pCaller);
+    }
+
+    public override void IExecuter_Check_IsInvalid_OnEditor(CObjectBase pScriptOwner, ref bool bIsInvalid_Default_IsFalse, ref string strErrorMessage_Default_Is_Error)
+    {
+        if (WalkingSpeed_4Leg == 0f)
+        {
+            bIsInvalid_Default_IsFalse = true;
+            strErrorMessage_Default_Is_Error = "현재 스피드가 0입니다.";
+        }
+    }
+}
+```
+
+<br>
+<br>
+
+### 좀더 예시를 얘기하자면..
+
+예시는 걷는 방법에 대한 예시지만 <br>
+좀더 구체적인 예시를 얘기하자면, <br>
+데미지를 입었을 때 처리라던가, (이펙트 출력, 사운드 출력 등을 구현) <br>
+디버그 상황에서만 호출하는 실행자를 추가하고 편하게 디버깅하기 <br>
+**(위의 예시와 같이 특정 수치를 로그로 출력하는 실행자)** <br>
+
+등이 있겠습니다. <br>
+
+<br>
+사실 이것은 제가 커맨드 패턴을 구현하며 생각한 발상이였고, <br>
+실무에서 사용했을 때 비개발자가 작업할 수 있었습니다. <br>
+
+<br>
+
+---
+## 깃허브 링크 (완성된 프로젝트)
+실행자 리스트를 간단하게 구현한 위의 예시입니다.
+https://github.com/KorStrix/Unity_ExecuterList
+
+![](https://github.com/KorStrix/Unity_ExecuterList/blob/master/ImageForGithub/ExecuterList.gif?raw=true)
 
 ---
 ## 다른 글 보기 (이미지 클릭)
