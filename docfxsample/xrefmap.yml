@@ -1,3 +1,41 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: DocFXTest
+  name: DocFXTest
+  href: api/DocFXTest.html
+  commentId: N:DocFXTest
+  fullName: DocFXTest
+  nameWithType: DocFXTest
+- uid: DocFXTest.SampleBehaviour_ForDocFX_Base
+  name: SampleBehaviour_ForDocFX_Base
+  href: api/DocFXTest.SampleBehaviour_ForDocFX_Base.html
+  commentId: T:DocFXTest.SampleBehaviour_ForDocFX_Base
+  fullName: DocFXTest.SampleBehaviour_ForDocFX_Base
+  nameWithType: SampleBehaviour_ForDocFX_Base
+- uid: DocFXTest.SampleBehaviour_ForDocFX_Base.Public_Function
+  name: Public_Function()
+  href: api/DocFXTest.SampleBehaviour_ForDocFX_Base.html#DocFXTest_SampleBehaviour_ForDocFX_Base_Public_Function
+  commentId: M:DocFXTest.SampleBehaviour_ForDocFX_Base.Public_Function
+  fullName: DocFXTest.SampleBehaviour_ForDocFX_Base.Public_Function()
+  nameWithType: SampleBehaviour_ForDocFX_Base.Public_Function()
+- uid: DocFXTest.SampleBehaviour_ForDocFX_Base.Public_Function*
+  name: Public_Function
+  href: api/DocFXTest.SampleBehaviour_ForDocFX_Base.html#DocFXTest_SampleBehaviour_ForDocFX_Base_Public_Function_
+  commentId: Overload:DocFXTest.SampleBehaviour_ForDocFX_Base.Public_Function
+  isSpec: "True"
+  fullName: DocFXTest.SampleBehaviour_ForDocFX_Base.Public_Function
+  nameWithType: SampleBehaviour_ForDocFX_Base.Public_Function
+- uid: DocFXTest.SampleBehaviour_ForDocFX_Base.Virtual_Function
+  name: Virtual_Function()
+  href: api/DocFXTest.SampleBehaviour_ForDocFX_Base.html#DocFXTest_SampleBehaviour_ForDocFX_Base_Virtual_Function
+  commentId: M:DocFXTest.SampleBehaviour_ForDocFX_Base.Virtual_Function
+  fullName: DocFXTest.SampleBehaviour_ForDocFX_Base.Virtual_Function()
+  nameWithType: SampleBehaviour_ForDocFX_Base.Virtual_Function()
+- uid: DocFXTest.SampleBehaviour_ForDocFX_Base.Virtual_Function*
+  name: Virtual_Function
+  href: api/DocFXTest.SampleBehaviour_ForDocFX_Base.html#DocFXTest_SampleBehaviour_ForDocFX_Base_Virtual_Function_
+  commentId: Overload:DocFXTest.SampleBehaviour_ForDocFX_Base.Virtual_Function
+  isSpec: "True"
+  fullName: DocFXTest.SampleBehaviour_ForDocFX_Base.Virtual_Function
+  nameWithType: SampleBehaviour_ForDocFX_Base.Virtual_Function

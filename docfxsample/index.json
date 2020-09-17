@@ -1,17 +1,27 @@
 {
-  "api/index.html": {
-    "href": "api/index.html",
-    "title": "PLACEHOLDER | Example Unity documentation",
-    "keywords": "PLACEHOLDER TODO: Add .NET projects to the src folder and run docfx to generate REAL API Documentation !"
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | Example Unity documentation",
+    "keywords": "This is the HOMEPAGE . Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
   },
   "articles/intro.html": {
     "href": "articles/intro.html",
     "title": "Add your introductions here! | Example Unity documentation",
     "keywords": "Add your introductions here!"
   },
-  "index.html": {
-    "href": "index.html",
-    "title": "This is the HOMEPAGE. | Example Unity documentation",
-    "keywords": "This is the HOMEPAGE . Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "PLACEHOLDER | Example Unity documentation",
+    "keywords": "PLACEHOLDER TODO: Add .NET projects to the src folder and run docfx to generate REAL API Documentation !"
+  },
+  "api/DocFXTest.html": {
+    "href": "api/DocFXTest.html",
+    "title": "Namespace DocFXTest | Example Unity documentation",
+    "keywords": "Namespace DocFXTest Classes SampleBehaviour_ForDocFX_Base 이 코드는 샘플입니다. SampleBehaviour_ForDocFX"
+  },
+  "api/DocFXTest.SampleBehaviour_ForDocFX_Base.html": {
+    "href": "api/DocFXTest.SampleBehaviour_ForDocFX_Base.html",
+    "title": "Class SampleBehaviour_ForDocFX_Base | Example Unity documentation",
+    "keywords": "Class SampleBehaviour_ForDocFX_Base 이 코드는 샘플입니다. SampleBehaviour_ForDocFX Inheritance System.Object SampleBehaviour_ForDocFX_Base Namespace : DocFXTest Assembly : Assembly-CSharp.dll Syntax public class SampleBehaviour_ForDocFX_Base : MonoBehaviour Methods | Improve this Doc View Source Public_Function() 이 함수는 public 함수입니다. Declaration public void Public_Function() | Improve this Doc View Source Virtual_Function() 이 함수는 virtual 함수입니다. Declaration public virtual void Virtual_Function()"
   }
 }
