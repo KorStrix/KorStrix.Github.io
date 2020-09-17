@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_2.html",
-          "hash": "NaXVVSpsDflT+rHnD/vDjw=="
+          "hash": "MDr6+R4Eh/q4cWA83p/SzA=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_Base.html",
-          "hash": "sxG2YvGgSdHGYvT/9cXOGg=="
+          "hash": "zKi8e6345Z5iL6jL0iT1xw=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SampleBehaviour_ForDocFX.html",
-          "hash": "ramAgjDNP9P7dG/BePU5ug=="
+          "hash": "bTEXYuzOGEonDojpKfUrsA=="
         }
       },
       "is_incremental": false,
@@ -159,11 +159,10 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 5,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -172,10 +171,11 @@
           "total_file_count": 3,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 5,
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
