@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_2.html",
-          "hash": "lyIkocVW+onW7PLDynYrGw=="
+          "hash": "s/LXBT2CYPwfYbJ+eJPgTQ=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_Base.html",
-          "hash": "tJnKqv8cdvREBvCZZUS3yQ=="
+          "hash": "L0N3UUg3poCWEw8awghmRw=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.html",
-          "hash": "nVmv1Tn5xuEk+YWELqoSYA=="
+          "hash": "3sPCzUfrDt7E7jWbln1CNQ=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "Zpn9GQwlluU83oPbuIhHxQ=="
+          "hash": "MIszz3aEg86XTedgReu4zA=="
         }
       },
       "is_incremental": false,
@@ -77,11 +77,23 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "H3vyNEWL4sh+P58M3DH5Jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/intro.md",
       "output": {
         ".html": {
           "relative_path": "manual/intro.html",
-          "hash": "RmWH8sGYcaMvObH19Sa0lQ=="
+          "hash": "osvXap0kTNmDBOgSj79SMA=="
         }
       },
       "is_incremental": false,
@@ -94,6 +106,18 @@
         ".html": {
           "relative_path": "manual/toc.html",
           "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "zY1V+pupLZozODrXqPhyFw=="
         }
       },
       "is_incremental": false,
@@ -121,7 +145,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2,
+          "total_file_count": 3,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
