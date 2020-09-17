@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://korstrix.github.io/docfxsample/api/DocFXTest.SampleBehaviour_ForDocFX_2.html</loc>
-    <lastmod>2020-09-17T11:36:53+00:00</lastmod>
+    <lastmod>2020-09-17T11:45:20+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://korstrix.github.io/docfxsample/api/DocFXTest.SampleBehaviour_ForDocFX_Base.html</loc>
-    <lastmod>2020-09-17T11:36:53+00:00</lastmod>
+    <lastmod>2020-09-17T11:45:20+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://korstrix.github.io/docfxsample/api/DocFXTest.html</loc>
-    <lastmod>2020-09-17T11:36:53+00:00</lastmod>
+    <lastmod>2020-09-17T11:45:20+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://korstrix.github.io/docfxsample/api/index.html</loc>
-    <lastmod>2020-09-17T11:36:53+00:00</lastmod>
+    <lastmod>2020-09-17T11:45:20+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://korstrix.github.io/docfxsample/manual/intro.html</loc>
-    <lastmod>2020-09-17T11:36:53+00:00</lastmod>
+    <lastmod>2020-09-17T11:45:20+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

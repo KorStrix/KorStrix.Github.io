@@ -4,24 +4,24 @@
     "title": "PLACEHOLDER | Example Title",
     "keywords": "PLACEHOLDER TODO: Add .NET projects to the src folder and run docfx to generate REAL API Documentation !"
   },
-  "manual/intro.html": {
-    "href": "manual/intro.html",
-    "title": "Add your introductions here! | Example Title",
-    "keywords": "Add your introductions here!"
-  },
   "api/DocFXTest.SampleBehaviour_ForDocFX_Base.html": {
     "href": "api/DocFXTest.SampleBehaviour_ForDocFX_Base.html",
     "title": "Class SampleBehaviour_ForDocFX_Base | Example Title",
     "keywords": "Class SampleBehaviour_ForDocFX_Base 이 코드는 샘플입니다. SampleBehaviour_ForDocFX Inheritance System.Object SampleBehaviour_ForDocFX_Base SampleBehaviour_ForDocFX_2 Namespace : DocFXTest Assembly : Assembly-CSharp.dll Syntax public class SampleBehaviour_ForDocFX_Base : MonoBehaviour Methods View Source Public_Function() 이 함수는 public 함수입니다. Declaration public void Public_Function() View Source Virtual_Function() 이 함수는 virtual 함수입니다. Declaration public virtual void Virtual_Function() View Source Virtual_Protected() Declaration protected virtual void Virtual_Protected()"
   },
-  "api/DocFXTest.html": {
-    "href": "api/DocFXTest.html",
-    "title": "Namespace DocFXTest | Example Title",
-    "keywords": "Namespace DocFXTest Classes SampleBehaviour_ForDocFX_2 이 코드는 샘플 입니다. SampleBehaviour_ForDocFX 의 형제입니다. SampleBehaviour_ForDocFX_Base 를 상속받습니다. SampleBehaviour_ForDocFX_Base 이 코드는 샘플입니다. SampleBehaviour_ForDocFX"
+  "manual/intro.html": {
+    "href": "manual/intro.html",
+    "title": "Add your introductions here! | Example Title",
+    "keywords": "Add your introductions here!"
   },
   "api/DocFXTest.SampleBehaviour_ForDocFX_2.html": {
     "href": "api/DocFXTest.SampleBehaviour_ForDocFX_2.html",
     "title": "Class SampleBehaviour_ForDocFX_2 | Example Title",
     "keywords": "Class SampleBehaviour_ForDocFX_2 이 코드는 샘플 입니다. SampleBehaviour_ForDocFX 의 형제입니다. SampleBehaviour_ForDocFX_Base 를 상속받습니다. Inheritance System.Object SampleBehaviour_ForDocFX_Base SampleBehaviour_ForDocFX_2 Inherited Members SampleBehaviour_ForDocFX_Base.Public_Function() SampleBehaviour_ForDocFX_Base.Virtual_Protected() Namespace : DocFXTest Assembly : Assembly-CSharp.dll Syntax public class SampleBehaviour_ForDocFX_2 : SampleBehaviour_ForDocFX_Base Methods View Source Virtual_Function() 이 함수는 override 된 함수입니다. Declaration public override void Virtual_Function() Overrides SampleBehaviour_ForDocFX_Base.Virtual_Function()"
+  },
+  "api/DocFXTest.html": {
+    "href": "api/DocFXTest.html",
+    "title": "Namespace DocFXTest | Example Title",
+    "keywords": "Namespace DocFXTest Classes SampleBehaviour_ForDocFX_2 이 코드는 샘플 입니다. SampleBehaviour_ForDocFX 의 형제입니다. SampleBehaviour_ForDocFX_Base 를 상속받습니다. SampleBehaviour_ForDocFX_Base 이 코드는 샘플입니다. SampleBehaviour_ForDocFX"
   }
 }
