@@ -71,3 +71,17 @@ references:
   isSpec: "True"
   fullName: DocFXTest.SampleBehaviour_ForDocFX_Base.Virtual_Protected
   nameWithType: SampleBehaviour_ForDocFX_Base.Virtual_Protected
+- uid: Global
+  name: Global
+  href: api/Global.html
+  name.vb: ''
+  fullName: Global
+  fullName.vb: ''
+  nameWithType: Global
+  nameWithType.vb: ''
+- uid: Global.SampleBehaviour_ForDocFX
+  name: SampleBehaviour_ForDocFX
+  href: api/Global.SampleBehaviour_ForDocFX.html
+  commentId: T:Global.SampleBehaviour_ForDocFX
+  fullName: SampleBehaviour_ForDocFX
+  nameWithType: SampleBehaviour_ForDocFX
