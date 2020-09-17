@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_2.html",
-          "hash": "khBkCJVTLluLvzeTTF0UYA=="
+          "hash": "JHIlDhrQvua1TclyXJNC/Q=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_Base.html",
-          "hash": "mtByI+bc2bX5RVsrY60n/Q=="
+          "hash": "cKFaGhBT4zDtZXcybr/V7g=="
         }
       },
       "is_incremental": false,
@@ -74,6 +74,30 @@
       },
       "is_incremental": false,
       "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/intro.html",
+          "hash": "RmWH8sGYcaMvObH19Sa0lQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
     }
   ],
   "incremental_info": [
@@ -96,7 +120,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 1,
+          "total_file_count": 2,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
