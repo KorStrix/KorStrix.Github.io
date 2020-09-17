@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_2.html",
-          "hash": "1L/RMTGHa+LPkTUQneeqXA=="
+          "hash": "SQXDVuFeWcrsUzOBMkdKvw=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_Base.html",
-          "hash": "QwJiM2Pdp+wo0VUTzD+sDw=="
+          "hash": "w0E1tKTJBhPcDNVW5X2Hmw=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "+Ioo04hGhsuK3wmGTh9lBw=="
+          "hash": "ZmevkIY/jrDl1jTyX/F14A=="
         }
       },
       "is_incremental": false,
