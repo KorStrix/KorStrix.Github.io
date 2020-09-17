@@ -1,6 +1,6 @@
 {
   "sitemap": {
-    "baseUrl": "https://normanderwan.github.io/DocFxForUnity/"
+    "baseUrl": "https://korstrix.github.io/docfxsample/"
   },
   "homepages": [],
   "source_base_path": "/github/workspace/UnitySample/Documentation",
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_2.html",
-          "hash": "sVGzYGdsM+jpOhnLCRWG2w=="
+          "hash": "4lOaAY4L6NCzXDCgaxfmsg=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_Base.html",
-          "hash": "1yL9eo0xiesyNpSM1SHCeg=="
+          "hash": "+n2xlBCZWnOVEkefD2x4YQ=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.html",
-          "hash": "7SLhdWT+gHB6V1sgDPprfA=="
+          "hash": "E9pjvDXWDVYoK9KkAj2wyA=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "Ro3nJXi5yRdck134K77Few=="
+          "hash": "8QnlLMffdvAXC6qfMrXbRQ=="
         }
       },
       "is_incremental": false,
@@ -70,54 +70,6 @@
         ".html": {
           "relative_path": "api/toc.html",
           "hash": "9H0TfERqH4iZ/dLuGm3hEA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/intro.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "qceYFH9FFvol5TdWJgU60w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "articles/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "index.md",
-      "output": {
-        ".html": {
-          "relative_path": "index.html",
-          "hash": "hIVRbUi45x2tz5MNUi8L1Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "toc.html",
-          "hash": "k+/dkjFuwAVS32HduMpmBw=="
         }
       },
       "is_incremental": false,
@@ -135,13 +87,6 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
@@ -151,7 +96,14 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
