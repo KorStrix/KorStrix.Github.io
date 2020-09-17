@@ -7,6 +7,25 @@ references:
   commentId: N:DocFXTest
   fullName: DocFXTest
   nameWithType: DocFXTest
+- uid: DocFXTest.SampleBehaviour_ForDocFX_2
+  name: SampleBehaviour_ForDocFX_2
+  href: api/DocFXTest.SampleBehaviour_ForDocFX_2.html
+  commentId: T:DocFXTest.SampleBehaviour_ForDocFX_2
+  fullName: DocFXTest.SampleBehaviour_ForDocFX_2
+  nameWithType: SampleBehaviour_ForDocFX_2
+- uid: DocFXTest.SampleBehaviour_ForDocFX_2.Virtual_Function
+  name: Virtual_Function()
+  href: api/DocFXTest.SampleBehaviour_ForDocFX_2.html#DocFXTest_SampleBehaviour_ForDocFX_2_Virtual_Function
+  commentId: M:DocFXTest.SampleBehaviour_ForDocFX_2.Virtual_Function
+  fullName: DocFXTest.SampleBehaviour_ForDocFX_2.Virtual_Function()
+  nameWithType: SampleBehaviour_ForDocFX_2.Virtual_Function()
+- uid: DocFXTest.SampleBehaviour_ForDocFX_2.Virtual_Function*
+  name: Virtual_Function
+  href: api/DocFXTest.SampleBehaviour_ForDocFX_2.html#DocFXTest_SampleBehaviour_ForDocFX_2_Virtual_Function_
+  commentId: Overload:DocFXTest.SampleBehaviour_ForDocFX_2.Virtual_Function
+  isSpec: "True"
+  fullName: DocFXTest.SampleBehaviour_ForDocFX_2.Virtual_Function
+  nameWithType: SampleBehaviour_ForDocFX_2.Virtual_Function
 - uid: DocFXTest.SampleBehaviour_ForDocFX_Base
   name: SampleBehaviour_ForDocFX_Base
   href: api/DocFXTest.SampleBehaviour_ForDocFX_Base.html
@@ -39,3 +58,16 @@ references:
   isSpec: "True"
   fullName: DocFXTest.SampleBehaviour_ForDocFX_Base.Virtual_Function
   nameWithType: SampleBehaviour_ForDocFX_Base.Virtual_Function
+- uid: DocFXTest.SampleBehaviour_ForDocFX_Base.Virtual_Protected
+  name: Virtual_Protected()
+  href: api/DocFXTest.SampleBehaviour_ForDocFX_Base.html#DocFXTest_SampleBehaviour_ForDocFX_Base_Virtual_Protected
+  commentId: M:DocFXTest.SampleBehaviour_ForDocFX_Base.Virtual_Protected
+  fullName: DocFXTest.SampleBehaviour_ForDocFX_Base.Virtual_Protected()
+  nameWithType: SampleBehaviour_ForDocFX_Base.Virtual_Protected()
+- uid: DocFXTest.SampleBehaviour_ForDocFX_Base.Virtual_Protected*
+  name: Virtual_Protected
+  href: api/DocFXTest.SampleBehaviour_ForDocFX_Base.html#DocFXTest_SampleBehaviour_ForDocFX_Base_Virtual_Protected_
+  commentId: Overload:DocFXTest.SampleBehaviour_ForDocFX_Base.Virtual_Protected
+  isSpec: "True"
+  fullName: DocFXTest.SampleBehaviour_ForDocFX_Base.Virtual_Protected
+  nameWithType: SampleBehaviour_ForDocFX_Base.Virtual_Protected
