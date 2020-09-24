@@ -16,6 +16,165 @@
       "is_incremental": false
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_2.html",
+          "hash": "6MWQljRpErZsNqy6B53HxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_Base.html",
+          "hash": "BMfBjFHCkE4RQ9D0QjDbPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DocFXTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DocFXTest.html",
+          "hash": "sxnTTXVib32Z2X0rEwg9Jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "DuplicateUids"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "api/DocFXTest_SampleBehaviour_ForDocFX_2.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/DocFXTest_SampleBehaviour_ForDocFX_2.html",
+          "hash": "7Fmcm8ptO+hto3AQQCQz5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DocFxForUnity.Git.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DocFxForUnity.Git.html",
+          "hash": "i/7IsWo6OBCA7kJdaoxLrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DocFxForUnity.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DocFxForUnity.Utils.html",
+          "hash": "8qSiMpryrrKai+C6EDFBxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DocFxForUnity.XrefMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DocFxForUnity.XrefMap.html",
+          "hash": "vflBhUBRK/myF24OfY8e7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DocFxForUnity.XrefMapReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DocFxForUnity.XrefMapReference.html",
+          "hash": "0LvMqMwKJc4haXTa0wkwLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DocFxForUnity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DocFxForUnity.html",
+          "hash": "ks8WOwA0MCJep1Xd9OEdLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SampleBehaviour_ForDocFX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SampleBehaviour_ForDocFX.html",
+          "hash": "TsN0MT1+KjnFdbr8cfm7jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html",
+          "hash": "NEw41fGOKF77E24FfZeZwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "2VfCeD89y1kq+zqf+oVj6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "EWBzbayqwdVqaA+H7PVUUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
@@ -52,15 +211,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "c3Dh1IWoHxbgutRBEm5O9A=="
+          "hash": "AWNyoHBkTuWg/D+7r8phsg=="
         }
       },
       "is_incremental": false,
@@ -81,7 +237,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2,
+          "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 10,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
