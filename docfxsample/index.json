@@ -14,6 +14,11 @@
     "title": "Class SampleBehaviour_ForDocFX_Base | Example Title",
     "keywords": "Class SampleBehaviour_ForDocFX_Base 이 코드는 샘플입니다. SampleBehaviour_ForDocFX Inheritance Object SampleBehaviour_ForDocFX_Base SampleBehaviour_ForDocFX_2 SampleBehaviour_ForDocFX Namespace : DocFXTest Assembly : Assembly-CSharp.dll Syntax public class SampleBehaviour_ForDocFX_Base : MonoBehaviour Methods | Improve this Doc View Source Public_Function() 이 함수는 public 함수입니다. Declaration public void Public_Function() | Improve this Doc View Source Virtual_Function() 이 함수는 virtual 함수입니다. Declaration public virtual void Virtual_Function() | Improve this Doc View Source Virtual_Protected() Declaration protected virtual void Virtual_Protected()"
   },
+  "api/DocFXTest_SampleBehaviour_ForDocFX_2.html": {
+    "href": "api/DocFXTest_SampleBehaviour_ForDocFX_2.html",
+    "title": "개요 | Example Title",
+    "keywords": "Please type below more information about this API: 개요 'Improve This Doc'을 통해 작성성한 추가 문서입니다. #테스트"
+  },
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | Example Title",
