@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_2.html",
-          "hash": "In+JlF4/xHu6pq+Rmum6ZA=="
+          "hash": "sZWrqqTQkOb6+soCFoCr4A=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_Base.html",
-          "hash": "BMfBjFHCkE4RQ9D0QjDbPA=="
+          "hash": "9iX0EGr+zwmp+wiYlbk0fw=="
         }
       },
       "is_incremental": false,
@@ -45,67 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.html",
-          "hash": "TvhV3jpm722tQqMSuJ3xvw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DocFxForUnity.Git.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DocFxForUnity.Git.html",
-          "hash": "i/7IsWo6OBCA7kJdaoxLrA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DocFxForUnity.Utils.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DocFxForUnity.Utils.html",
-          "hash": "8qSiMpryrrKai+C6EDFBxA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DocFxForUnity.XrefMap.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DocFxForUnity.XrefMap.html",
-          "hash": "vflBhUBRK/myF24OfY8e7Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DocFxForUnity.XrefMapReference.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DocFxForUnity.XrefMapReference.html",
-          "hash": "0LvMqMwKJc4haXTa0wkwLQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DocFxForUnity.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DocFxForUnity.html",
-          "hash": "ks8WOwA0MCJep1Xd9OEdLA=="
+          "hash": "I1htQoxeicjndUYCt+/GYw=="
         }
       },
       "is_incremental": false,
@@ -117,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SampleBehaviour_ForDocFX.html",
-          "hash": "TsN0MT1+KjnFdbr8cfm7jw=="
+          "hash": "Dn8flA48+2Ta1NtyOMlFgw=="
         }
       },
       "is_incremental": false,
@@ -129,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "NEw41fGOKF77E24FfZeZwQ=="
+          "hash": "NHMu8IDfge9fzJ147eJAOQ=="
         }
       },
       "is_incremental": false,
@@ -141,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "2VfCeD89y1kq+zqf+oVj6g=="
+          "hash": "smMmGz98R4ch1jbGiV5/ww=="
         }
       },
       "is_incremental": false,
@@ -153,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "EWBzbayqwdVqaA+H7PVUUw=="
+          "hash": "bG993LlGRQkZEQ+7Dr3pZg=="
         }
       },
       "is_incremental": false,
@@ -165,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "6kIGxPzQlUIt6z1JBZ7WJw=="
+          "hash": "FUtZbmd+X7MZpNmKSuxrmA=="
         }
       },
       "is_incremental": false,
@@ -177,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/intro.html",
-          "hash": "c3vlLDCw7o0CY4JVCcumJA=="
+          "hash": "RPhTlBFDIdprYdad2XHc0A=="
         }
       },
       "is_incremental": false,
@@ -228,7 +168,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 11,
+          "total_file_count": 6,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
