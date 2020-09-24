@@ -16,12 +16,15 @@
       "is_incremental": false
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_2.yml",
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_2.html",
-          "hash": "/2wsNLrPA08iQLrm0JX+Kg=="
+          "hash": "8imzOqK6uZprX0oTw0YHPg=="
         }
       },
       "is_incremental": false,
@@ -33,7 +36,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_Base.html",
-          "hash": "1CGJ+6ONmCQmy+SSQeS9Jg=="
+          "hash": "uqBkHLAxZ/kLILg1vP54lA=="
         }
       },
       "is_incremental": false,
@@ -45,22 +48,19 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.html",
-          "hash": "fXq33W6sf5AgQvsrK1K6ew=="
+          "hash": "sxnTTXVib32Z2X0rEwg9Jw=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "Conceptual",
       "source_relative_path": "api/DocFXTest_SampleBehaviour_ForDocFX_2.md",
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest_SampleBehaviour_ForDocFX_2.html",
-          "hash": "4GYsKZoi9GV9g+X0zQJ2lA=="
+          "hash": "7Fmcm8ptO+hto3AQQCQz5Q=="
         }
       },
       "is_incremental": false,
@@ -72,7 +72,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SampleBehaviour_ForDocFX.html",
-          "hash": "ZE6rgKPNZPEcdbz9GhOpUg=="
+          "hash": "T7LESQEZNuhS4MXA1JK/0g=="
         }
       },
       "is_incremental": false,
@@ -84,7 +84,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "ikikyUdqKeeqkOA+FLOg+Q=="
+          "hash": "NEw41fGOKF77E24FfZeZwQ=="
         }
       },
       "is_incremental": false,
@@ -96,7 +96,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "8LeoDYHxk0RKt62vbbpQzg=="
+          "hash": "2VfCeD89y1kq+zqf+oVj6g=="
         }
       },
       "is_incremental": false,
@@ -120,7 +120,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "/oZWgB9MzLrr2unSZOp4Hg=="
+          "hash": "WKZclnZinRrzttUjGlllTQ=="
         }
       },
       "is_incremental": false,
@@ -132,7 +132,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/intro.html",
-          "hash": "e88+qRbk3AH/FvCB8jX9ng=="
+          "hash": "c3vlLDCw7o0CY4JVCcumJA=="
         }
       },
       "is_incremental": false,
