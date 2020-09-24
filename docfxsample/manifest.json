@@ -3,7 +3,7 @@
     "baseUrl": "https://korstrix.github.io/docfxsample/"
   },
   "homepages": [],
-  "source_base_path": "/github/workspace/UnitySample/Documentation",
+  "source_base_path": "D:/a/DocFX_ForUnityProject/DocFX_ForUnityProject/UnitySample/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_2.html",
-          "hash": "IcWFfMBFCaw98CofyDgR1g=="
+          "hash": "/2wsNLrPA08iQLrm0JX+Kg=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_Base.html",
-          "hash": "BPCobujLOAU8yvxfONQnjA=="
+          "hash": "1CGJ+6ONmCQmy+SSQeS9Jg=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.html",
-          "hash": "3sPCzUfrDt7E7jWbln1CNQ=="
+          "hash": "fXq33W6sf5AgQvsrK1K6ew=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SampleBehaviour_ForDocFX.html",
-          "hash": "01bLRMPmO13Y+9JwJljY3w=="
+          "hash": "ZE6rgKPNZPEcdbz9GhOpUg=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "+rXEX/JIJPxRCxcPu/ZSkA=="
+          "hash": "ikikyUdqKeeqkOA+FLOg+Q=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "uhUHNotacACbw95t5B/UpQ=="
+          "hash": "8LeoDYHxk0RKt62vbbpQzg=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "roQ1FumPsrukp6+2j60m1A=="
+          "hash": "bG993LlGRQkZEQ+7Dr3pZg=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "SBWa2qzTjiGflpPH9UqOjw=="
+          "hash": "/oZWgB9MzLrr2unSZOp4Hg=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/intro.html",
-          "hash": "4/yaqz6f9G+PX29ELq7VeA=="
+          "hash": "e88+qRbk3AH/FvCB8jX9ng=="
         }
       },
       "is_incremental": false,
@@ -129,22 +129,19 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+          "hash": "gB8AESyvNru97tzIZofEEg=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "3hdsGhGMKK/dxGvHcj4KDg=="
+          "hash": "AWNyoHBkTuWg/D+7r8phsg=="
         }
       },
       "is_incremental": false,
@@ -162,16 +159,16 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 5,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
