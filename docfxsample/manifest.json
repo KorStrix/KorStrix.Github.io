@@ -21,7 +21,22 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "QCQr0u1kqdsxZXajIVqpkQ=="
+          "hash": "2VfCeD89y1kq+zqf+oVj6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "yiALEzUQzRd/KP3QnmR7xQ=="
         }
       },
       "is_incremental": false,
@@ -69,7 +84,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "4PrN5tD1IU2HABDbvctDDg=="
+          "hash": "AWNyoHBkTuWg/D+7r8phsg=="
         }
       },
       "is_incremental": false,
