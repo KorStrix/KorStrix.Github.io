@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.SampleBehaviour_ForDocFX_2.html",
-          "hash": "6MWQljRpErZsNqy6B53HxA=="
+          "hash": "In+JlF4/xHu6pq+Rmum6ZA=="
         }
       },
       "is_incremental": false,
@@ -45,22 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DocFXTest.html",
-          "hash": "sxnTTXVib32Z2X0rEwg9Jw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "DuplicateUids"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "api/DocFXTest_SampleBehaviour_ForDocFX_2.md",
-      "output": {
-        ".html": {
-          "relative_path": "api/DocFXTest_SampleBehaviour_ForDocFX_2.html",
-          "hash": "7Fmcm8ptO+hto3AQQCQz5Q=="
+          "hash": "TvhV3jpm722tQqMSuJ3xvw=="
         }
       },
       "is_incremental": false,
@@ -237,13 +222,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 3,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 10,
+          "total_file_count": 11,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
