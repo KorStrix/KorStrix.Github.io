@@ -1,7 +1,4 @@
 {
-  "sitemap": {
-    "baseUrl": "https://korstrix.github.io/docfxsample/"
-  },
   "homepages": [],
   "source_base_path": "D:/a/UnityECS_TakeMoneyGame/UnityECS_TakeMoneyGame/Develop/trunk/IdleMoney/Documentation",
   "xrefmap": "xrefmap.yml",
@@ -21,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "Utv2g9tYsQkwm2K/vJCBnA=="
+          "hash": "C1jScZKofY0qf7oNiw2XbQ=="
         }
       },
       "is_incremental": false,
@@ -33,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "9Sl2k6mTl/liTBUc4WV2nQ=="
+          "hash": "F8H2Nnfq99a56w94FCGAKw=="
         }
       },
       "is_incremental": false,
@@ -45,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/intro.html",
-          "hash": "2u0I2ZmrpTGF9QNLIQMGNQ=="
+          "hash": "lVQfSduw13X7mtCXQmvAgA=="
         }
       },
       "is_incremental": false,
