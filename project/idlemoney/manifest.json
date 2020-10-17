@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "D:/a/UnityECS_TakeMoneyGame/UnityECS_TakeMoneyGame/Develop/trunk/IdleMoney/Documentation",
+  "source_base_path": "D:/a/Unity_TakeMoneyGame/Unity_TakeMoneyGame/Develop/trunk/IdleMoney/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -14,11 +14,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.DesktopInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DesktopInput.html",
+          "hash": "AzmrwnzL0c36OrnvunfYJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.Joystick.yml",
       "output": {
         ".html": {
           "relative_path": "api/Global.Joystick.html",
-          "hash": "FQdl8lcp/HtECLLOZ60TaQ=="
+          "hash": "RJ75PPAxb1NkSgg+BDJiHA=="
         }
       },
       "is_incremental": false,
@@ -30,7 +42,43 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Moveable.html",
-          "hash": "gJ9NvsVru76qJDoNHTd8xg=="
+          "hash": "DWYvPvD1b4mCXcZ0ATEVrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MoveableLobic_Transform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MoveableLobic_Transform.html",
+          "hash": "1ynN1glCpKdmJS64u4zieA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MoveableLogic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MoveableLogic.html",
+          "hash": "6OspJYA80tPv39eOGoEYoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MoveableLogic_Rigidbody2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MoveableLogic_Rigidbody2D.html",
+          "hash": "/VLGGe1Q+cdCQzt4gqzk2Q=="
         }
       },
       "is_incremental": false,
@@ -42,7 +90,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "eggVWLQCE/NBBqlIpdLbZQ=="
+          "hash": "J6YUIRnkiEmhYQ3zzu09cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tests.Moveable_Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tests.Moveable_Test.html",
+          "hash": "9dAxDcLkCURZKIzKpI0xMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tests.html",
+          "hash": "n4s2jYy3bowpT0/F455mZw=="
         }
       },
       "is_incremental": false,
@@ -66,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "KRf/J/Zeqdi48+2HiyPGSQ=="
+          "hash": "0V7CgGI6x6k7g4+yVSkUmg=="
         }
       },
       "is_incremental": false,
@@ -141,7 +213,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 9,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

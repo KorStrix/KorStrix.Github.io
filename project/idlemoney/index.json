@@ -1,23 +1,53 @@
 {
+  "api/Global.DesktopInput.html": {
+    "href": "api/Global.DesktopInput.html",
+    "title": "Class DesktopInput | Example Title",
+    "keywords": "Class DesktopInput Inheritance Object DesktopInput Namespace : Global Assembly : Main.dll Syntax public class DesktopInput : MonoBehaviour Fields | Improve this Doc View Source pMoveable Declaration public Moveable pMoveable Field Value Type Description Moveable (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
+  },
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | Example Title",
-    "keywords": "Namespace Global Classes Joystick Moveable (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
+    "keywords": "Namespace Global Classes DesktopInput Joystick Moveable MoveableLobic_Transform MoveableLogic MoveableLogic_Rigidbody2D (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
   },
   "api/Global.Joystick.html": {
     "href": "api/Global.Joystick.html",
     "title": "Class Joystick | Example Title",
-    "keywords": "Class Joystick Inheritance Object Joystick Namespace : Global Assembly : Assembly-CSharp.dll Syntax public class Joystick (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
+    "keywords": "Class Joystick Inheritance Object Joystick Namespace : Global Assembly : Main.dll Syntax public class Joystick (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
   },
   "api/Global.Moveable.html": {
     "href": "api/Global.Moveable.html",
     "title": "Class Moveable | Example Title",
-    "keywords": "Class Moveable Inheritance Object Moveable Namespace : Global Assembly : Assembly-CSharp.dll Syntax public class Moveable (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
+    "keywords": "Class Moveable Inheritance Object Moveable Namespace : Global Assembly : Main.dll Syntax public class Moveable : MonoBehaviour Fields | Improve this Doc View Source fMoveSpeed Declaration public float fMoveSpeed Field Value Type Description Single Methods | Improve this Doc View Source DoInit(MoveableLogic, Single) Declaration public void DoInit(MoveableLogic pLogic, float fMoveSpeed) Parameters Type Name Description MoveableLogic pLogic Single fMoveSpeed | Improve this Doc View Source DoMove(Single) Declaration public void DoMove(float fMoveX_0_1) Parameters Type Name Description Single fMoveX_0_1 (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
+  },
+  "api/Global.MoveableLobic_Transform.html": {
+    "href": "api/Global.MoveableLobic_Transform.html",
+    "title": "Class MoveableLobic_Transform | Example Title",
+    "keywords": "Class MoveableLobic_Transform Inheritance Object MoveableLogic MoveableLobic_Transform Inherited Members MoveableLogic.CreateLogic_Rigidbody2D(MonoBehaviour) MoveableLogic.CreateLogic_Transform(MonoBehaviour) MoveableLogic.fMoveSpeed MoveableLogic.DoSet_MoveSpeed(Single) MoveableLogic.DoMove(Single) MoveableLogic.DoUpdate(Single) Namespace : Global Assembly : Main.dll Syntax public class MoveableLobic_Transform : MoveableLogic Constructors | Improve this Doc View Source MoveableLobic_Transform(MonoBehaviour) Declaration public MoveableLobic_Transform(MonoBehaviour pOwner) Parameters Type Name Description MonoBehaviour pOwner Methods | Improve this Doc View Source OnMove(Single, Single, Single) Declaration protected override void OnMove(float fMoveX_0_1, float fMoveSpeed, float fDeltaTime) Parameters Type Name Description Single fMoveX_0_1 Single fMoveSpeed Single fDeltaTime Overrides MoveableLogic.OnMove(Single, Single, Single) (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
+  },
+  "api/Global.MoveableLogic.html": {
+    "href": "api/Global.MoveableLogic.html",
+    "title": "Class MoveableLogic | Example Title",
+    "keywords": "Class MoveableLogic Inheritance Object MoveableLogic MoveableLobic_Transform MoveableLogic_Rigidbody2D Namespace : Global Assembly : Main.dll Syntax public abstract class MoveableLogic Constructors | Improve this Doc View Source MoveableLogic(MonoBehaviour) Declaration protected MoveableLogic(MonoBehaviour pOwner) Parameters Type Name Description MonoBehaviour pOwner Properties | Improve this Doc View Source fMoveSpeed Declaration public float fMoveSpeed { get; } Property Value Type Description Single Methods | Improve this Doc View Source CreateLogic_Rigidbody2D(MonoBehaviour) Declaration public static MoveableLogic CreateLogic_Rigidbody2D(MonoBehaviour pOwner) Parameters Type Name Description MonoBehaviour pOwner Returns Type Description MoveableLogic | Improve this Doc View Source CreateLogic_Transform(MonoBehaviour) Declaration public static MoveableLogic CreateLogic_Transform(MonoBehaviour pOwner) Parameters Type Name Description MonoBehaviour pOwner Returns Type Description MoveableLogic | Improve this Doc View Source DoMove(Single) Declaration public void DoMove(float fMoveX_0_1) Parameters Type Name Description Single fMoveX_0_1 | Improve this Doc View Source DoSet_MoveSpeed(Single) Declaration public void DoSet_MoveSpeed(float fMoveSpeed) Parameters Type Name Description Single fMoveSpeed | Improve this Doc View Source DoUpdate(Single) Declaration public void DoUpdate(float fDeltaTime) Parameters Type Name Description Single fDeltaTime | Improve this Doc View Source OnMove(Single, Single, Single) Declaration protected abstract void OnMove(float fMoveX_0_1, float fMoveSpeed, float fDeltaTime) Parameters Type Name Description Single fMoveX_0_1 Single fMoveSpeed Single fDeltaTime (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
+  },
+  "api/Global.MoveableLogic_Rigidbody2D.html": {
+    "href": "api/Global.MoveableLogic_Rigidbody2D.html",
+    "title": "Class MoveableLogic_Rigidbody2D | Example Title",
+    "keywords": "Class MoveableLogic_Rigidbody2D Inheritance Object MoveableLogic MoveableLogic_Rigidbody2D Inherited Members MoveableLogic.CreateLogic_Rigidbody2D(MonoBehaviour) MoveableLogic.CreateLogic_Transform(MonoBehaviour) MoveableLogic.fMoveSpeed MoveableLogic.DoSet_MoveSpeed(Single) MoveableLogic.DoMove(Single) MoveableLogic.DoUpdate(Single) Namespace : Global Assembly : Main.dll Syntax public class MoveableLogic_Rigidbody2D : MoveableLogic Constructors | Improve this Doc View Source MoveableLogic_Rigidbody2D(MonoBehaviour) Declaration public MoveableLogic_Rigidbody2D(MonoBehaviour pOwner) Parameters Type Name Description MonoBehaviour pOwner Methods | Improve this Doc View Source OnMove(Single, Single, Single) Declaration protected override void OnMove(float fMoveX_0_1, float fMoveSpeed, float fDeltaTime) Parameters Type Name Description Single fMoveX_0_1 Single fMoveSpeed Single fDeltaTime Overrides MoveableLogic.OnMove(Single, Single, Single) (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
   },
   "api/index.html": {
     "href": "api/index.html",
     "title": "PLACEHOLDER | Example Title",
     "keywords": "PLACEHOLDER TODO: Add .NET projects to the src folder and run docfx to generate REAL API Documentation ! (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
+  },
+  "api/Tests.html": {
+    "href": "api/Tests.html",
+    "title": "Namespace Tests | Example Title",
+    "keywords": "Namespace Tests Classes Moveable_Test (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
+  },
+  "api/Tests.Moveable_Test.html": {
+    "href": "api/Tests.Moveable_Test.html",
+    "title": "Class Moveable_Test | Example Title",
+    "keywords": "Class Moveable_Test Inheritance Object Moveable_Test Namespace : Tests Assembly : Tests.dll Syntax public class Moveable_Test Methods | Improve this Doc View Source 좌우움직임_테스트() Declaration public IEnumerator 좌우움직임_테스트() Returns Type Description IEnumerator (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
   },
   "index.html": {
     "href": "index.html",
