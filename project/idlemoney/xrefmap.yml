@@ -15,230 +15,381 @@ references:
   commentId: T:Global.DesktopInput
   fullName: DesktopInput
   nameWithType: DesktopInput
-- uid: Global.DesktopInput.pMoveable
-  name: pMoveable
-  href: api/Global.DesktopInput.html#Global_DesktopInput_pMoveable
-  commentId: F:Global.DesktopInput.pMoveable
-  fullName: DesktopInput.pMoveable
-  nameWithType: DesktopInput.pMoveable
+- uid: Global.DesktopInput.pMoveAble
+  name: pMoveAble
+  href: api/Global.DesktopInput.html#Global_DesktopInput_pMoveAble
+  commentId: F:Global.DesktopInput.pMoveAble
+  fullName: DesktopInput.pMoveAble
+  nameWithType: DesktopInput.pMoveAble
 - uid: Global.Joystick
   name: Joystick
   href: api/Global.Joystick.html
   commentId: T:Global.Joystick
   fullName: Joystick
   nameWithType: Joystick
-- uid: Global.Moveable
-  name: Moveable
-  href: api/Global.Moveable.html
-  commentId: T:Global.Moveable
-  fullName: Moveable
-  nameWithType: Moveable
-- uid: Global.Moveable.DoInit(MoveableLogic,System.Single)
-  name: DoInit(MoveableLogic, Single)
-  href: api/Global.Moveable.html#Global_Moveable_DoInit_MoveableLogic_System_Single_
-  commentId: M:Global.Moveable.DoInit(MoveableLogic,System.Single)
-  fullName: Moveable.DoInit(MoveableLogic, System.Single)
-  nameWithType: Moveable.DoInit(MoveableLogic, Single)
-- uid: Global.Moveable.DoInit*
+- uid: Global.MoveAble
+  name: MoveAble
+  href: api/Global.MoveAble.html
+  commentId: T:Global.MoveAble
+  fullName: MoveAble
+  nameWithType: MoveAble
+- uid: Global.MoveAble.DoInit(MoveAbleLogic,System.Single)
+  name: DoInit(MoveAbleLogic, Single)
+  href: api/Global.MoveAble.html#Global_MoveAble_DoInit_MoveAbleLogic_System_Single_
+  commentId: M:Global.MoveAble.DoInit(MoveAbleLogic,System.Single)
+  fullName: MoveAble.DoInit(MoveAbleLogic, System.Single)
+  nameWithType: MoveAble.DoInit(MoveAbleLogic, Single)
+- uid: Global.MoveAble.DoInit*
   name: DoInit
-  href: api/Global.Moveable.html#Global_Moveable_DoInit_
-  commentId: Overload:Global.Moveable.DoInit
+  href: api/Global.MoveAble.html#Global_MoveAble_DoInit_
+  commentId: Overload:Global.MoveAble.DoInit
   isSpec: "True"
-  fullName: Moveable.DoInit
-  nameWithType: Moveable.DoInit
-- uid: Global.Moveable.DoMove(System.Single)
+  fullName: MoveAble.DoInit
+  nameWithType: MoveAble.DoInit
+- uid: Global.MoveAble.DoMove(System.Single)
   name: DoMove(Single)
-  href: api/Global.Moveable.html#Global_Moveable_DoMove_System_Single_
-  commentId: M:Global.Moveable.DoMove(System.Single)
-  fullName: Moveable.DoMove(System.Single)
-  nameWithType: Moveable.DoMove(Single)
-- uid: Global.Moveable.DoMove*
+  href: api/Global.MoveAble.html#Global_MoveAble_DoMove_System_Single_
+  commentId: M:Global.MoveAble.DoMove(System.Single)
+  fullName: MoveAble.DoMove(System.Single)
+  nameWithType: MoveAble.DoMove(Single)
+- uid: Global.MoveAble.DoMove*
   name: DoMove
-  href: api/Global.Moveable.html#Global_Moveable_DoMove_
-  commentId: Overload:Global.Moveable.DoMove
+  href: api/Global.MoveAble.html#Global_MoveAble_DoMove_
+  commentId: Overload:Global.MoveAble.DoMove
   isSpec: "True"
-  fullName: Moveable.DoMove
-  nameWithType: Moveable.DoMove
-- uid: Global.Moveable.fMoveSpeed
+  fullName: MoveAble.DoMove
+  nameWithType: MoveAble.DoMove
+- uid: Global.MoveAble.fMoveSpeed
   name: fMoveSpeed
-  href: api/Global.Moveable.html#Global_Moveable_fMoveSpeed
-  commentId: F:Global.Moveable.fMoveSpeed
-  fullName: Moveable.fMoveSpeed
-  nameWithType: Moveable.fMoveSpeed
-- uid: Global.MoveableLobic_Transform
-  name: MoveableLobic_Transform
-  href: api/Global.MoveableLobic_Transform.html
-  commentId: T:Global.MoveableLobic_Transform
-  fullName: MoveableLobic_Transform
-  nameWithType: MoveableLobic_Transform
-- uid: Global.MoveableLobic_Transform.#ctor(MonoBehaviour)
-  name: MoveableLobic_Transform(MonoBehaviour)
-  href: api/Global.MoveableLobic_Transform.html#Global_MoveableLobic_Transform__ctor_MonoBehaviour_
-  commentId: M:Global.MoveableLobic_Transform.#ctor(MonoBehaviour)
-  fullName: MoveableLobic_Transform.MoveableLobic_Transform(MonoBehaviour)
-  nameWithType: MoveableLobic_Transform.MoveableLobic_Transform(MonoBehaviour)
-- uid: Global.MoveableLobic_Transform.#ctor*
-  name: MoveableLobic_Transform
-  href: api/Global.MoveableLobic_Transform.html#Global_MoveableLobic_Transform__ctor_
-  commentId: Overload:Global.MoveableLobic_Transform.#ctor
+  href: api/Global.MoveAble.html#Global_MoveAble_fMoveSpeed
+  commentId: F:Global.MoveAble.fMoveSpeed
+  fullName: MoveAble.fMoveSpeed
+  nameWithType: MoveAble.fMoveSpeed
+- uid: Global.MoveAbleLogic
+  name: MoveAbleLogic
+  href: api/Global.MoveAbleLogic.html
+  commentId: T:Global.MoveAbleLogic
+  fullName: MoveAbleLogic
+  nameWithType: MoveAbleLogic
+- uid: Global.MoveAbleLogic.#ctor(MonoBehaviour)
+  name: MoveAbleLogic(MonoBehaviour)
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic__ctor_MonoBehaviour_
+  commentId: M:Global.MoveAbleLogic.#ctor(MonoBehaviour)
+  fullName: MoveAbleLogic.MoveAbleLogic(MonoBehaviour)
+  nameWithType: MoveAbleLogic.MoveAbleLogic(MonoBehaviour)
+- uid: Global.MoveAbleLogic.#ctor*
+  name: MoveAbleLogic
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic__ctor_
+  commentId: Overload:Global.MoveAbleLogic.#ctor
   isSpec: "True"
-  fullName: MoveableLobic_Transform.MoveableLobic_Transform
-  nameWithType: MoveableLobic_Transform.MoveableLobic_Transform
-- uid: Global.MoveableLobic_Transform.OnMove(System.Single,System.Single,System.Single)
-  name: OnMove(Single, Single, Single)
-  href: api/Global.MoveableLobic_Transform.html#Global_MoveableLobic_Transform_OnMove_System_Single_System_Single_System_Single_
-  commentId: M:Global.MoveableLobic_Transform.OnMove(System.Single,System.Single,System.Single)
-  fullName: MoveableLobic_Transform.OnMove(System.Single, System.Single, System.Single)
-  nameWithType: MoveableLobic_Transform.OnMove(Single, Single, Single)
-- uid: Global.MoveableLobic_Transform.OnMove*
-  name: OnMove
-  href: api/Global.MoveableLobic_Transform.html#Global_MoveableLobic_Transform_OnMove_
-  commentId: Overload:Global.MoveableLobic_Transform.OnMove
-  isSpec: "True"
-  fullName: MoveableLobic_Transform.OnMove
-  nameWithType: MoveableLobic_Transform.OnMove
-- uid: Global.MoveableLogic
-  name: MoveableLogic
-  href: api/Global.MoveableLogic.html
-  commentId: T:Global.MoveableLogic
-  fullName: MoveableLogic
-  nameWithType: MoveableLogic
-- uid: Global.MoveableLogic.#ctor(MonoBehaviour)
-  name: MoveableLogic(MonoBehaviour)
-  href: api/Global.MoveableLogic.html#Global_MoveableLogic__ctor_MonoBehaviour_
-  commentId: M:Global.MoveableLogic.#ctor(MonoBehaviour)
-  fullName: MoveableLogic.MoveableLogic(MonoBehaviour)
-  nameWithType: MoveableLogic.MoveableLogic(MonoBehaviour)
-- uid: Global.MoveableLogic.#ctor*
-  name: MoveableLogic
-  href: api/Global.MoveableLogic.html#Global_MoveableLogic__ctor_
-  commentId: Overload:Global.MoveableLogic.#ctor
-  isSpec: "True"
-  fullName: MoveableLogic.MoveableLogic
-  nameWithType: MoveableLogic.MoveableLogic
-- uid: Global.MoveableLogic.CreateLogic_Rigidbody2D(MonoBehaviour)
+  fullName: MoveAbleLogic.MoveAbleLogic
+  nameWithType: MoveAbleLogic.MoveAbleLogic
+- uid: Global.MoveAbleLogic.CreateLogic_Rigidbody2D(MonoBehaviour)
   name: CreateLogic_Rigidbody2D(MonoBehaviour)
-  href: api/Global.MoveableLogic.html#Global_MoveableLogic_CreateLogic_Rigidbody2D_MonoBehaviour_
-  commentId: M:Global.MoveableLogic.CreateLogic_Rigidbody2D(MonoBehaviour)
-  fullName: MoveableLogic.CreateLogic_Rigidbody2D(MonoBehaviour)
-  nameWithType: MoveableLogic.CreateLogic_Rigidbody2D(MonoBehaviour)
-- uid: Global.MoveableLogic.CreateLogic_Rigidbody2D*
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_CreateLogic_Rigidbody2D_MonoBehaviour_
+  commentId: M:Global.MoveAbleLogic.CreateLogic_Rigidbody2D(MonoBehaviour)
+  fullName: MoveAbleLogic.CreateLogic_Rigidbody2D(MonoBehaviour)
+  nameWithType: MoveAbleLogic.CreateLogic_Rigidbody2D(MonoBehaviour)
+- uid: Global.MoveAbleLogic.CreateLogic_Rigidbody2D*
   name: CreateLogic_Rigidbody2D
-  href: api/Global.MoveableLogic.html#Global_MoveableLogic_CreateLogic_Rigidbody2D_
-  commentId: Overload:Global.MoveableLogic.CreateLogic_Rigidbody2D
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_CreateLogic_Rigidbody2D_
+  commentId: Overload:Global.MoveAbleLogic.CreateLogic_Rigidbody2D
   isSpec: "True"
-  fullName: MoveableLogic.CreateLogic_Rigidbody2D
-  nameWithType: MoveableLogic.CreateLogic_Rigidbody2D
-- uid: Global.MoveableLogic.CreateLogic_Transform(MonoBehaviour)
+  fullName: MoveAbleLogic.CreateLogic_Rigidbody2D
+  nameWithType: MoveAbleLogic.CreateLogic_Rigidbody2D
+- uid: Global.MoveAbleLogic.CreateLogic_Transform(MonoBehaviour)
   name: CreateLogic_Transform(MonoBehaviour)
-  href: api/Global.MoveableLogic.html#Global_MoveableLogic_CreateLogic_Transform_MonoBehaviour_
-  commentId: M:Global.MoveableLogic.CreateLogic_Transform(MonoBehaviour)
-  fullName: MoveableLogic.CreateLogic_Transform(MonoBehaviour)
-  nameWithType: MoveableLogic.CreateLogic_Transform(MonoBehaviour)
-- uid: Global.MoveableLogic.CreateLogic_Transform*
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_CreateLogic_Transform_MonoBehaviour_
+  commentId: M:Global.MoveAbleLogic.CreateLogic_Transform(MonoBehaviour)
+  fullName: MoveAbleLogic.CreateLogic_Transform(MonoBehaviour)
+  nameWithType: MoveAbleLogic.CreateLogic_Transform(MonoBehaviour)
+- uid: Global.MoveAbleLogic.CreateLogic_Transform*
   name: CreateLogic_Transform
-  href: api/Global.MoveableLogic.html#Global_MoveableLogic_CreateLogic_Transform_
-  commentId: Overload:Global.MoveableLogic.CreateLogic_Transform
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_CreateLogic_Transform_
+  commentId: Overload:Global.MoveAbleLogic.CreateLogic_Transform
   isSpec: "True"
-  fullName: MoveableLogic.CreateLogic_Transform
-  nameWithType: MoveableLogic.CreateLogic_Transform
-- uid: Global.MoveableLogic.DoMove(System.Single)
+  fullName: MoveAbleLogic.CreateLogic_Transform
+  nameWithType: MoveAbleLogic.CreateLogic_Transform
+- uid: Global.MoveAbleLogic.DoMove(System.Single)
   name: DoMove(Single)
-  href: api/Global.MoveableLogic.html#Global_MoveableLogic_DoMove_System_Single_
-  commentId: M:Global.MoveableLogic.DoMove(System.Single)
-  fullName: MoveableLogic.DoMove(System.Single)
-  nameWithType: MoveableLogic.DoMove(Single)
-- uid: Global.MoveableLogic.DoMove*
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_DoMove_System_Single_
+  commentId: M:Global.MoveAbleLogic.DoMove(System.Single)
+  fullName: MoveAbleLogic.DoMove(System.Single)
+  nameWithType: MoveAbleLogic.DoMove(Single)
+- uid: Global.MoveAbleLogic.DoMove*
   name: DoMove
-  href: api/Global.MoveableLogic.html#Global_MoveableLogic_DoMove_
-  commentId: Overload:Global.MoveableLogic.DoMove
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_DoMove_
+  commentId: Overload:Global.MoveAbleLogic.DoMove
   isSpec: "True"
-  fullName: MoveableLogic.DoMove
-  nameWithType: MoveableLogic.DoMove
-- uid: Global.MoveableLogic.DoSet_MoveSpeed(System.Single)
+  fullName: MoveAbleLogic.DoMove
+  nameWithType: MoveAbleLogic.DoMove
+- uid: Global.MoveAbleLogic.DoSet_MoveSpeed(System.Single)
   name: DoSet_MoveSpeed(Single)
-  href: api/Global.MoveableLogic.html#Global_MoveableLogic_DoSet_MoveSpeed_System_Single_
-  commentId: M:Global.MoveableLogic.DoSet_MoveSpeed(System.Single)
-  fullName: MoveableLogic.DoSet_MoveSpeed(System.Single)
-  nameWithType: MoveableLogic.DoSet_MoveSpeed(Single)
-- uid: Global.MoveableLogic.DoSet_MoveSpeed*
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_DoSet_MoveSpeed_System_Single_
+  commentId: M:Global.MoveAbleLogic.DoSet_MoveSpeed(System.Single)
+  fullName: MoveAbleLogic.DoSet_MoveSpeed(System.Single)
+  nameWithType: MoveAbleLogic.DoSet_MoveSpeed(Single)
+- uid: Global.MoveAbleLogic.DoSet_MoveSpeed*
   name: DoSet_MoveSpeed
-  href: api/Global.MoveableLogic.html#Global_MoveableLogic_DoSet_MoveSpeed_
-  commentId: Overload:Global.MoveableLogic.DoSet_MoveSpeed
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_DoSet_MoveSpeed_
+  commentId: Overload:Global.MoveAbleLogic.DoSet_MoveSpeed
   isSpec: "True"
-  fullName: MoveableLogic.DoSet_MoveSpeed
-  nameWithType: MoveableLogic.DoSet_MoveSpeed
-- uid: Global.MoveableLogic.DoUpdate(System.Single)
+  fullName: MoveAbleLogic.DoSet_MoveSpeed
+  nameWithType: MoveAbleLogic.DoSet_MoveSpeed
+- uid: Global.MoveAbleLogic.DoUpdate(System.Single)
   name: DoUpdate(Single)
-  href: api/Global.MoveableLogic.html#Global_MoveableLogic_DoUpdate_System_Single_
-  commentId: M:Global.MoveableLogic.DoUpdate(System.Single)
-  fullName: MoveableLogic.DoUpdate(System.Single)
-  nameWithType: MoveableLogic.DoUpdate(Single)
-- uid: Global.MoveableLogic.DoUpdate*
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_DoUpdate_System_Single_
+  commentId: M:Global.MoveAbleLogic.DoUpdate(System.Single)
+  fullName: MoveAbleLogic.DoUpdate(System.Single)
+  nameWithType: MoveAbleLogic.DoUpdate(Single)
+- uid: Global.MoveAbleLogic.DoUpdate*
   name: DoUpdate
-  href: api/Global.MoveableLogic.html#Global_MoveableLogic_DoUpdate_
-  commentId: Overload:Global.MoveableLogic.DoUpdate
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_DoUpdate_
+  commentId: Overload:Global.MoveAbleLogic.DoUpdate
   isSpec: "True"
-  fullName: MoveableLogic.DoUpdate
-  nameWithType: MoveableLogic.DoUpdate
-- uid: Global.MoveableLogic.fMoveSpeed
+  fullName: MoveAbleLogic.DoUpdate
+  nameWithType: MoveAbleLogic.DoUpdate
+- uid: Global.MoveAbleLogic.fMoveSpeed
   name: fMoveSpeed
-  href: api/Global.MoveableLogic.html#Global_MoveableLogic_fMoveSpeed
-  commentId: P:Global.MoveableLogic.fMoveSpeed
-  fullName: MoveableLogic.fMoveSpeed
-  nameWithType: MoveableLogic.fMoveSpeed
-- uid: Global.MoveableLogic.fMoveSpeed*
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_fMoveSpeed
+  commentId: P:Global.MoveAbleLogic.fMoveSpeed
+  fullName: MoveAbleLogic.fMoveSpeed
+  nameWithType: MoveAbleLogic.fMoveSpeed
+- uid: Global.MoveAbleLogic.fMoveSpeed*
   name: fMoveSpeed
-  href: api/Global.MoveableLogic.html#Global_MoveableLogic_fMoveSpeed_
-  commentId: Overload:Global.MoveableLogic.fMoveSpeed
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_fMoveSpeed_
+  commentId: Overload:Global.MoveAbleLogic.fMoveSpeed
   isSpec: "True"
-  fullName: MoveableLogic.fMoveSpeed
-  nameWithType: MoveableLogic.fMoveSpeed
-- uid: Global.MoveableLogic.OnMove(System.Single,System.Single,System.Single)
+  fullName: MoveAbleLogic.fMoveSpeed
+  nameWithType: MoveAbleLogic.fMoveSpeed
+- uid: Global.MoveAbleLogic.OnMove(System.Single,System.Single,System.Single)
   name: OnMove(Single, Single, Single)
-  href: api/Global.MoveableLogic.html#Global_MoveableLogic_OnMove_System_Single_System_Single_System_Single_
-  commentId: M:Global.MoveableLogic.OnMove(System.Single,System.Single,System.Single)
-  fullName: MoveableLogic.OnMove(System.Single, System.Single, System.Single)
-  nameWithType: MoveableLogic.OnMove(Single, Single, Single)
-- uid: Global.MoveableLogic.OnMove*
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_OnMove_System_Single_System_Single_System_Single_
+  commentId: M:Global.MoveAbleLogic.OnMove(System.Single,System.Single,System.Single)
+  fullName: MoveAbleLogic.OnMove(System.Single, System.Single, System.Single)
+  nameWithType: MoveAbleLogic.OnMove(Single, Single, Single)
+- uid: Global.MoveAbleLogic.OnMove*
   name: OnMove
-  href: api/Global.MoveableLogic.html#Global_MoveableLogic_OnMove_
-  commentId: Overload:Global.MoveableLogic.OnMove
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_OnMove_
+  commentId: Overload:Global.MoveAbleLogic.OnMove
   isSpec: "True"
-  fullName: MoveableLogic.OnMove
-  nameWithType: MoveableLogic.OnMove
-- uid: Global.MoveableLogic_Rigidbody2D
-  name: MoveableLogic_Rigidbody2D
-  href: api/Global.MoveableLogic_Rigidbody2D.html
-  commentId: T:Global.MoveableLogic_Rigidbody2D
-  fullName: MoveableLogic_Rigidbody2D
-  nameWithType: MoveableLogic_Rigidbody2D
-- uid: Global.MoveableLogic_Rigidbody2D.#ctor(MonoBehaviour)
-  name: MoveableLogic_Rigidbody2D(MonoBehaviour)
-  href: api/Global.MoveableLogic_Rigidbody2D.html#Global_MoveableLogic_Rigidbody2D__ctor_MonoBehaviour_
-  commentId: M:Global.MoveableLogic_Rigidbody2D.#ctor(MonoBehaviour)
-  fullName: MoveableLogic_Rigidbody2D.MoveableLogic_Rigidbody2D(MonoBehaviour)
-  nameWithType: MoveableLogic_Rigidbody2D.MoveableLogic_Rigidbody2D(MonoBehaviour)
-- uid: Global.MoveableLogic_Rigidbody2D.#ctor*
-  name: MoveableLogic_Rigidbody2D
-  href: api/Global.MoveableLogic_Rigidbody2D.html#Global_MoveableLogic_Rigidbody2D__ctor_
-  commentId: Overload:Global.MoveableLogic_Rigidbody2D.#ctor
+  fullName: MoveAbleLogic.OnMove
+  nameWithType: MoveAbleLogic.OnMove
+- uid: Global.MoveAbleLogic_Rigidbody2D
+  name: MoveAbleLogic_Rigidbody2D
+  href: api/Global.MoveAbleLogic_Rigidbody2D.html
+  commentId: T:Global.MoveAbleLogic_Rigidbody2D
+  fullName: MoveAbleLogic_Rigidbody2D
+  nameWithType: MoveAbleLogic_Rigidbody2D
+- uid: Global.MoveAbleLogic_Rigidbody2D.#ctor(MonoBehaviour)
+  name: MoveAbleLogic_Rigidbody2D(MonoBehaviour)
+  href: api/Global.MoveAbleLogic_Rigidbody2D.html#Global_MoveAbleLogic_Rigidbody2D__ctor_MonoBehaviour_
+  commentId: M:Global.MoveAbleLogic_Rigidbody2D.#ctor(MonoBehaviour)
+  fullName: MoveAbleLogic_Rigidbody2D.MoveAbleLogic_Rigidbody2D(MonoBehaviour)
+  nameWithType: MoveAbleLogic_Rigidbody2D.MoveAbleLogic_Rigidbody2D(MonoBehaviour)
+- uid: Global.MoveAbleLogic_Rigidbody2D.#ctor*
+  name: MoveAbleLogic_Rigidbody2D
+  href: api/Global.MoveAbleLogic_Rigidbody2D.html#Global_MoveAbleLogic_Rigidbody2D__ctor_
+  commentId: Overload:Global.MoveAbleLogic_Rigidbody2D.#ctor
   isSpec: "True"
-  fullName: MoveableLogic_Rigidbody2D.MoveableLogic_Rigidbody2D
-  nameWithType: MoveableLogic_Rigidbody2D.MoveableLogic_Rigidbody2D
-- uid: Global.MoveableLogic_Rigidbody2D.OnMove(System.Single,System.Single,System.Single)
+  fullName: MoveAbleLogic_Rigidbody2D.MoveAbleLogic_Rigidbody2D
+  nameWithType: MoveAbleLogic_Rigidbody2D.MoveAbleLogic_Rigidbody2D
+- uid: Global.MoveAbleLogic_Rigidbody2D.OnMove(System.Single,System.Single,System.Single)
   name: OnMove(Single, Single, Single)
-  href: api/Global.MoveableLogic_Rigidbody2D.html#Global_MoveableLogic_Rigidbody2D_OnMove_System_Single_System_Single_System_Single_
-  commentId: M:Global.MoveableLogic_Rigidbody2D.OnMove(System.Single,System.Single,System.Single)
-  fullName: MoveableLogic_Rigidbody2D.OnMove(System.Single, System.Single, System.Single)
-  nameWithType: MoveableLogic_Rigidbody2D.OnMove(Single, Single, Single)
-- uid: Global.MoveableLogic_Rigidbody2D.OnMove*
+  href: api/Global.MoveAbleLogic_Rigidbody2D.html#Global_MoveAbleLogic_Rigidbody2D_OnMove_System_Single_System_Single_System_Single_
+  commentId: M:Global.MoveAbleLogic_Rigidbody2D.OnMove(System.Single,System.Single,System.Single)
+  fullName: MoveAbleLogic_Rigidbody2D.OnMove(System.Single, System.Single, System.Single)
+  nameWithType: MoveAbleLogic_Rigidbody2D.OnMove(Single, Single, Single)
+- uid: Global.MoveAbleLogic_Rigidbody2D.OnMove*
   name: OnMove
-  href: api/Global.MoveableLogic_Rigidbody2D.html#Global_MoveableLogic_Rigidbody2D_OnMove_
-  commentId: Overload:Global.MoveableLogic_Rigidbody2D.OnMove
+  href: api/Global.MoveAbleLogic_Rigidbody2D.html#Global_MoveAbleLogic_Rigidbody2D_OnMove_
+  commentId: Overload:Global.MoveAbleLogic_Rigidbody2D.OnMove
   isSpec: "True"
-  fullName: MoveableLogic_Rigidbody2D.OnMove
-  nameWithType: MoveableLogic_Rigidbody2D.OnMove
+  fullName: MoveAbleLogic_Rigidbody2D.OnMove
+  nameWithType: MoveAbleLogic_Rigidbody2D.OnMove
+- uid: Global.MoveAbleLogic_Transform
+  name: MoveAbleLogic_Transform
+  href: api/Global.MoveAbleLogic_Transform.html
+  commentId: T:Global.MoveAbleLogic_Transform
+  fullName: MoveAbleLogic_Transform
+  nameWithType: MoveAbleLogic_Transform
+- uid: Global.MoveAbleLogic_Transform.#ctor(MonoBehaviour)
+  name: MoveAbleLogic_Transform(MonoBehaviour)
+  href: api/Global.MoveAbleLogic_Transform.html#Global_MoveAbleLogic_Transform__ctor_MonoBehaviour_
+  commentId: M:Global.MoveAbleLogic_Transform.#ctor(MonoBehaviour)
+  fullName: MoveAbleLogic_Transform.MoveAbleLogic_Transform(MonoBehaviour)
+  nameWithType: MoveAbleLogic_Transform.MoveAbleLogic_Transform(MonoBehaviour)
+- uid: Global.MoveAbleLogic_Transform.#ctor*
+  name: MoveAbleLogic_Transform
+  href: api/Global.MoveAbleLogic_Transform.html#Global_MoveAbleLogic_Transform__ctor_
+  commentId: Overload:Global.MoveAbleLogic_Transform.#ctor
+  isSpec: "True"
+  fullName: MoveAbleLogic_Transform.MoveAbleLogic_Transform
+  nameWithType: MoveAbleLogic_Transform.MoveAbleLogic_Transform
+- uid: Global.MoveAbleLogic_Transform.OnMove(System.Single,System.Single,System.Single)
+  name: OnMove(Single, Single, Single)
+  href: api/Global.MoveAbleLogic_Transform.html#Global_MoveAbleLogic_Transform_OnMove_System_Single_System_Single_System_Single_
+  commentId: M:Global.MoveAbleLogic_Transform.OnMove(System.Single,System.Single,System.Single)
+  fullName: MoveAbleLogic_Transform.OnMove(System.Single, System.Single, System.Single)
+  nameWithType: MoveAbleLogic_Transform.OnMove(Single, Single, Single)
+- uid: Global.MoveAbleLogic_Transform.OnMove*
+  name: OnMove
+  href: api/Global.MoveAbleLogic_Transform.html#Global_MoveAbleLogic_Transform_OnMove_
+  commentId: Overload:Global.MoveAbleLogic_Transform.OnMove
+  isSpec: "True"
+  fullName: MoveAbleLogic_Transform.OnMove
+  nameWithType: MoveAbleLogic_Transform.OnMove
+- uid: Global.Spawner
+  name: Spawner
+  href: api/Global.Spawner.html
+  commentId: T:Global.Spawner
+  fullName: Spawner
+  nameWithType: Spawner
+- uid: Global.Spawner.arrSpawnObject
+  name: arrSpawnObject
+  href: api/Global.Spawner.html#Global_Spawner_arrSpawnObject
+  commentId: F:Global.Spawner.arrSpawnObject
+  fullName: Spawner.arrSpawnObject
+  nameWithType: Spawner.arrSpawnObject
+- uid: Global.Spawner.DoAdd(Spawner.SpawnInfo[])
+  name: DoAdd(Spawner.SpawnInfo[])
+  href: api/Global.Spawner.html#Global_Spawner_DoAdd_Spawner_SpawnInfo___
+  commentId: M:Global.Spawner.DoAdd(Spawner.SpawnInfo[])
+  name.vb: DoAdd(Spawner.SpawnInfo())
+  fullName: Spawner.DoAdd(Spawner.SpawnInfo[])
+  fullName.vb: Spawner.DoAdd(Spawner.SpawnInfo())
+  nameWithType: Spawner.DoAdd(Spawner.SpawnInfo[])
+  nameWithType.vb: Spawner.DoAdd(Spawner.SpawnInfo())
+- uid: Global.Spawner.DoAdd*
+  name: DoAdd
+  href: api/Global.Spawner.html#Global_Spawner_DoAdd_
+  commentId: Overload:Global.Spawner.DoAdd
+  isSpec: "True"
+  fullName: Spawner.DoAdd
+  nameWithType: Spawner.DoAdd
+- uid: Global.Spawner.DoClear
+  name: DoClear()
+  href: api/Global.Spawner.html#Global_Spawner_DoClear
+  commentId: M:Global.Spawner.DoClear
+  fullName: Spawner.DoClear()
+  nameWithType: Spawner.DoClear()
+- uid: Global.Spawner.DoClear*
+  name: DoClear
+  href: api/Global.Spawner.html#Global_Spawner_DoClear_
+  commentId: Overload:Global.Spawner.DoClear
+  isSpec: "True"
+  fullName: Spawner.DoClear
+  nameWithType: Spawner.DoClear
+- uid: Global.Spawner.DoInit(Rect,Spawner.SpawnInfo[])
+  name: DoInit(Rect, Spawner.SpawnInfo[])
+  href: api/Global.Spawner.html#Global_Spawner_DoInit_Rect_Spawner_SpawnInfo___
+  commentId: M:Global.Spawner.DoInit(Rect,Spawner.SpawnInfo[])
+  name.vb: DoInit(Rect, Spawner.SpawnInfo())
+  fullName: Spawner.DoInit(Rect, Spawner.SpawnInfo[])
+  fullName.vb: Spawner.DoInit(Rect, Spawner.SpawnInfo())
+  nameWithType: Spawner.DoInit(Rect, Spawner.SpawnInfo[])
+  nameWithType.vb: Spawner.DoInit(Rect, Spawner.SpawnInfo())
+- uid: Global.Spawner.DoInit*
+  name: DoInit
+  href: api/Global.Spawner.html#Global_Spawner_DoInit_
+  commentId: Overload:Global.Spawner.DoInit
+  isSpec: "True"
+  fullName: Spawner.DoInit
+  nameWithType: Spawner.DoInit
+- uid: Global.Spawner.IRandomAble
+  name: Spawner.IRandomAble
+  href: api/Global.Spawner.IRandomAble.html
+  commentId: T:Global.Spawner.IRandomAble
+  fullName: Spawner.IRandomAble
+  nameWithType: Spawner.IRandomAble
+- uid: Global.Spawner.IRandomAble.IRandomAble_GetRandomWeight
+  name: IRandomAble_GetRandomWeight()
+  href: api/Global.Spawner.IRandomAble.html#Global_Spawner_IRandomAble_IRandomAble_GetRandomWeight
+  commentId: M:Global.Spawner.IRandomAble.IRandomAble_GetRandomWeight
+  fullName: Spawner.IRandomAble.IRandomAble_GetRandomWeight()
+  nameWithType: Spawner.IRandomAble.IRandomAble_GetRandomWeight()
+- uid: Global.Spawner.IRandomAble.IRandomAble_GetRandomWeight*
+  name: IRandomAble_GetRandomWeight
+  href: api/Global.Spawner.IRandomAble.html#Global_Spawner_IRandomAble_IRandomAble_GetRandomWeight_
+  commentId: Overload:Global.Spawner.IRandomAble.IRandomAble_GetRandomWeight
+  isSpec: "True"
+  fullName: Spawner.IRandomAble.IRandomAble_GetRandomWeight
+  nameWithType: Spawner.IRandomAble.IRandomAble_GetRandomWeight
+- uid: Global.Spawner.ISpawnAble
+  name: Spawner.ISpawnAble
+  href: api/Global.Spawner.ISpawnAble.html
+  commentId: T:Global.Spawner.ISpawnAble
+  fullName: Spawner.ISpawnAble
+  nameWithType: Spawner.ISpawnAble
+- uid: Global.Spawner.ISpawnAble.ISpawnAble_GetSpawnObject
+  name: ISpawnAble_GetSpawnObject()
+  href: api/Global.Spawner.ISpawnAble.html#Global_Spawner_ISpawnAble_ISpawnAble_GetSpawnObject
+  commentId: M:Global.Spawner.ISpawnAble.ISpawnAble_GetSpawnObject
+  fullName: Spawner.ISpawnAble.ISpawnAble_GetSpawnObject()
+  nameWithType: Spawner.ISpawnAble.ISpawnAble_GetSpawnObject()
+- uid: Global.Spawner.ISpawnAble.ISpawnAble_GetSpawnObject*
+  name: ISpawnAble_GetSpawnObject
+  href: api/Global.Spawner.ISpawnAble.html#Global_Spawner_ISpawnAble_ISpawnAble_GetSpawnObject_
+  commentId: Overload:Global.Spawner.ISpawnAble.ISpawnAble_GetSpawnObject
+  isSpec: "True"
+  fullName: Spawner.ISpawnAble.ISpawnAble_GetSpawnObject
+  nameWithType: Spawner.ISpawnAble.ISpawnAble_GetSpawnObject
+- uid: Global.Spawner.SpawnInfo
+  name: Spawner.SpawnInfo
+  href: api/Global.Spawner.SpawnInfo.html
+  commentId: T:Global.Spawner.SpawnInfo
+  fullName: Spawner.SpawnInfo
+  nameWithType: Spawner.SpawnInfo
+- uid: Global.Spawner.SpawnInfo.fRandomWeight
+  name: fRandomWeight
+  href: api/Global.Spawner.SpawnInfo.html#Global_Spawner_SpawnInfo_fRandomWeight
+  commentId: F:Global.Spawner.SpawnInfo.fRandomWeight
+  fullName: Spawner.SpawnInfo.fRandomWeight
+  nameWithType: Spawner.SpawnInfo.fRandomWeight
+- uid: Global.Spawner.SpawnInfo.IRandomAble_GetRandomWeight
+  name: IRandomAble_GetRandomWeight()
+  href: api/Global.Spawner.SpawnInfo.html#Global_Spawner_SpawnInfo_IRandomAble_GetRandomWeight
+  commentId: M:Global.Spawner.SpawnInfo.IRandomAble_GetRandomWeight
+  fullName: Spawner.SpawnInfo.IRandomAble_GetRandomWeight()
+  nameWithType: Spawner.SpawnInfo.IRandomAble_GetRandomWeight()
+- uid: Global.Spawner.SpawnInfo.IRandomAble_GetRandomWeight*
+  name: IRandomAble_GetRandomWeight
+  href: api/Global.Spawner.SpawnInfo.html#Global_Spawner_SpawnInfo_IRandomAble_GetRandomWeight_
+  commentId: Overload:Global.Spawner.SpawnInfo.IRandomAble_GetRandomWeight
+  isSpec: "True"
+  fullName: Spawner.SpawnInfo.IRandomAble_GetRandomWeight
+  nameWithType: Spawner.SpawnInfo.IRandomAble_GetRandomWeight
+- uid: Global.Spawner.SpawnInfo.ISpawnAble_GetSpawnObject
+  name: ISpawnAble_GetSpawnObject()
+  href: api/Global.Spawner.SpawnInfo.html#Global_Spawner_SpawnInfo_ISpawnAble_GetSpawnObject
+  commentId: M:Global.Spawner.SpawnInfo.ISpawnAble_GetSpawnObject
+  fullName: Spawner.SpawnInfo.ISpawnAble_GetSpawnObject()
+  nameWithType: Spawner.SpawnInfo.ISpawnAble_GetSpawnObject()
+- uid: Global.Spawner.SpawnInfo.ISpawnAble_GetSpawnObject*
+  name: ISpawnAble_GetSpawnObject
+  href: api/Global.Spawner.SpawnInfo.html#Global_Spawner_SpawnInfo_ISpawnAble_GetSpawnObject_
+  commentId: Overload:Global.Spawner.SpawnInfo.ISpawnAble_GetSpawnObject
+  isSpec: "True"
+  fullName: Spawner.SpawnInfo.ISpawnAble_GetSpawnObject
+  nameWithType: Spawner.SpawnInfo.ISpawnAble_GetSpawnObject
+- uid: Global.Spawner.SpawnInfo.pSpawnObject
+  name: pSpawnObject
+  href: api/Global.Spawner.SpawnInfo.html#Global_Spawner_SpawnInfo_pSpawnObject
+  commentId: F:Global.Spawner.SpawnInfo.pSpawnObject
+  fullName: Spawner.SpawnInfo.pSpawnObject
+  nameWithType: Spawner.SpawnInfo.pSpawnObject
+- uid: Global.SpawnManager
+  name: SpawnManager
+  href: api/Global.SpawnManager.html
+  commentId: T:Global.SpawnManager
+  fullName: SpawnManager
+  nameWithType: SpawnManager
+- uid: Global.SpawnManager.pObject_Left
+  name: pObject_Left
+  href: api/Global.SpawnManager.html#Global_SpawnManager_pObject_Left
+  commentId: F:Global.SpawnManager.pObject_Left
+  fullName: SpawnManager.pObject_Left
+  nameWithType: SpawnManager.pObject_Left
 - uid: Tests
   name: Tests
   href: api/Tests.html

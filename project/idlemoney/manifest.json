@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.DesktopInput.html",
-          "hash": "AzmrwnzL0c36OrnvunfYJA=="
+          "hash": "Y2Pp6LqB4hpLQV+tMFkXBw=="
         }
       },
       "is_incremental": false,
@@ -38,11 +38,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.Moveable.yml",
+      "source_relative_path": "api/Global.MoveAble.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.Moveable.html",
-          "hash": "DWYvPvD1b4mCXcZ0ATEVrA=="
+          "relative_path": "api/Global.MoveAble.html",
+          "hash": "KOCnODoErAvFAKdELm21TA=="
         }
       },
       "is_incremental": false,
@@ -50,11 +50,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.MoveableLobic_Transform.yml",
+      "source_relative_path": "api/Global.MoveAbleLogic.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.MoveableLobic_Transform.html",
-          "hash": "1ynN1glCpKdmJS64u4zieA=="
+          "relative_path": "api/Global.MoveAbleLogic.html",
+          "hash": "vrIYjNNnpGq08kOdX4RiDQ=="
         }
       },
       "is_incremental": false,
@@ -62,11 +62,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.MoveableLogic.yml",
+      "source_relative_path": "api/Global.MoveAbleLogic_Rigidbody2D.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.MoveableLogic.html",
-          "hash": "6OspJYA80tPv39eOGoEYoA=="
+          "relative_path": "api/Global.MoveAbleLogic_Rigidbody2D.html",
+          "hash": "GWpad6KsIBB7SCr8bSxKrQ=="
         }
       },
       "is_incremental": false,
@@ -74,11 +74,71 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.MoveableLogic_Rigidbody2D.yml",
+      "source_relative_path": "api/Global.MoveAbleLogic_Transform.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.MoveableLogic_Rigidbody2D.html",
-          "hash": "/VLGGe1Q+cdCQzt4gqzk2Q=="
+          "relative_path": "api/Global.MoveAbleLogic_Transform.html",
+          "hash": "aD2gj3KG0F5XjfAOQGE3ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SpawnManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SpawnManager.html",
+          "hash": "vcJpFj1msPB07ytL5f5g/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Spawner.IRandomAble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Spawner.IRandomAble.html",
+          "hash": "ieuNQ9Q2FXHnCBVmIYPeTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Spawner.ISpawnAble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Spawner.ISpawnAble.html",
+          "hash": "kPX8WP3fJn0b5uGA6LrVHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Spawner.SpawnInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Spawner.SpawnInfo.html",
+          "hash": "drICCl/tG5S8/sd4dP7wOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Spawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Spawner.html",
+          "hash": "8OWZ2nGUMucAHEJFYc16lA=="
         }
       },
       "is_incremental": false,
@@ -90,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "J6YUIRnkiEmhYQ3zzu09cw=="
+          "hash": "sNh+rUvPKB2DfJT9nWbHIg=="
         }
       },
       "is_incremental": false,
@@ -138,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "0V7CgGI6x6k7g4+yVSkUmg=="
+          "hash": "cL3LZycW1elwppG7r35S/g=="
         }
       },
       "is_incremental": false,
@@ -213,7 +273,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 9,
+          "total_file_count": 14,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
