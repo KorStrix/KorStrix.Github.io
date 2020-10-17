@@ -1,73 +1,23 @@
 {
-  "api/CollisionCube.CubeComponent.html": {
-    "href": "api/CollisionCube.CubeComponent.html",
-    "title": "Struct CubeComponent | Example Title",
-    "keywords": "Struct CubeComponent Implements IComponentData Namespace : CollisionCube Assembly : Assembly-CSharp.dll Syntax [Serializable] public struct CubeComponent : IComponentData Fields | Improve this Doc View Source cubeType Declaration public CubeType cubeType Field Value Type Description CubeType Implements IComponentData (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
-  },
-  "api/CollisionCube.CubeType.html": {
-    "href": "api/CollisionCube.CubeType.html",
-    "title": "Enum CubeType | Example Title",
-    "keywords": "Enum CubeType Namespace : CollisionCube Assembly : Assembly-CSharp.dll Syntax public enum CubeType Fields Name Description Green Red (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
-  },
-  "api/CollisionCube.html": {
-    "href": "api/CollisionCube.html",
-    "title": "Namespace CollisionCube | Example Title",
-    "keywords": "Namespace CollisionCube Classes MoveSystem Structs CubeComponent MoveSpeedComponentData Enums CubeType (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
-  },
-  "api/CollisionCube.MoveSpeedComponentData.html": {
-    "href": "api/CollisionCube.MoveSpeedComponentData.html",
-    "title": "Struct MoveSpeedComponentData | Example Title",
-    "keywords": "Struct MoveSpeedComponentData Implements IComponentData Namespace : CollisionCube Assembly : Assembly-CSharp.dll Syntax [Serializable] public struct MoveSpeedComponentData : IComponentData Fields | Improve this Doc View Source moveSpeed 움직일 속도 Declaration public float moveSpeed Field Value Type Description Single Implements IComponentData (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
-  },
-  "api/CollisionCube.MoveSystem.html": {
-    "href": "api/CollisionCube.MoveSystem.html",
-    "title": "Class MoveSystem | Example Title",
-    "keywords": "Class MoveSystem Inheritance Object MoveSystem Namespace : CollisionCube Assembly : Assembly-CSharp.dll Syntax public class MoveSystem : SystemBase Methods | Improve this Doc View Source OnUpdate() Declaration protected override void OnUpdate() (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
-  },
-  "api/Global.CollisionSystem.html": {
-    "href": "api/Global.CollisionSystem.html",
-    "title": "Class CollisionSystem | Example Title",
-    "keywords": "Class CollisionSystem Inheritance Object CollisionSystem Namespace : Global Assembly : Assembly-CSharp.dll Syntax public class CollisionSystem : SystemBase Methods | Improve this Doc View Source OnUpdate() Declaration protected override void OnUpdate() (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
-  },
   "api/Global.html": {
     "href": "api/Global.html",
     "title": "Namespace Global | Example Title",
-    "keywords": "Namespace Global Classes CollisionSystem ObjectGenerator (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
+    "keywords": "Namespace Global Classes Joystick Moveable (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
   },
-  "api/Global.ObjectGenerator.html": {
-    "href": "api/Global.ObjectGenerator.html",
-    "title": "Class ObjectGenerator | Example Title",
-    "keywords": "Class ObjectGenerator Inheritance Object ObjectGenerator Namespace : Global Assembly : Assembly-CSharp.dll Syntax public class ObjectGenerator : MonoBehaviour Fields | Improve this Doc View Source NumberOfObjects Declaration public int NumberOfObjects Field Value Type Description Int32 | Improve this Doc View Source Prefab Declaration public GameObject Prefab Field Value Type Description GameObject | Improve this Doc View Source XSpread Declaration public int XSpread Field Value Type Description Int32 | Improve this Doc View Source YSpread Declaration public int YSpread Field Value Type Description Int32 | Improve this Doc View Source ZSpread Declaration public int ZSpread Field Value Type Description Int32 (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
+  "api/Global.Joystick.html": {
+    "href": "api/Global.Joystick.html",
+    "title": "Class Joystick | Example Title",
+    "keywords": "Class Joystick Inheritance Object Joystick Namespace : Global Assembly : Assembly-CSharp.dll Syntax public class Joystick (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
+  },
+  "api/Global.Moveable.html": {
+    "href": "api/Global.Moveable.html",
+    "title": "Class Moveable | Example Title",
+    "keywords": "Class Moveable Inheritance Object Moveable Namespace : Global Assembly : Assembly-CSharp.dll Syntax public class Moveable (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
   },
   "api/index.html": {
     "href": "api/index.html",
     "title": "PLACEHOLDER | Example Title",
     "keywords": "PLACEHOLDER TODO: Add .NET projects to the src folder and run docfx to generate REAL API Documentation ! (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
-  },
-  "api/MoveCube.Cube.html": {
-    "href": "api/MoveCube.Cube.html",
-    "title": "Class Cube | Example Title",
-    "keywords": "Class Cube GameObject Cube를 정의합니다. Inheritance Object Cube Implements IConvertGameObjectToEntity Namespace : MoveCube Assembly : Assembly-CSharp.dll Syntax public class Cube : MonoBehaviour, IConvertGameObjectToEntity Fields | Improve this Doc View Source isMoveable 움직일지 Declaration public bool isMoveable Field Value Type Description Boolean | Improve this Doc View Source moveSpeed 움직일 속도 Declaration public float moveSpeed Field Value Type Description Single Methods | Improve this Doc View Source Convert(Entity, EntityManager, GameObjectConversionSystem) 상속 GameObject를 Entity로 변환하는 코드입니다. Declaration public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem) Parameters Type Name Description Entity entity 이 엔티티에 어떤 Component를 넣을지 EntityManager dstManager GameObjectConversionSystem conversionSystem Implements IConvertGameObjectToEntity (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
-  },
-  "api/MoveCube.CubeComponent.html": {
-    "href": "api/MoveCube.CubeComponent.html",
-    "title": "Struct CubeComponent | Example Title",
-    "keywords": "Struct CubeComponent Implements IComponentData Namespace : MoveCube Assembly : Assembly-CSharp.dll Syntax [Serializable] public struct CubeComponent : IComponentData Implements IComponentData (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
-  },
-  "api/MoveCube.html": {
-    "href": "api/MoveCube.html",
-    "title": "Namespace MoveCube | Example Title",
-    "keywords": "Namespace MoveCube Classes Cube GameObject Cube를 정의합니다. MoveSystem 참고 코드 https://levelup.gitconnected.com/a-simple-guide-to-get-started-with-unity-ecs-b0e6a036e707 Structs CubeComponent MoveSpeedComponentData (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
-  },
-  "api/MoveCube.MoveSpeedComponentData.html": {
-    "href": "api/MoveCube.MoveSpeedComponentData.html",
-    "title": "Struct MoveSpeedComponentData | Example Title",
-    "keywords": "Struct MoveSpeedComponentData Implements IComponentData Namespace : MoveCube Assembly : Assembly-CSharp.dll Syntax [Serializable] public struct MoveSpeedComponentData : IComponentData Fields | Improve this Doc View Source moveSpeed 움직일 속도 Declaration public float moveSpeed Field Value Type Description Single Implements IComponentData (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
-  },
-  "api/MoveCube.MoveSystem.html": {
-    "href": "api/MoveCube.MoveSystem.html",
-    "title": "Class MoveSystem | Example Title",
-    "keywords": "Class MoveSystem 참고 코드 https://levelup.gitconnected.com/a-simple-guide-to-get-started-with-unity-ecs-b0e6a036e707 Inheritance Object MoveSystem Namespace : MoveCube Assembly : Assembly-CSharp.dll Syntax public class MoveSystem : SystemBase Methods | Improve this Doc View Source OnUpdate() Declaration protected override void OnUpdate() (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://strix-1.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); Please enable JavaScript to view the comments powered by Disqus."
   },
   "index.html": {
     "href": "index.html",

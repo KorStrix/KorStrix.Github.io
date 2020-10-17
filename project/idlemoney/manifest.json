@@ -14,11 +14,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CollisionCube.CubeComponent.yml",
+      "source_relative_path": "api/Global.Joystick.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CollisionCube.CubeComponent.html",
-          "hash": "UcRleAx4KqEOIaw5GR4/Ww=="
+          "relative_path": "api/Global.Joystick.html",
+          "hash": "FQdl8lcp/HtECLLOZ60TaQ=="
         }
       },
       "is_incremental": false,
@@ -26,71 +26,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CollisionCube.CubeType.yml",
+      "source_relative_path": "api/Global.Moveable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CollisionCube.CubeType.html",
-          "hash": "o2icFZFBsBTyvYFrSx2lkw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CollisionCube.MoveSpeedComponentData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CollisionCube.MoveSpeedComponentData.html",
-          "hash": "yYNnWdOoU9plEOqg4wDdGA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CollisionCube.MoveSystem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CollisionCube.MoveSystem.html",
-          "hash": "5I4niPqQhiGpEMQa5CdgGA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CollisionCube.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CollisionCube.html",
-          "hash": "AUbUuIvpuy1rbcCXr+RFJw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.CollisionSystem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.CollisionSystem.html",
-          "hash": "LE2bgOwxIRp7aHYlmZlgCw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.ObjectGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.ObjectGenerator.html",
-          "hash": "Snq5fNqwNhCmsItu+ucZtA=="
+          "relative_path": "api/Global.Moveable.html",
+          "hash": "gJ9NvsVru76qJDoNHTd8xg=="
         }
       },
       "is_incremental": false,
@@ -102,67 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "kKwH3GDA8aWOoFlSM7bGOw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MoveCube.Cube.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoveCube.Cube.html",
-          "hash": "AZrCJftv8nNa3DDVJv9LcA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MoveCube.CubeComponent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoveCube.CubeComponent.html",
-          "hash": "5BgAuvx0jicL1mrhA5hp2g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MoveCube.MoveSpeedComponentData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoveCube.MoveSpeedComponentData.html",
-          "hash": "g+OPXFFm9B1tLFudxj/Brg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MoveCube.MoveSystem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoveCube.MoveSystem.html",
-          "hash": "wwMChgha8p1YtNmhMGasKg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MoveCube.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoveCube.html",
-          "hash": "2tKuvf/Lfb5zCXqZESNJ7w=="
+          "hash": "eggVWLQCE/NBBqlIpdLbZQ=="
         }
       },
       "is_incremental": false,
@@ -186,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "xCHGulln7fLhW1ySzdiuEA=="
+          "hash": "KRf/J/Zeqdi48+2HiyPGSQ=="
         }
       },
       "is_incremental": false,
@@ -261,7 +141,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 13,
+          "total_file_count": 3,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
