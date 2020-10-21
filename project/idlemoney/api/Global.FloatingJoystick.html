@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class MoveAbleLogic_Rigidbody2D
+    <title>Class FloatingJoystick
    | Example Title </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class MoveAbleLogic_Rigidbody2D
+    <meta name="title" content="Class FloatingJoystick
    | Example Title ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -78,96 +78,86 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.MoveAbleLogic_Rigidbody2D">
+            <article class="content wrap" id="_content" data-uid="Global.FloatingJoystick">
   
   
-  <h1 id="Global_MoveAbleLogic_Rigidbody2D" data-uid="Global.MoveAbleLogic_Rigidbody2D" class="text-break">Class MoveAbleLogic_Rigidbody2D
+  <h1 id="Global_FloatingJoystick" data-uid="Global.FloatingJoystick" class="text-break">Class FloatingJoystick
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="Global.MoveAbleLogic.html">MoveAbleLogic</a></div>
-    <div class="level2"><span class="xref">MoveAbleLogic_Rigidbody2D</span></div>
+    <div class="level1"><a class="xref" href="Global.Joystick.html">Joystick</a></div>
+    <div class="level2"><span class="xref">FloatingJoystick</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IPointerDownHandler</span></div>
+    <div><span class="xref">IDragHandler</span></div>
+    <div><span class="xref">IPointerUpHandler</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_CreateLogic_Rigidbody2D_MonoBehaviour_">MoveAbleLogic.CreateLogic_Rigidbody2D(MonoBehaviour)</a>
+      <a class="xref" href="Global.Joystick.html#Global_Joystick_Horizontal">Joystick.Horizontal</a>
     </div>
     <div>
-      <a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_CreateLogic_Transform_MonoBehaviour_">MoveAbleLogic.CreateLogic_Transform(MonoBehaviour)</a>
+      <a class="xref" href="Global.Joystick.html#Global_Joystick_Vertical">Joystick.Vertical</a>
     </div>
     <div>
-      <a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_fMoveSpeed">MoveAbleLogic.fMoveSpeed</a>
+      <a class="xref" href="Global.Joystick.html#Global_Joystick_Direction">Joystick.Direction</a>
     </div>
     <div>
-      <a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_DoSet_MoveSpeed_System_Single_">MoveAbleLogic.DoSet_MoveSpeed(Single)</a>
+      <a class="xref" href="Global.Joystick.html#Global_Joystick_HandleRange">Joystick.HandleRange</a>
     </div>
     <div>
-      <a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_DoMove_System_Single_">MoveAbleLogic.DoMove(Single)</a>
+      <a class="xref" href="Global.Joystick.html#Global_Joystick_DeadZone">Joystick.DeadZone</a>
     </div>
     <div>
-      <a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_DoUpdate_System_Single_">MoveAbleLogic.DoUpdate(Single)</a>
+      <a class="xref" href="Global.Joystick.html#Global_Joystick_AxisOptions">Joystick.AxisOptions</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.Joystick.html#Global_Joystick_SnapX">Joystick.SnapX</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.Joystick.html#Global_Joystick_SnapY">Joystick.SnapY</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.Joystick.html#Global_Joystick_background">Joystick.background</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.Joystick.html#Global_Joystick_OnDrag_PointerEventData_">Joystick.OnDrag(PointerEventData)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.Joystick.html#Global_Joystick_HandleInput_System_Single_Vector2_Vector2_Camera_">Joystick.HandleInput(Single, Vector2, Vector2, Camera)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.Joystick.html#Global_Joystick_ScreenPointToAnchoredPosition_Vector2_">Joystick.ScreenPointToAnchoredPosition(Vector2)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: Main.dll</h6>
-  <h5 id="Global_MoveAbleLogic_Rigidbody2D_syntax">Syntax</h5>
+  <h5 id="Global_FloatingJoystick_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MoveAbleLogic_Rigidbody2D : MoveAbleLogic</code></pre>
+    <pre><code class="lang-csharp hljs">public class FloatingJoystick : Joystick, IPointerDownHandler, IDragHandler, IPointerUpHandler</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_MoveAbleLogic_Rigidbody2D__ctor_MonoBehaviour_.md&amp;value=---%0Auid%3A%20Global.MoveAbleLogic_Rigidbody2D.%23ctor(MonoBehaviour)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/MoveAble.cs/#L47">View Source</a>
-  </span>
-  <a id="Global_MoveAbleLogic_Rigidbody2D__ctor_" data-uid="Global.MoveAbleLogic_Rigidbody2D.#ctor*"></a>
-  <h4 id="Global_MoveAbleLogic_Rigidbody2D__ctor_MonoBehaviour_" data-uid="Global.MoveAbleLogic_Rigidbody2D.#ctor(MonoBehaviour)">MoveAbleLogic_Rigidbody2D(MonoBehaviour)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MoveAbleLogic_Rigidbody2D(MonoBehaviour pOwner)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">MonoBehaviour</span></td>
-        <td><span class="parametername">pOwner</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_MoveAbleLogic_Rigidbody2D_OnMove_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Global.MoveAbleLogic_Rigidbody2D.OnMove(System.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_FloatingJoystick_OnPointerDown_PointerEventData_.md&amp;value=---%0Auid%3A%20Global.FloatingJoystick.OnPointerDown(PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/MoveAble.cs/#L52">View Source</a>
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs/#L14">View Source</a>
   </span>
-  <a id="Global_MoveAbleLogic_Rigidbody2D_OnMove_" data-uid="Global.MoveAbleLogic_Rigidbody2D.OnMove*"></a>
-  <h4 id="Global_MoveAbleLogic_Rigidbody2D_OnMove_System_Single_System_Single_System_Single_" data-uid="Global.MoveAbleLogic_Rigidbody2D.OnMove(System.Single,System.Single,System.Single)">OnMove(Single, Single, Single)</h4>
+  <a id="Global_FloatingJoystick_OnPointerDown_" data-uid="Global.FloatingJoystick.OnPointerDown*"></a>
+  <h4 id="Global_FloatingJoystick_OnPointerDown_PointerEventData_" data-uid="Global.FloatingJoystick.OnPointerDown(PointerEventData)">OnPointerDown(PointerEventData)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnMove(float fMoveX_0_1, float fMoveSpeed, float fDeltaTime)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void OnPointerDown(PointerEventData eventData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -180,24 +170,75 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">fMoveX_0_1</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">fMoveSpeed</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">fDeltaTime</span></td>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_OnMove_System_Single_System_Single_System_Single_">MoveAbleLogic.OnMove(Single, Single, Single)</a></div>
+  <div><a class="xref" href="Global.Joystick.html#Global_Joystick_OnPointerDown_PointerEventData_">Joystick.OnPointerDown(PointerEventData)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_FloatingJoystick_OnPointerUp_PointerEventData_.md&amp;value=---%0Auid%3A%20Global.FloatingJoystick.OnPointerUp(PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs/#L21">View Source</a>
+  </span>
+  <a id="Global_FloatingJoystick_OnPointerUp_" data-uid="Global.FloatingJoystick.OnPointerUp*"></a>
+  <h4 id="Global_FloatingJoystick_OnPointerUp_PointerEventData_" data-uid="Global.FloatingJoystick.OnPointerUp(PointerEventData)">OnPointerUp(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnPointerUp(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.Joystick.html#Global_Joystick_OnPointerUp_PointerEventData_">Joystick.OnPointerUp(PointerEventData)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_FloatingJoystick_Start.md&amp;value=---%0Auid%3A%20Global.FloatingJoystick.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs/#L8">View Source</a>
+  </span>
+  <a id="Global_FloatingJoystick_Start_" data-uid="Global.FloatingJoystick.Start*"></a>
+  <h4 id="Global_FloatingJoystick_Start" data-uid="Global.FloatingJoystick.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.Joystick.html#Global_Joystick_Start">Joystick.Start()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IPointerDownHandler</span>
+  </div>
+  <div>
+      <span class="xref">IDragHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerUpHandler</span>
+  </div>
 <div id="disqus_thread"></div>
                 <script>
                 (function() { // DON'T EDIT BELOW THIS LINE
@@ -216,10 +257,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_MoveAbleLogic_Rigidbody2D.md&amp;value=---%0Auid%3A%20Global.MoveAbleLogic_Rigidbody2D%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_FloatingJoystick.md&amp;value=---%0Auid%3A%20Global.FloatingJoystick%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/MoveAble.cs/#L43" class="contribution-link">View Source</a>
+                    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs/#L6" class="contribution-link">View Source</a>
                   </li>
                   <li>
                     <a href="#disqus_thread" class="contribution-link">0 Comments</a>

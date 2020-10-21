@@ -14,6 +14,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.AxisOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AxisOptions.html",
+          "hash": "zHcwuqFRg+iiSjpGex7PqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Character.ECharacterState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Character.ECharacterState.html",
+          "hash": "lTlwsmnpPZQdESmEjj/h3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Character.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Character.html",
+          "hash": "HuSikchaC343OuAlLfijMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CharacterAnimationLogic_SimpleCitizen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CharacterAnimationLogic_SimpleCitizen.html",
+          "hash": "Nv57Qw/T0kN/SxlRekAYgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CharacterAnimator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CharacterAnimator.html",
+          "hash": "DvZbs9P5NwCeLqDHSbcwXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.DesktopInput.yml",
       "output": {
         ".html": {
@@ -26,11 +86,155 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.DynamicJoystick.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DynamicJoystick.html",
+          "hash": "7MS3oEFOJ6HEznAcjAPeqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DynamicJoystickEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DynamicJoystickEditor.html",
+          "hash": "ZuEVDUKAeHDeBVwU/sJT4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.FixedJoystick.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.FixedJoystick.html",
+          "hash": "+1djlWXsd3d9kxRTKl/zfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.FloatingJoystick.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.FloatingJoystick.html",
+          "hash": "YlFOzMAd4vIC+QLcxqWyyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.FloatingJoystickEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.FloatingJoystickEditor.html",
+          "hash": "xOJCd029nBVcAsz6l0HhyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IAnimationLogic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IAnimationLogic.html",
+          "hash": "wSFkgmVOqo9uqblNYt8J8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ICharacterInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ICharacterInput.html",
+          "hash": "GPfuJw6VWZxSkC3qv7XpFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.Joystick.yml",
       "output": {
         ".html": {
           "relative_path": "api/Global.Joystick.html",
-          "hash": "RJ75PPAxb1NkSgg+BDJiHA=="
+          "hash": "7HO3pm8JQGrUbtsDuubWDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.JoystickEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.JoystickEditor.html",
+          "hash": "o1FGM0Rv7ywl+59KQoljuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.JoystickPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.JoystickPlayer.html",
+          "hash": "Om/4jea14y3o11OGWJbjEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.JoystickPlayerExample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.JoystickPlayerExample.html",
+          "hash": "P6/cgqQMCoPK3tpvKbinqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.JoystickSetterExample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.JoystickSetterExample.html",
+          "hash": "pBy+0sTijAv7/SoJ2trbhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.JoystickType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.JoystickType.html",
+          "hash": "XlxEycsYx6R5c29sYC6EBA=="
         }
       },
       "is_incremental": false,
@@ -42,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MoveAble.html",
-          "hash": "t2siipbYhuUVWnQKWQ6djw=="
+          "hash": "zk8V1tw3vLJvfqCMMHL3Uw=="
         }
       },
       "is_incremental": false,
@@ -54,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MoveAbleLogic.html",
-          "hash": "43LF8cV1rchX7HqsOakzMg=="
+          "hash": "vrIYjNNnpGq08kOdX4RiDQ=="
         }
       },
       "is_incremental": false,
@@ -66,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MoveAbleLogic_Rigidbody2D.html",
-          "hash": "kN/xrzAoVj20O+vSZJ7XKQ=="
+          "hash": "GWpad6KsIBB7SCr8bSxKrQ=="
         }
       },
       "is_incremental": false,
@@ -78,7 +282,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MoveAbleLogic_Transform.html",
-          "hash": "q7pY7oykpsHIr/K+RY3DKw=="
+          "hash": "aD2gj3KG0F5XjfAOQGE3ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ObjectBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ObjectBase.html",
+          "hash": "2SJ+INCqOUQH2FDJfMQGbQ=="
         }
       },
       "is_incremental": false,
@@ -146,11 +362,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.VariableJoystick.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.VariableJoystick.html",
+          "hash": "pErjihW+tBXCJIjclb+7xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.VariableJoystickEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.VariableJoystickEditor.html",
+          "hash": "2ZuEN/jztf8Q73Pui7wyhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.yml",
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "sNh+rUvPKB2DfJT9nWbHIg=="
+          "hash": "68TbRNkCxlA+WO5hNQzGpA=="
         }
       },
       "is_incremental": false,
@@ -198,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "cL3LZycW1elwppG7r35S/g=="
+          "hash": "Yi1EkJhXqhho+914Lg6B7Q=="
         }
       },
       "is_incremental": false,
@@ -273,7 +513,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 14,
+          "total_file_count": 34,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

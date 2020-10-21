@@ -89,12 +89,512 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">Joystick</span></div>
+      <div class="level2"><a class="xref" href="Global.DynamicJoystick.html">DynamicJoystick</a></div>
+      <div class="level2"><a class="xref" href="Global.FixedJoystick.html">FixedJoystick</a></div>
+      <div class="level2"><a class="xref" href="Global.FloatingJoystick.html">FloatingJoystick</a></div>
+      <div class="level2"><a class="xref" href="Global.VariableJoystick.html">VariableJoystick</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IPointerDownHandler</span></div>
+    <div><span class="xref">IDragHandler</span></div>
+    <div><span class="xref">IPointerUpHandler</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: Main.dll</h6>
   <h5 id="Global_Joystick_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Joystick</code></pre>
+    <pre><code class="lang-csharp hljs">public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_Joystick_background.md&amp;value=---%0Auid%3A%20Global.Joystick.background%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Base/Joystick.cs/#L34">View Source</a>
+  </span>
+  <h4 id="Global_Joystick_background" data-uid="Global.Joystick.background">background</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected RectTransform background</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RectTransform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_Joystick_AxisOptions.md&amp;value=---%0Auid%3A%20Global.Joystick.AxisOptions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Base/Joystick.cs/#L24">View Source</a>
+  </span>
+  <a id="Global_Joystick_AxisOptions_" data-uid="Global.Joystick.AxisOptions*"></a>
+  <h4 id="Global_Joystick_AxisOptions" data-uid="Global.Joystick.AxisOptions">AxisOptions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AxisOptions AxisOptions { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.AxisOptions.html">AxisOptions</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_Joystick_DeadZone.md&amp;value=---%0Auid%3A%20Global.Joystick.DeadZone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Base/Joystick.cs/#L18">View Source</a>
+  </span>
+  <a id="Global_Joystick_DeadZone_" data-uid="Global.Joystick.DeadZone*"></a>
+  <h4 id="Global_Joystick_DeadZone" data-uid="Global.Joystick.DeadZone">DeadZone</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float DeadZone { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_Joystick_Direction.md&amp;value=---%0Auid%3A%20Global.Joystick.Direction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Base/Joystick.cs/#L10">View Source</a>
+  </span>
+  <a id="Global_Joystick_Direction_" data-uid="Global.Joystick.Direction*"></a>
+  <h4 id="Global_Joystick_Direction" data-uid="Global.Joystick.Direction">Direction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 Direction { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_Joystick_HandleRange.md&amp;value=---%0Auid%3A%20Global.Joystick.HandleRange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Base/Joystick.cs/#L12">View Source</a>
+  </span>
+  <a id="Global_Joystick_HandleRange_" data-uid="Global.Joystick.HandleRange*"></a>
+  <h4 id="Global_Joystick_HandleRange" data-uid="Global.Joystick.HandleRange">HandleRange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float HandleRange { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_Joystick_Horizontal.md&amp;value=---%0Auid%3A%20Global.Joystick.Horizontal%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Base/Joystick.cs/#L8">View Source</a>
+  </span>
+  <a id="Global_Joystick_Horizontal_" data-uid="Global.Joystick.Horizontal*"></a>
+  <h4 id="Global_Joystick_Horizontal" data-uid="Global.Joystick.Horizontal">Horizontal</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Horizontal { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_Joystick_SnapX.md&amp;value=---%0Auid%3A%20Global.Joystick.SnapX%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Base/Joystick.cs/#L25">View Source</a>
+  </span>
+  <a id="Global_Joystick_SnapX_" data-uid="Global.Joystick.SnapX*"></a>
+  <h4 id="Global_Joystick_SnapX" data-uid="Global.Joystick.SnapX">SnapX</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SnapX { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_Joystick_SnapY.md&amp;value=---%0Auid%3A%20Global.Joystick.SnapY%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Base/Joystick.cs/#L26">View Source</a>
+  </span>
+  <a id="Global_Joystick_SnapY_" data-uid="Global.Joystick.SnapY*"></a>
+  <h4 id="Global_Joystick_SnapY" data-uid="Global.Joystick.SnapY">SnapY</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SnapY { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_Joystick_Vertical.md&amp;value=---%0Auid%3A%20Global.Joystick.Vertical%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Base/Joystick.cs/#L9">View Source</a>
+  </span>
+  <a id="Global_Joystick_Vertical_" data-uid="Global.Joystick.Vertical*"></a>
+  <h4 id="Global_Joystick_Vertical" data-uid="Global.Joystick.Vertical">Vertical</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Vertical { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_Joystick_HandleInput_System_Single_Vector2_Vector2_Camera_.md&amp;value=---%0Auid%3A%20Global.Joystick.HandleInput(System.Single%2CVector2%2CVector2%2CCamera)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Base/Joystick.cs/#L79">View Source</a>
+  </span>
+  <a id="Global_Joystick_HandleInput_" data-uid="Global.Joystick.HandleInput*"></a>
+  <h4 id="Global_Joystick_HandleInput_System_Single_Vector2_Vector2_Camera_" data-uid="Global.Joystick.HandleInput(System.Single,Vector2,Vector2,Camera)">HandleInput(Single, Vector2, Vector2, Camera)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void HandleInput(float magnitude, Vector2 normalised, Vector2 radius, Camera cam)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">magnitude</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">normalised</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">radius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Camera</span></td>
+        <td><span class="parametername">cam</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_Joystick_OnDrag_PointerEventData_.md&amp;value=---%0Auid%3A%20Global.Joystick.OnDrag(PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Base/Joystick.cs/#L65">View Source</a>
+  </span>
+  <a id="Global_Joystick_OnDrag_" data-uid="Global.Joystick.OnDrag*"></a>
+  <h4 id="Global_Joystick_OnDrag_PointerEventData_" data-uid="Global.Joystick.OnDrag(PointerEventData)">OnDrag(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDrag(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_Joystick_OnPointerDown_PointerEventData_.md&amp;value=---%0Auid%3A%20Global.Joystick.OnPointerDown(PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Base/Joystick.cs/#L60">View Source</a>
+  </span>
+  <a id="Global_Joystick_OnPointerDown_" data-uid="Global.Joystick.OnPointerDown*"></a>
+  <h4 id="Global_Joystick_OnPointerDown_PointerEventData_" data-uid="Global.Joystick.OnPointerDown(PointerEventData)">OnPointerDown(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnPointerDown(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_Joystick_OnPointerUp_PointerEventData_.md&amp;value=---%0Auid%3A%20Global.Joystick.OnPointerUp(PointerEventData)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Base/Joystick.cs/#L132">View Source</a>
+  </span>
+  <a id="Global_Joystick_OnPointerUp_" data-uid="Global.Joystick.OnPointerUp*"></a>
+  <h4 id="Global_Joystick_OnPointerUp_PointerEventData_" data-uid="Global.Joystick.OnPointerUp(PointerEventData)">OnPointerUp(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnPointerUp(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_Joystick_ScreenPointToAnchoredPosition_Vector2_.md&amp;value=---%0Auid%3A%20Global.Joystick.ScreenPointToAnchoredPosition(Vector2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Base/Joystick.cs/#L138">View Source</a>
+  </span>
+  <a id="Global_Joystick_ScreenPointToAnchoredPosition_" data-uid="Global.Joystick.ScreenPointToAnchoredPosition*"></a>
+  <h4 id="Global_Joystick_ScreenPointToAnchoredPosition_Vector2_" data-uid="Global.Joystick.ScreenPointToAnchoredPosition(Vector2)">ScreenPointToAnchoredPosition(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector2 ScreenPointToAnchoredPosition(Vector2 screenPosition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">screenPosition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_Joystick_Start.md&amp;value=---%0Auid%3A%20Global.Joystick.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Base/Joystick.cs/#L43">View Source</a>
+  </span>
+  <a id="Global_Joystick_Start_" data-uid="Global.Joystick.Start*"></a>
+  <h4 id="Global_Joystick_Start" data-uid="Global.Joystick.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IPointerDownHandler</span>
+  </div>
+  <div>
+      <span class="xref">IDragHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerUpHandler</span>
   </div>
 <div id="disqus_thread"></div>
                 <script>
@@ -117,7 +617,7 @@
                     <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_Joystick.md&amp;value=---%0Auid%3A%20Global.Joystick%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/Joystick.cs/#L16" class="contribution-link">View Source</a>
+                    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/ZZ.ScriptAssets/Joystick Pack/Scripts/Base/Joystick.cs/#L6" class="contribution-link">View Source</a>
                   </li>
                   <li>
                     <a href="#disqus_thread" class="contribution-link">0 Comments</a>
