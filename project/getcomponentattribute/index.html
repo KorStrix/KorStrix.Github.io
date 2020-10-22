@@ -1,0 +1,332 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>&#44060;&#50836; | Example Title </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="&#44060;&#50836; | Example Title ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<p><img src="https://img.shields.io/badge/Unity-5.6%2B-red" alt="UnityVersion badge">
+<img src="https://img.shields.io/badge/platform-Standalone%20%7C%20Android%20%7C%20IOS-green" alt="Platform badge">
+<a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License badge"></a></p>
+<h1 id="개요">개요</h1>
+<p>유니티에서 자주 사용되는 <strong>GetComponent, GetComponentInParents, GetComponentInChildren 등을</strong></p>
+<p>속성으로 구현하여 <strong>원하는 때에 해당 변수나 프로퍼티에 자동으로 할당</strong> 할 수 있는 프로젝트입니다.</p>
+<p><img src="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/master/Images_ForGhithub/Preview.gif?raw=true" alt=""></p>
+<ul>
+<li><strong>상기 이미지는 오딘 에셋을 사용한 예시입니다.</strong>
+<ul>
+<li>오딘을 사용하지 않을 경우 Property, Dictionary 등이 인스펙터에 나타나지 않습니다.</li>
+<li><strong>(Property, Dictionary도 동작은 정상동작합니다. 인스펙터에 그려지지만 않을 뿐입니다.)</strong></li>
+</ul>
+</li>
+</ul>
+<br>
+<h1 id="예시">예시</h1>
+<h3 id="before-workflow">Before Workflow</h3>
+<pre><code class="lang-csharp">// 기존 작업 방식은 public이나
+public GameObject pLegacyWorkflow_Public_Inspector_Link;
+
+// (private || protected) &amp;&amp; SerilizeField로 변경 후 인스펙터에 일일이 드래그 &amp; 드랍방식
+[SerializeField]
+private GameObject pLegacyWorkflow_Private_Inspector_Link;
+
+[SerializeField]
+private GameObject pLegacyWorkflow_Private_InScript;
+
+public Rigidbody pLegacyWorkflow_Property { get; private set; }
+
+
+private void Awake()
+{
+  // 혹은 스크립트에 일일이 할당하는 로직
+  pLegacyWorkflow_Private_InScript = FindChildObject(&quot;Require Object Name&quot;);
+  pLegacyWorkflow_Property = GetComponentInChildren&lt;Rigidbody&gt;();
+}
+
+private GameObject FindChildObject(string strObjectName)
+{
+  Transform[] arrAllChildObject = GetComponentsInChildren&lt;Transform&gt;();
+}
+</code></pre>
+<h3 id="after-workflow">After Workflow</h3>
+<pre><code class="lang-csharp">[GetComponentInChildren(&quot;Somthing Require GameObject Name In Children&quot;)]
+private GameObject pPrivate_Find_Name;
+
+[GetComponentInChildren]
+public Rigidbody pProperty { get; private set; }
+
+void Awake()
+{
+  // 아래 코드 한줄로 모든 GetComponentAttribute의 필드 혹은 Property가 할당됩니다.
+  GetComponentAttributeSetter.DoUpdate_GetComponentAttribute(this);
+}
+</code></pre>
+<br>
+<h1 id="사용-주의사항">사용 주의사항</h1>
+<ul>
+<li>Awake시 다음과 같이 Manager의 함수를 호출해야 합니다.</li>
+</ul>
+<pre><code class="lang-csharp">private void Awake()
+{
+    // 모노비헤비어를 상속받은 클래스에서 사용하고 싶을 때
+    GetComponentAttributeSetter.DoUpdate_GetComponentAttribute(this);
+    // 모노비헤비어를 상속받지 않은 클래스에서 사용하고 싶을 때
+    GetComponentAttributeSetter.DoUpdate_GetComponentAttribute(this, p_pNotInherit_Mono);
+}
+</code></pre>
+<ul>
+<li>다음과 같이 = null을 안할 경우 유니티 컴파일러가 변수를 할당하지 않았다는 경고를 출력합니다.</li>
+</ul>
+<pre><code class="lang-csharp">[GetComponent]
+private Transform pTransform; // 컴파일러가 경고 출력
+
+[GetComponent]
+private Transform pTransform2 = null; // 컴파일러가 경고를 출력하지 않음
+</code></pre>
+<br>
+<h1 id="기능들">기능들</h1>
+<h3 id="1-유니티에서-자주-사용하는-함수-getcomponents-getcomponeninparents-getcomponentsinchildren-등을-지원">1. 유니티에서 자주 사용하는 함수 GetComponent(s), GetComponenInParents, GetComponent(s)InChildren 등을 지원</h3>
+<h3 id="2-getcomponentinchildren-attribute">2. GetComponentInChildren Attribute</h3>
+<ul>
+<li>하위 오브젝트에 <strong>같은 타입의 오브젝트가 여러개 있을 경우, 이름으로 찾아서 할당하는 기능</strong></li>
+</ul>
+<pre><code class="lang-csharp">public enum ETestChildObject
+{
+  TestObject_Other_FindString,
+  TestObject_Other_FindEnum,
+}
+
+// Attribute 매개변수로 nameof연산자를 통해 string이 들어간 경우입니다.
+[GetComponentInChildren(nameof(ETestChildObject.TestObject_Other_FindString))]
+private Transform pChildComponent_FindString = null;
+
+// Attribute 매개변수로 Enum이 들어간 경우입니다.
+[GetComponentInChildren(ETestChildObject.TestObject_Other_FindEnum)]
+private Transform pChildComponent_FindEnum = null;
+</code></pre>
+<h4 id="2-1-array-list-dictionary-변수-자동-할당-지원-array를-제외한-collection의-경우-new를-할당해야-합니다">2-1. Array, List, Dictionary 변수 자동 할당 지원 <strong>(Array를 제외한 Collection의 경우 new를 할당해야 합니다.)</strong></h4>
+<p>GameObject의 이름을 기반으로 찾습니다.</p>
+<pre><code class="lang-csharp">[GetComponentInChildren]
+public List&lt;Transform&gt; listTest = new List&lt;Transform&gt;();
+
+[GetComponentInChildren] // 인자에 Enum을 넣을 경우 오브젝트의 이름을 Enum으로 파싱하여 할당.
+private Dictionary&lt;ETestChildObject, Transform&gt; mapTest_KeyIsEnum = new Dictionary&lt;ETestChildObject, Transform&gt;();
+
+[GetComponentInChildren] // 인자에 string을 넣을 경우 오브젝트의 이름을 할당.
+private Dictionary&lt;string, Transform&gt; mapTest_KeyIsString = new Dictionary&lt;string, Transform&gt;();
+
+[SerializeField]
+[GetComponentInChildren] // Array의 경우 null을 대입해도 정상 동작
+Transform[] arrComponent = null;
+</code></pre>
+<h4 id="2-2-중복된-이름의-오브젝트를-collection로-담는것도-지원-getcomponent-getcomponentinchidlren">2-2. 중복된 이름의 오브젝트를 Collection로 담는것도 지원 (GetComponent, GetComponentInChidlren).</h4>
+<ul>
+<li>Array와 List만 지원합니다.</li>
+</ul>
+<pre><code class="lang-csharp">public enum ETestChildObject
+{
+  TestObject_Other_FindString,
+  TestObject_Other_FindEnum,
+}
+
+[GetComponent] // 해당 게임오브젝트에 같은 컴포넌트가 있는 경우 여러개가 담김
+public List&lt;Transform&gt; listTest = new List&lt;Transform&gt;();
+
+[GetComponentInChildren] // 인자에 Enum을 넣을 경우 오브젝트의 이름을 Enum으로 파싱하여 Enum을 그룹으로 할당.
+private Dictionary&lt;ETestChildObject, List&lt;Transform&gt;&gt; mapTest_KeyIsEnum = new Dictionary&lt;ETestChildObject, List&lt;Transform&gt;&gt;();
+
+[GetComponentInChildren] // 인자에 string을 넣을 경우 오브젝트의 이름을 그룹으로 할당.
+private Dictionary&lt;string, Transform&gt; mapTest_KeyIsString = new Dictionary&lt;string, Transform&gt;();
+
+</code></pre>
+<h3 id="3-변수-프로퍼티-구분없이-지원">3. 변수, 프로퍼티 구분없이 지원</h3>
+<ul>
+<li><strong>주의사항으로, set 한정자는 해당 클래스가 접근이 가능하게 해야 합니다.</strong></li>
+</ul>
+<pre><code class="lang-csharp">[GetComponentInChildren]
+public Transform pChildComponent_FindEnumProperty { get; private set; }
+</code></pre>
+<h3 id="4-monobehaviour를-상속받지-않은-클래스도-지원">4. Monobehaviour를 상속받지 않은 클래스도 지원</h3>
+<pre><code class="lang-csharp">public class GetComponentAttribute_Example : MonoBehaviour
+{
+  [System.Serializable] // 인스펙터 노출용
+  public class InnerClass_NotInherit_Mono
+  {
+      [GetComponent]
+      public Transform pTransform_Owner;
+
+      [GetComponentInChildren]
+      public Transform[] arrTransform_Children;
+  }
+
+  public InnerClass_NotInherit_Mono p_pNotInherit_Mono;
+
+  private void Awake()
+  {
+      // 모노비헤비어를 상속받지 않은 클래스에서 사용하고 싶을 때
+      GetComponentAttributeSetter.DoUpdate_GetComponentAttribute(this, p_pNotInherit_Mono);
+  }
+}
+</code></pre>
+<br>
+<h2 id="설치-및-사용-방법">설치 및 사용 방법</h2>
+<p>1번 혹은 2번 방법 중 하나만 선택하여 설치</p>
+<h3 id="1-getcomponentattributecs의-내용을-복사하여-설치할-프로젝트에-생성">1. GetComponentAttribute.cs의 내용을 복사하여 설치할 프로젝트에 생성</h3>
+<ul>
+<li>링크 <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/master/Runtime/GetComponentAttribute.cs">https://github.com/KorStrix/Unity_GetComponentAttribute/blob/master/Runtime/GetComponentAttribute.cs</a></li>
+</ul>
+<h3 id="2-package로-받기-유니티-2018버전-이상">2. Package로 받기 (유니티 2018버전 이상)</h3>
+<ul>
+<li>설치할 유니티 프로젝트 - Packages - manifest.json 파일을 TextEditor로 열어 최하단에 쉼표 및 하단 내용 추가</li>
+</ul>
+<pre><code>&quot;com.korstrix.getcomponentattribute&quot;:&quot;https://github.com/KorStrix/Unity_GetComponentAttribute.git&quot;
+</code></pre>
+<br>
+<h2 id="주의사항">주의사항</h2>
+<p>Children 오브젝트가 너무 많을 경우 퍼포먼스 낭비가 심합니다.</p>
+<br>
+<h1 id="그-외">그 외</h1>
+<h3 id="참고한-프로젝트">참고한 프로젝트</h3>
+<ul>
+<li><a href="https://openlevel.postype.com/post/683269">Unity3D 자동 GetComponent 블로그 링크</a></li>
+</ul>
+<h3 id="연락처">연락처</h3>
+<p>유니티 개발자 모임 카카오톡 &amp; 디스코드 링크입니다.</p>
+<ul>
+<li>카카오톡 : <a href="https://open.kakao.com/o/gOi17az">https://open.kakao.com/o/gOi17az</a></li>
+<li>디스코드 : <a href="https://discord.gg/9BYFEbG">https://discord.gg/9BYFEbG</a></li>
+</ul>
+<div id="disqus_thread"></div>
+                <script>
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://strix-1.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/main/Documentation/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="#disqus_thread" class="contribution-link">0 Comments</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Example Footer
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- mermaid support -->
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script> <script type="text/javascript" src="styles/docfx.js"></script> <script type="text/javascript" src="styles/main.js"></script>
+    
+    <script src="https://unpkg.com/mermaid@8.4/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: false
+        });
+    
+        window.onload = function () {
+            const elements = document.getElementsByClassName("lang-mermaid");
+            let index = 0;
+    
+            while (elements.length != 0) {
+                let element = elements[0];
+                mermaid.render('graph'+index, element.innerText, (svgGraph) => {                    
+                    element.parentElement.outerHTML = "<div class='mermaid'>" + svgGraph + "</div>";
+                });
+                ++index;
+            }
+        }
+    </script>  </body>
+</html>
