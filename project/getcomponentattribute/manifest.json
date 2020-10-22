@@ -13,12 +13,504 @@
       "is_incremental": false
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_PerformanceTest.ETestChildObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_PerformanceTest.ETestChildObject.html",
+          "hash": "TOVafMYxE0aOnwPzJerQMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_PerformanceTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_PerformanceTest.html",
+          "hash": "JZVY0+y57uQ4RIf7TACz7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.ETestChildObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.ETestChildObject.html",
+          "hash": "wV8np8g1FR29qp2lqU6p6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.GetComponentTestTarget_1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.GetComponentTestTarget_1.html",
+          "hash": "UBjVaep/tCmaoDJL8u4lvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.GetComponentTestTarget_2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.GetComponentTestTarget_2.html",
+          "hash": "+seNhu1CHqlwaytK8M9fsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.GetComponentTest_Child.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.GetComponentTest_Child.html",
+          "hash": "i0bpCyRtuFBiEFzHLpJQ6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.GetComponentTest_GrandParents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.GetComponentTest_GrandParents.html",
+          "hash": "4FBnaxO254OtYxAOQ202lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.GetComponentTest_Parents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.GetComponentTest_Parents.html",
+          "hash": "u/2tXlLn2+bPIk3AuCp84A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.GetComponent_ChildrenDictionaryListTest.EChildObjectName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.GetComponent_ChildrenDictionaryListTest.EChildObjectName.html",
+          "hash": "VDRpbhPUs0CvrhPsae/NZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.GetComponent_ChildrenDictionaryListTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.GetComponent_ChildrenDictionaryListTest.html",
+          "hash": "giPoaIzl+FgQWH32zFHsRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.GetComponent_ChildrenListTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.GetComponent_ChildrenListTest.html",
+          "hash": "+0bH0vRQkelBK9IehF8ifA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.GetComponentAttribute_Test.html",
+          "hash": "0r4UTGhpZ0Wj1fEOYVcvRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.Test_ComponentChild.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.Test_ComponentChild.html",
+          "hash": "Tqa+qOS890kMxo089iwRYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.Test_ComponentChild_ForPerformance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.Test_ComponentChild_ForPerformance.html",
+          "hash": "uQok/tQAHWUgI4Ik9C9nJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.Test_ComponentChild_SameName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.Test_ComponentChild_SameName.html",
+          "hash": "Mv2VgAc++bLtECb7dexJ3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.Test_ComponentOnly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.Test_ComponentOnly.html",
+          "hash": "f30qQFimWGoPBwmrMwX+5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.Test_ComponentParents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.Test_ComponentParents.html",
+          "hash": "+cX2izBUYNwCaUrfqqOnsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.UIActionAttribute_Test.HasUIButtonTester.EButtonName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.UIActionAttribute_Test.HasUIButtonTester.EButtonName.html",
+          "hash": "vTsc4DaCojUf7LTVMIcYVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.UIActionAttribute_Test.HasUIButtonTester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.UIActionAttribute_Test.HasUIButtonTester.html",
+          "hash": "PoSV9DwMq3bVOhZlA6vQCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.UIActionAttribute_Test.HasUIToggleTester.EToggleName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.UIActionAttribute_Test.HasUIToggleTester.EToggleName.html",
+          "hash": "8wFRZlndJEZYSVfssYFkhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.UIActionAttribute_Test.HasUIToggleTester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.UIActionAttribute_Test.HasUIToggleTester.html",
+          "hash": "rDN9OqBonj9+iRe7Q1As8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.UIActionAttribute_Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.UIActionAttribute_Test.html",
+          "hash": "S5q6hudkYE63nGsK547LMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GetComponentAttribute_Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GetComponentAttribute_Test.html",
+          "hash": "2ze8oGy6tXC+0AFfP0TEIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Component_Extension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Component_Extension.html",
+          "hash": "KF2RkGkgAFduvx4e2AEuJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GetComponentAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GetComponentAttribute.html",
+          "hash": "pSq/yK5UdqeLz783geKYLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GetComponentAttributeBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GetComponentAttributeBase.html",
+          "hash": "79nuxWaY8NAIDCVFJHkcvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GetComponentAttributeSetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GetComponentAttributeSetter.html",
+          "hash": "BWHkegsWzFEneZ84b0EpGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GetComponentInChildrenAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GetComponentInChildrenAttribute.html",
+          "hash": "CLPb61vCLFciNprvc2UQrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GetComponentInParentAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GetComponentInParentAttribute.html",
+          "hash": "FFyd7Cpzp6WBpGXxpUdgxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IGetComponentAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IGetComponentAttribute.html",
+          "hash": "bXYXnX9sxrpo5SrsdfTX4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IGetComponentChildrenAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IGetComponentChildrenAttribute.html",
+          "hash": "qQ6Bsl8tYhuKMWwGqK2/YA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IUIActionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IUIActionAttribute.html",
+          "hash": "3cPDwAnqRWu47xRfM79vuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MemberInfo_Extension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MemberInfo_Extension.html",
+          "hash": "S2xP/AjXiI5Aluv5uxKo4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UIActionAttributeSetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UIActionAttributeSetter.html",
+          "hash": "2DtO9teCMhWV2SGC5EgA7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UIActionAttribute_Example.EButtonName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UIActionAttribute_Example.EButtonName.html",
+          "hash": "lVWaCrJdnkawyhiLab7dnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UIActionAttribute_Example.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UIActionAttribute_Example.html",
+          "hash": "NOctZ9ra/Bb1+dX+NrZ1bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UIButtonCallAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UIButtonCallAttribute.html",
+          "hash": "sooquWPkzCoJjDVpx+JpLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UIToggleCallAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UIToggleCallAttribute.html",
+          "hash": "SvDvB8EqqppJACXd/H9S6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UnityEventExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UnityEventExtension.html",
+          "hash": "oY9wzor7bf9EjDUZjhE17w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html",
+          "hash": "/l+7apztp0YewPuMBJWMGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "Y/+IqsLBcw12STJWEjwjDQ=="
+          "hash": "JxJEJuB7TCgeWPZOY9koPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "IPo8HZ8XSl6Dtn4XrJ5V3g=="
         }
       },
       "is_incremental": false,
@@ -66,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "4PrN5tD1IU2HABDbvctDDg=="
+          "hash": "AWNyoHBkTuWg/D+7r8phsg=="
         }
       },
       "is_incremental": false,
@@ -88,6 +580,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 40,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
