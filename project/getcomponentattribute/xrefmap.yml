@@ -709,6 +709,219 @@ references:
   isSpec: "True"
   fullName: GetComponentAttribute_Test.UIActionAttribute_Test.이벤트_중복등록_테스트
   nameWithType: UIActionAttribute_Test.이벤트_중복등록_테스트
+- uid: GetComponentAttributeCore
+  name: GetComponentAttributeCore
+  href: api/GetComponentAttributeCore.html
+  commentId: N:GetComponentAttributeCore
+  fullName: GetComponentAttributeCore
+  nameWithType: GetComponentAttributeCore
+- uid: GetComponentAttributeCore.CoreLogic
+  name: CoreLogic
+  href: api/GetComponentAttributeCore.CoreLogic.html
+  commentId: T:GetComponentAttributeCore.CoreLogic
+  fullName: GetComponentAttributeCore.CoreLogic
+  nameWithType: CoreLogic
+- uid: GetComponentAttributeCore.CoreLogic.Event_GetComponent(MonoBehaviour,System.Type)
+  name: Event_GetComponent(MonoBehaviour, Type)
+  href: api/GetComponentAttributeCore.CoreLogic.html#GetComponentAttributeCore_CoreLogic_Event_GetComponent_MonoBehaviour_System_Type_
+  commentId: M:GetComponentAttributeCore.CoreLogic.Event_GetComponent(MonoBehaviour,System.Type)
+  fullName: GetComponentAttributeCore.CoreLogic.Event_GetComponent(MonoBehaviour, System.Type)
+  nameWithType: CoreLogic.Event_GetComponent(MonoBehaviour, Type)
+- uid: GetComponentAttributeCore.CoreLogic.Event_GetComponent*
+  name: Event_GetComponent
+  href: api/GetComponentAttributeCore.CoreLogic.html#GetComponentAttributeCore_CoreLogic_Event_GetComponent_
+  commentId: Overload:GetComponentAttributeCore.CoreLogic.Event_GetComponent
+  isSpec: "True"
+  fullName: GetComponentAttributeCore.CoreLogic.Event_GetComponent
+  nameWithType: CoreLogic.Event_GetComponent
+- uid: GetComponentAttributeCore.CoreLogic.Event_GetComponentInChildren(MonoBehaviour,System.Type,System.Boolean,System.Boolean,System.String)
+  name: Event_GetComponentInChildren(MonoBehaviour, Type, Boolean, Boolean, String)
+  href: api/GetComponentAttributeCore.CoreLogic.html#GetComponentAttributeCore_CoreLogic_Event_GetComponentInChildren_MonoBehaviour_System_Type_System_Boolean_System_Boolean_System_String_
+  commentId: M:GetComponentAttributeCore.CoreLogic.Event_GetComponentInChildren(MonoBehaviour,System.Type,System.Boolean,System.Boolean,System.String)
+  fullName: GetComponentAttributeCore.CoreLogic.Event_GetComponentInChildren(MonoBehaviour, System.Type, System.Boolean, System.Boolean, System.String)
+  nameWithType: CoreLogic.Event_GetComponentInChildren(MonoBehaviour, Type, Boolean, Boolean, String)
+- uid: GetComponentAttributeCore.CoreLogic.Event_GetComponentInChildren*
+  name: Event_GetComponentInChildren
+  href: api/GetComponentAttributeCore.CoreLogic.html#GetComponentAttributeCore_CoreLogic_Event_GetComponentInChildren_
+  commentId: Overload:GetComponentAttributeCore.CoreLogic.Event_GetComponentInChildren
+  isSpec: "True"
+  fullName: GetComponentAttributeCore.CoreLogic.Event_GetComponentInChildren
+  nameWithType: CoreLogic.Event_GetComponentInChildren
+- uid: GetComponentAttributeCore.CoreLogic.Event_GetComponentInParents(MonoBehaviour,System.Type)
+  name: Event_GetComponentInParents(MonoBehaviour, Type)
+  href: api/GetComponentAttributeCore.CoreLogic.html#GetComponentAttributeCore_CoreLogic_Event_GetComponentInParents_MonoBehaviour_System_Type_
+  commentId: M:GetComponentAttributeCore.CoreLogic.Event_GetComponentInParents(MonoBehaviour,System.Type)
+  fullName: GetComponentAttributeCore.CoreLogic.Event_GetComponentInParents(MonoBehaviour, System.Type)
+  nameWithType: CoreLogic.Event_GetComponentInParents(MonoBehaviour, Type)
+- uid: GetComponentAttributeCore.CoreLogic.Event_GetComponentInParents*
+  name: Event_GetComponentInParents
+  href: api/GetComponentAttributeCore.CoreLogic.html#GetComponentAttributeCore_CoreLogic_Event_GetComponentInParents_
+  commentId: Overload:GetComponentAttributeCore.CoreLogic.Event_GetComponentInParents
+  isSpec: "True"
+  fullName: GetComponentAttributeCore.CoreLogic.Event_GetComponentInParents
+  nameWithType: CoreLogic.Event_GetComponentInParents
+- uid: GetComponentAttributeCore.CoreLogic.ExtractSameNameArray(System.String,UnityEngine.Object[])
+  name: ExtractSameNameArray(String, UnityEngine.Object[])
+  href: api/GetComponentAttributeCore.CoreLogic.html#GetComponentAttributeCore_CoreLogic_ExtractSameNameArray_System_String_UnityEngine_Object___
+  commentId: M:GetComponentAttributeCore.CoreLogic.ExtractSameNameArray(System.String,UnityEngine.Object[])
+  name.vb: ExtractSameNameArray(String, UnityEngine.Object())
+  fullName: GetComponentAttributeCore.CoreLogic.ExtractSameNameArray(System.String, UnityEngine.Object[])
+  fullName.vb: GetComponentAttributeCore.CoreLogic.ExtractSameNameArray(System.String, UnityEngine.Object())
+  nameWithType: CoreLogic.ExtractSameNameArray(String, UnityEngine.Object[])
+  nameWithType.vb: CoreLogic.ExtractSameNameArray(String, UnityEngine.Object())
+- uid: GetComponentAttributeCore.CoreLogic.ExtractSameNameArray*
+  name: ExtractSameNameArray
+  href: api/GetComponentAttributeCore.CoreLogic.html#GetComponentAttributeCore_CoreLogic_ExtractSameNameArray_
+  commentId: Overload:GetComponentAttributeCore.CoreLogic.ExtractSameNameArray
+  isSpec: "True"
+  fullName: GetComponentAttributeCore.CoreLogic.ExtractSameNameArray
+  nameWithType: CoreLogic.ExtractSameNameArray
+- uid: GetComponentAttributeCore.GetComponentAttributeBase
+  name: GetComponentAttributeBase
+  href: api/GetComponentAttributeCore.GetComponentAttributeBase.html
+  commentId: T:GetComponentAttributeCore.GetComponentAttributeBase
+  fullName: GetComponentAttributeCore.GetComponentAttributeBase
+  nameWithType: GetComponentAttributeBase
+- uid: GetComponentAttributeCore.GetComponentAttributeBase.bIsPrint_OnNotFound
+  name: bIsPrint_OnNotFound
+  href: api/GetComponentAttributeCore.GetComponentAttributeBase.html#GetComponentAttributeCore_GetComponentAttributeBase_bIsPrint_OnNotFound
+  commentId: F:GetComponentAttributeCore.GetComponentAttributeBase.bIsPrint_OnNotFound
+  fullName: GetComponentAttributeCore.GetComponentAttributeBase.bIsPrint_OnNotFound
+  nameWithType: GetComponentAttributeBase.bIsPrint_OnNotFound
+- uid: GetComponentAttributeCore.GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent
+  name: bIsPrint_OnNotFound_GetComponent
+  href: api/GetComponentAttributeCore.GetComponentAttributeBase.html#GetComponentAttributeCore_GetComponentAttributeBase_bIsPrint_OnNotFound_GetComponent
+  commentId: P:GetComponentAttributeCore.GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent
+  fullName: GetComponentAttributeCore.GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent
+  nameWithType: GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent
+- uid: GetComponentAttributeCore.GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent*
+  name: bIsPrint_OnNotFound_GetComponent
+  href: api/GetComponentAttributeCore.GetComponentAttributeBase.html#GetComponentAttributeCore_GetComponentAttributeBase_bIsPrint_OnNotFound_GetComponent_
+  commentId: Overload:GetComponentAttributeCore.GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent
+  isSpec: "True"
+  fullName: GetComponentAttributeCore.GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent
+  nameWithType: GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent
+- uid: GetComponentAttributeCore.GetComponentAttributeBase.GetComponent(MonoBehaviour,System.Type)
+  name: GetComponent(MonoBehaviour, Type)
+  href: api/GetComponentAttributeCore.GetComponentAttributeBase.html#GetComponentAttributeCore_GetComponentAttributeBase_GetComponent_MonoBehaviour_System_Type_
+  commentId: M:GetComponentAttributeCore.GetComponentAttributeBase.GetComponent(MonoBehaviour,System.Type)
+  fullName: GetComponentAttributeCore.GetComponentAttributeBase.GetComponent(MonoBehaviour, System.Type)
+  nameWithType: GetComponentAttributeBase.GetComponent(MonoBehaviour, Type)
+- uid: GetComponentAttributeCore.GetComponentAttributeBase.GetComponent*
+  name: GetComponent
+  href: api/GetComponentAttributeCore.GetComponentAttributeBase.html#GetComponentAttributeCore_GetComponentAttributeBase_GetComponent_
+  commentId: Overload:GetComponentAttributeCore.GetComponentAttributeBase.GetComponent
+  isSpec: "True"
+  fullName: GetComponentAttributeCore.GetComponentAttributeBase.GetComponent
+  nameWithType: GetComponentAttributeBase.GetComponent
+- uid: GetComponentAttributeCore.IGetComponentAttribute
+  name: IGetComponentAttribute
+  href: api/GetComponentAttributeCore.IGetComponentAttribute.html
+  commentId: T:GetComponentAttributeCore.IGetComponentAttribute
+  fullName: GetComponentAttributeCore.IGetComponentAttribute
+  nameWithType: IGetComponentAttribute
+- uid: GetComponentAttributeCore.IGetComponentAttribute.bIsPrint_OnNotFound_GetComponent
+  name: bIsPrint_OnNotFound_GetComponent
+  href: api/GetComponentAttributeCore.IGetComponentAttribute.html#GetComponentAttributeCore_IGetComponentAttribute_bIsPrint_OnNotFound_GetComponent
+  commentId: P:GetComponentAttributeCore.IGetComponentAttribute.bIsPrint_OnNotFound_GetComponent
+  fullName: GetComponentAttributeCore.IGetComponentAttribute.bIsPrint_OnNotFound_GetComponent
+  nameWithType: IGetComponentAttribute.bIsPrint_OnNotFound_GetComponent
+- uid: GetComponentAttributeCore.IGetComponentAttribute.bIsPrint_OnNotFound_GetComponent*
+  name: bIsPrint_OnNotFound_GetComponent
+  href: api/GetComponentAttributeCore.IGetComponentAttribute.html#GetComponentAttributeCore_IGetComponentAttribute_bIsPrint_OnNotFound_GetComponent_
+  commentId: Overload:GetComponentAttributeCore.IGetComponentAttribute.bIsPrint_OnNotFound_GetComponent
+  isSpec: "True"
+  fullName: GetComponentAttributeCore.IGetComponentAttribute.bIsPrint_OnNotFound_GetComponent
+  nameWithType: IGetComponentAttribute.bIsPrint_OnNotFound_GetComponent
+- uid: GetComponentAttributeCore.IGetComponentAttribute.GetComponent(MonoBehaviour,System.Type)
+  name: GetComponent(MonoBehaviour, Type)
+  href: api/GetComponentAttributeCore.IGetComponentAttribute.html#GetComponentAttributeCore_IGetComponentAttribute_GetComponent_MonoBehaviour_System_Type_
+  commentId: M:GetComponentAttributeCore.IGetComponentAttribute.GetComponent(MonoBehaviour,System.Type)
+  fullName: GetComponentAttributeCore.IGetComponentAttribute.GetComponent(MonoBehaviour, System.Type)
+  nameWithType: IGetComponentAttribute.GetComponent(MonoBehaviour, Type)
+- uid: GetComponentAttributeCore.IGetComponentAttribute.GetComponent*
+  name: GetComponent
+  href: api/GetComponentAttributeCore.IGetComponentAttribute.html#GetComponentAttributeCore_IGetComponentAttribute_GetComponent_
+  commentId: Overload:GetComponentAttributeCore.IGetComponentAttribute.GetComponent
+  isSpec: "True"
+  fullName: GetComponentAttributeCore.IGetComponentAttribute.GetComponent
+  nameWithType: IGetComponentAttribute.GetComponent
+- uid: GetComponentAttributeCore.IGetComponentChildrenAttribute
+  name: IGetComponentChildrenAttribute
+  href: api/GetComponentAttributeCore.IGetComponentChildrenAttribute.html
+  commentId: T:GetComponentAttributeCore.IGetComponentChildrenAttribute
+  fullName: GetComponentAttributeCore.IGetComponentChildrenAttribute
+  nameWithType: IGetComponentChildrenAttribute
+- uid: GetComponentAttributeCore.IGetComponentChildrenAttribute.bSearch_By_ComponentName_ForGetComponent
+  name: bSearch_By_ComponentName_ForGetComponent
+  href: api/GetComponentAttributeCore.IGetComponentChildrenAttribute.html#GetComponentAttributeCore_IGetComponentChildrenAttribute_bSearch_By_ComponentName_ForGetComponent
+  commentId: P:GetComponentAttributeCore.IGetComponentChildrenAttribute.bSearch_By_ComponentName_ForGetComponent
+  fullName: GetComponentAttributeCore.IGetComponentChildrenAttribute.bSearch_By_ComponentName_ForGetComponent
+  nameWithType: IGetComponentChildrenAttribute.bSearch_By_ComponentName_ForGetComponent
+- uid: GetComponentAttributeCore.IGetComponentChildrenAttribute.bSearch_By_ComponentName_ForGetComponent*
+  name: bSearch_By_ComponentName_ForGetComponent
+  href: api/GetComponentAttributeCore.IGetComponentChildrenAttribute.html#GetComponentAttributeCore_IGetComponentChildrenAttribute_bSearch_By_ComponentName_ForGetComponent_
+  commentId: Overload:GetComponentAttributeCore.IGetComponentChildrenAttribute.bSearch_By_ComponentName_ForGetComponent
+  isSpec: "True"
+  fullName: GetComponentAttributeCore.IGetComponentChildrenAttribute.bSearch_By_ComponentName_ForGetComponent
+  nameWithType: IGetComponentChildrenAttribute.bSearch_By_ComponentName_ForGetComponent
+- uid: GetComponentAttributeCore.IGetComponentChildrenAttribute.strComponentName_ForGetComponent
+  name: strComponentName_ForGetComponent
+  href: api/GetComponentAttributeCore.IGetComponentChildrenAttribute.html#GetComponentAttributeCore_IGetComponentChildrenAttribute_strComponentName_ForGetComponent
+  commentId: P:GetComponentAttributeCore.IGetComponentChildrenAttribute.strComponentName_ForGetComponent
+  fullName: GetComponentAttributeCore.IGetComponentChildrenAttribute.strComponentName_ForGetComponent
+  nameWithType: IGetComponentChildrenAttribute.strComponentName_ForGetComponent
+- uid: GetComponentAttributeCore.IGetComponentChildrenAttribute.strComponentName_ForGetComponent*
+  name: strComponentName_ForGetComponent
+  href: api/GetComponentAttributeCore.IGetComponentChildrenAttribute.html#GetComponentAttributeCore_IGetComponentChildrenAttribute_strComponentName_ForGetComponent_
+  commentId: Overload:GetComponentAttributeCore.IGetComponentChildrenAttribute.strComponentName_ForGetComponent
+  isSpec: "True"
+  fullName: GetComponentAttributeCore.IGetComponentChildrenAttribute.strComponentName_ForGetComponent
+  nameWithType: IGetComponentChildrenAttribute.strComponentName_ForGetComponent
+- uid: GetComponentAttributeCore_WIP
+  name: GetComponentAttributeCore_WIP
+  href: api/GetComponentAttributeCore_WIP.html
+  commentId: N:GetComponentAttributeCore_WIP
+  fullName: GetComponentAttributeCore_WIP
+  nameWithType: GetComponentAttributeCore_WIP
+- uid: GetComponentAttributeCore_WIP.IUIActionAttribute
+  name: IUIActionAttribute
+  href: api/GetComponentAttributeCore_WIP.IUIActionAttribute.html
+  commentId: T:GetComponentAttributeCore_WIP.IUIActionAttribute
+  fullName: GetComponentAttributeCore_WIP.IUIActionAttribute
+  nameWithType: IUIActionAttribute
+- uid: GetComponentAttributeCore_WIP.IUIActionAttribute.strUIElementName
+  name: strUIElementName
+  href: api/GetComponentAttributeCore_WIP.IUIActionAttribute.html#GetComponentAttributeCore_WIP_IUIActionAttribute_strUIElementName
+  commentId: P:GetComponentAttributeCore_WIP.IUIActionAttribute.strUIElementName
+  fullName: GetComponentAttributeCore_WIP.IUIActionAttribute.strUIElementName
+  nameWithType: IUIActionAttribute.strUIElementName
+- uid: GetComponentAttributeCore_WIP.IUIActionAttribute.strUIElementName*
+  name: strUIElementName
+  href: api/GetComponentAttributeCore_WIP.IUIActionAttribute.html#GetComponentAttributeCore_WIP_IUIActionAttribute_strUIElementName_
+  commentId: Overload:GetComponentAttributeCore_WIP.IUIActionAttribute.strUIElementName
+  isSpec: "True"
+  fullName: GetComponentAttributeCore_WIP.IUIActionAttribute.strUIElementName
+  nameWithType: IUIActionAttribute.strUIElementName
+- uid: GetComponentAttributeCore_WIP.UnityEventExtension
+  name: UnityEventExtension
+  href: api/GetComponentAttributeCore_WIP.UnityEventExtension.html
+  commentId: T:GetComponentAttributeCore_WIP.UnityEventExtension
+  fullName: GetComponentAttributeCore_WIP.UnityEventExtension
+  nameWithType: UnityEventExtension
+- uid: GetComponentAttributeCore_WIP.UnityEventExtension.GetListenerNumber(UnityEventBase)
+  name: GetListenerNumber(UnityEventBase)
+  href: api/GetComponentAttributeCore_WIP.UnityEventExtension.html#GetComponentAttributeCore_WIP_UnityEventExtension_GetListenerNumber_UnityEventBase_
+  commentId: M:GetComponentAttributeCore_WIP.UnityEventExtension.GetListenerNumber(UnityEventBase)
+  fullName: GetComponentAttributeCore_WIP.UnityEventExtension.GetListenerNumber(UnityEventBase)
+  nameWithType: UnityEventExtension.GetListenerNumber(UnityEventBase)
+- uid: GetComponentAttributeCore_WIP.UnityEventExtension.GetListenerNumber*
+  name: GetListenerNumber
+  href: api/GetComponentAttributeCore_WIP.UnityEventExtension.html#GetComponentAttributeCore_WIP_UnityEventExtension_GetListenerNumber_
+  commentId: Overload:GetComponentAttributeCore_WIP.UnityEventExtension.GetListenerNumber
+  isSpec: "True"
+  fullName: GetComponentAttributeCore_WIP.UnityEventExtension.GetListenerNumber
+  nameWithType: UnityEventExtension.GetListenerNumber
 - uid: Global
   name: Global
   href: api/Global.html
@@ -784,44 +997,6 @@ references:
   isSpec: "True"
   fullName: GetComponentAttribute.GetComponent
   nameWithType: GetComponentAttribute.GetComponent
-- uid: Global.GetComponentAttributeBase
-  name: GetComponentAttributeBase
-  href: api/Global.GetComponentAttributeBase.html
-  commentId: T:Global.GetComponentAttributeBase
-  fullName: GetComponentAttributeBase
-  nameWithType: GetComponentAttributeBase
-- uid: Global.GetComponentAttributeBase.bIsPrint_OnNotFound
-  name: bIsPrint_OnNotFound
-  href: api/Global.GetComponentAttributeBase.html#Global_GetComponentAttributeBase_bIsPrint_OnNotFound
-  commentId: F:Global.GetComponentAttributeBase.bIsPrint_OnNotFound
-  fullName: GetComponentAttributeBase.bIsPrint_OnNotFound
-  nameWithType: GetComponentAttributeBase.bIsPrint_OnNotFound
-- uid: Global.GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent
-  name: bIsPrint_OnNotFound_GetComponent
-  href: api/Global.GetComponentAttributeBase.html#Global_GetComponentAttributeBase_bIsPrint_OnNotFound_GetComponent
-  commentId: P:Global.GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent
-  fullName: GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent
-  nameWithType: GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent
-- uid: Global.GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent*
-  name: bIsPrint_OnNotFound_GetComponent
-  href: api/Global.GetComponentAttributeBase.html#Global_GetComponentAttributeBase_bIsPrint_OnNotFound_GetComponent_
-  commentId: Overload:Global.GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent
-  isSpec: "True"
-  fullName: GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent
-  nameWithType: GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent
-- uid: Global.GetComponentAttributeBase.GetComponent(MonoBehaviour,System.Type)
-  name: GetComponent(MonoBehaviour, Type)
-  href: api/Global.GetComponentAttributeBase.html#Global_GetComponentAttributeBase_GetComponent_MonoBehaviour_System_Type_
-  commentId: M:Global.GetComponentAttributeBase.GetComponent(MonoBehaviour,System.Type)
-  fullName: GetComponentAttributeBase.GetComponent(MonoBehaviour, System.Type)
-  nameWithType: GetComponentAttributeBase.GetComponent(MonoBehaviour, Type)
-- uid: Global.GetComponentAttributeBase.GetComponent*
-  name: GetComponent
-  href: api/Global.GetComponentAttributeBase.html#Global_GetComponentAttributeBase_GetComponent_
-  commentId: Overload:Global.GetComponentAttributeBase.GetComponent
-  isSpec: "True"
-  fullName: GetComponentAttributeBase.GetComponent
-  nameWithType: GetComponentAttributeBase.GetComponent
 - uid: Global.GetComponentAttributeSetter
   name: GetComponentAttributeSetter
   href: api/Global.GetComponentAttributeSetter.html
@@ -853,61 +1028,6 @@ references:
   isSpec: "True"
   fullName: GetComponentAttributeSetter.DoUpdate_GetComponentAttribute
   nameWithType: GetComponentAttributeSetter.DoUpdate_GetComponentAttribute
-- uid: Global.GetComponentAttributeSetter.Event_GetComponent(MonoBehaviour,System.Type)
-  name: Event_GetComponent(MonoBehaviour, Type)
-  href: api/Global.GetComponentAttributeSetter.html#Global_GetComponentAttributeSetter_Event_GetComponent_MonoBehaviour_System_Type_
-  commentId: M:Global.GetComponentAttributeSetter.Event_GetComponent(MonoBehaviour,System.Type)
-  fullName: GetComponentAttributeSetter.Event_GetComponent(MonoBehaviour, System.Type)
-  nameWithType: GetComponentAttributeSetter.Event_GetComponent(MonoBehaviour, Type)
-- uid: Global.GetComponentAttributeSetter.Event_GetComponent*
-  name: Event_GetComponent
-  href: api/Global.GetComponentAttributeSetter.html#Global_GetComponentAttributeSetter_Event_GetComponent_
-  commentId: Overload:Global.GetComponentAttributeSetter.Event_GetComponent
-  isSpec: "True"
-  fullName: GetComponentAttributeSetter.Event_GetComponent
-  nameWithType: GetComponentAttributeSetter.Event_GetComponent
-- uid: Global.GetComponentAttributeSetter.Event_GetComponentInChildren(MonoBehaviour,System.Type,System.Boolean,System.Boolean,System.String)
-  name: Event_GetComponentInChildren(MonoBehaviour, Type, Boolean, Boolean, String)
-  href: api/Global.GetComponentAttributeSetter.html#Global_GetComponentAttributeSetter_Event_GetComponentInChildren_MonoBehaviour_System_Type_System_Boolean_System_Boolean_System_String_
-  commentId: M:Global.GetComponentAttributeSetter.Event_GetComponentInChildren(MonoBehaviour,System.Type,System.Boolean,System.Boolean,System.String)
-  fullName: GetComponentAttributeSetter.Event_GetComponentInChildren(MonoBehaviour, System.Type, System.Boolean, System.Boolean, System.String)
-  nameWithType: GetComponentAttributeSetter.Event_GetComponentInChildren(MonoBehaviour, Type, Boolean, Boolean, String)
-- uid: Global.GetComponentAttributeSetter.Event_GetComponentInChildren*
-  name: Event_GetComponentInChildren
-  href: api/Global.GetComponentAttributeSetter.html#Global_GetComponentAttributeSetter_Event_GetComponentInChildren_
-  commentId: Overload:Global.GetComponentAttributeSetter.Event_GetComponentInChildren
-  isSpec: "True"
-  fullName: GetComponentAttributeSetter.Event_GetComponentInChildren
-  nameWithType: GetComponentAttributeSetter.Event_GetComponentInChildren
-- uid: Global.GetComponentAttributeSetter.Event_GetComponentInParents(MonoBehaviour,System.Type)
-  name: Event_GetComponentInParents(MonoBehaviour, Type)
-  href: api/Global.GetComponentAttributeSetter.html#Global_GetComponentAttributeSetter_Event_GetComponentInParents_MonoBehaviour_System_Type_
-  commentId: M:Global.GetComponentAttributeSetter.Event_GetComponentInParents(MonoBehaviour,System.Type)
-  fullName: GetComponentAttributeSetter.Event_GetComponentInParents(MonoBehaviour, System.Type)
-  nameWithType: GetComponentAttributeSetter.Event_GetComponentInParents(MonoBehaviour, Type)
-- uid: Global.GetComponentAttributeSetter.Event_GetComponentInParents*
-  name: Event_GetComponentInParents
-  href: api/Global.GetComponentAttributeSetter.html#Global_GetComponentAttributeSetter_Event_GetComponentInParents_
-  commentId: Overload:Global.GetComponentAttributeSetter.Event_GetComponentInParents
-  isSpec: "True"
-  fullName: GetComponentAttributeSetter.Event_GetComponentInParents
-  nameWithType: GetComponentAttributeSetter.Event_GetComponentInParents
-- uid: Global.GetComponentAttributeSetter.ExtractSameNameArray(System.String,UnityEngine.Object[])
-  name: ExtractSameNameArray(String, UnityEngine.Object[])
-  href: api/Global.GetComponentAttributeSetter.html#Global_GetComponentAttributeSetter_ExtractSameNameArray_System_String_UnityEngine_Object___
-  commentId: M:Global.GetComponentAttributeSetter.ExtractSameNameArray(System.String,UnityEngine.Object[])
-  name.vb: ExtractSameNameArray(String, UnityEngine.Object())
-  fullName: GetComponentAttributeSetter.ExtractSameNameArray(System.String, UnityEngine.Object[])
-  fullName.vb: GetComponentAttributeSetter.ExtractSameNameArray(System.String, UnityEngine.Object())
-  nameWithType: GetComponentAttributeSetter.ExtractSameNameArray(String, UnityEngine.Object[])
-  nameWithType.vb: GetComponentAttributeSetter.ExtractSameNameArray(String, UnityEngine.Object())
-- uid: Global.GetComponentAttributeSetter.ExtractSameNameArray*
-  name: ExtractSameNameArray
-  href: api/Global.GetComponentAttributeSetter.html#Global_GetComponentAttributeSetter_ExtractSameNameArray_
-  commentId: Overload:Global.GetComponentAttributeSetter.ExtractSameNameArray
-  isSpec: "True"
-  fullName: GetComponentAttributeSetter.ExtractSameNameArray
-  nameWithType: GetComponentAttributeSetter.ExtractSameNameArray
 - uid: Global.GetComponentInChildrenAttribute
   name: GetComponentInChildrenAttribute
   href: api/Global.GetComponentInChildrenAttribute.html
@@ -951,12 +1071,12 @@ references:
   isSpec: "True"
   fullName: GetComponentInChildrenAttribute.GetComponentInChildrenAttribute
   nameWithType: GetComponentInChildrenAttribute.GetComponentInChildrenAttribute
-- uid: Global.GetComponentInChildrenAttribute.bInclude_OnDisable
-  name: bInclude_OnDisable
-  href: api/Global.GetComponentInChildrenAttribute.html#Global_GetComponentInChildrenAttribute_bInclude_OnDisable
-  commentId: F:Global.GetComponentInChildrenAttribute.bInclude_OnDisable
-  fullName: GetComponentInChildrenAttribute.bInclude_OnDisable
-  nameWithType: GetComponentInChildrenAttribute.bInclude_OnDisable
+- uid: Global.GetComponentInChildrenAttribute.bInclude_DisableObject
+  name: bInclude_DisableObject
+  href: api/Global.GetComponentInChildrenAttribute.html#Global_GetComponentInChildrenAttribute_bInclude_DisableObject
+  commentId: F:Global.GetComponentInChildrenAttribute.bInclude_DisableObject
+  fullName: GetComponentInChildrenAttribute.bInclude_DisableObject
+  nameWithType: GetComponentInChildrenAttribute.bInclude_DisableObject
 - uid: Global.GetComponentInChildrenAttribute.bSearch_By_ComponentName
   name: bSearch_By_ComponentName
   href: api/Global.GetComponentInChildrenAttribute.html#Global_GetComponentInChildrenAttribute_bSearch_By_ComponentName
@@ -1027,89 +1147,6 @@ references:
   isSpec: "True"
   fullName: GetComponentInParentAttribute.GetComponent
   nameWithType: GetComponentInParentAttribute.GetComponent
-- uid: Global.IGetComponentAttribute
-  name: IGetComponentAttribute
-  href: api/Global.IGetComponentAttribute.html
-  commentId: T:Global.IGetComponentAttribute
-  fullName: IGetComponentAttribute
-  nameWithType: IGetComponentAttribute
-- uid: Global.IGetComponentAttribute.bIsPrint_OnNotFound_GetComponent
-  name: bIsPrint_OnNotFound_GetComponent
-  href: api/Global.IGetComponentAttribute.html#Global_IGetComponentAttribute_bIsPrint_OnNotFound_GetComponent
-  commentId: P:Global.IGetComponentAttribute.bIsPrint_OnNotFound_GetComponent
-  fullName: IGetComponentAttribute.bIsPrint_OnNotFound_GetComponent
-  nameWithType: IGetComponentAttribute.bIsPrint_OnNotFound_GetComponent
-- uid: Global.IGetComponentAttribute.bIsPrint_OnNotFound_GetComponent*
-  name: bIsPrint_OnNotFound_GetComponent
-  href: api/Global.IGetComponentAttribute.html#Global_IGetComponentAttribute_bIsPrint_OnNotFound_GetComponent_
-  commentId: Overload:Global.IGetComponentAttribute.bIsPrint_OnNotFound_GetComponent
-  isSpec: "True"
-  fullName: IGetComponentAttribute.bIsPrint_OnNotFound_GetComponent
-  nameWithType: IGetComponentAttribute.bIsPrint_OnNotFound_GetComponent
-- uid: Global.IGetComponentAttribute.GetComponent(MonoBehaviour,System.Type)
-  name: GetComponent(MonoBehaviour, Type)
-  href: api/Global.IGetComponentAttribute.html#Global_IGetComponentAttribute_GetComponent_MonoBehaviour_System_Type_
-  commentId: M:Global.IGetComponentAttribute.GetComponent(MonoBehaviour,System.Type)
-  fullName: IGetComponentAttribute.GetComponent(MonoBehaviour, System.Type)
-  nameWithType: IGetComponentAttribute.GetComponent(MonoBehaviour, Type)
-- uid: Global.IGetComponentAttribute.GetComponent*
-  name: GetComponent
-  href: api/Global.IGetComponentAttribute.html#Global_IGetComponentAttribute_GetComponent_
-  commentId: Overload:Global.IGetComponentAttribute.GetComponent
-  isSpec: "True"
-  fullName: IGetComponentAttribute.GetComponent
-  nameWithType: IGetComponentAttribute.GetComponent
-- uid: Global.IGetComponentChildrenAttribute
-  name: IGetComponentChildrenAttribute
-  href: api/Global.IGetComponentChildrenAttribute.html
-  commentId: T:Global.IGetComponentChildrenAttribute
-  fullName: IGetComponentChildrenAttribute
-  nameWithType: IGetComponentChildrenAttribute
-- uid: Global.IGetComponentChildrenAttribute.bSearch_By_ComponentName_ForGetComponent
-  name: bSearch_By_ComponentName_ForGetComponent
-  href: api/Global.IGetComponentChildrenAttribute.html#Global_IGetComponentChildrenAttribute_bSearch_By_ComponentName_ForGetComponent
-  commentId: P:Global.IGetComponentChildrenAttribute.bSearch_By_ComponentName_ForGetComponent
-  fullName: IGetComponentChildrenAttribute.bSearch_By_ComponentName_ForGetComponent
-  nameWithType: IGetComponentChildrenAttribute.bSearch_By_ComponentName_ForGetComponent
-- uid: Global.IGetComponentChildrenAttribute.bSearch_By_ComponentName_ForGetComponent*
-  name: bSearch_By_ComponentName_ForGetComponent
-  href: api/Global.IGetComponentChildrenAttribute.html#Global_IGetComponentChildrenAttribute_bSearch_By_ComponentName_ForGetComponent_
-  commentId: Overload:Global.IGetComponentChildrenAttribute.bSearch_By_ComponentName_ForGetComponent
-  isSpec: "True"
-  fullName: IGetComponentChildrenAttribute.bSearch_By_ComponentName_ForGetComponent
-  nameWithType: IGetComponentChildrenAttribute.bSearch_By_ComponentName_ForGetComponent
-- uid: Global.IGetComponentChildrenAttribute.strComponentName_ForGetComponent
-  name: strComponentName_ForGetComponent
-  href: api/Global.IGetComponentChildrenAttribute.html#Global_IGetComponentChildrenAttribute_strComponentName_ForGetComponent
-  commentId: P:Global.IGetComponentChildrenAttribute.strComponentName_ForGetComponent
-  fullName: IGetComponentChildrenAttribute.strComponentName_ForGetComponent
-  nameWithType: IGetComponentChildrenAttribute.strComponentName_ForGetComponent
-- uid: Global.IGetComponentChildrenAttribute.strComponentName_ForGetComponent*
-  name: strComponentName_ForGetComponent
-  href: api/Global.IGetComponentChildrenAttribute.html#Global_IGetComponentChildrenAttribute_strComponentName_ForGetComponent_
-  commentId: Overload:Global.IGetComponentChildrenAttribute.strComponentName_ForGetComponent
-  isSpec: "True"
-  fullName: IGetComponentChildrenAttribute.strComponentName_ForGetComponent
-  nameWithType: IGetComponentChildrenAttribute.strComponentName_ForGetComponent
-- uid: Global.IUIActionAttribute
-  name: IUIActionAttribute
-  href: api/Global.IUIActionAttribute.html
-  commentId: T:Global.IUIActionAttribute
-  fullName: IUIActionAttribute
-  nameWithType: IUIActionAttribute
-- uid: Global.IUIActionAttribute.strUIElementName
-  name: strUIElementName
-  href: api/Global.IUIActionAttribute.html#Global_IUIActionAttribute_strUIElementName
-  commentId: P:Global.IUIActionAttribute.strUIElementName
-  fullName: IUIActionAttribute.strUIElementName
-  nameWithType: IUIActionAttribute.strUIElementName
-- uid: Global.IUIActionAttribute.strUIElementName*
-  name: strUIElementName
-  href: api/Global.IUIActionAttribute.html#Global_IUIActionAttribute_strUIElementName_
-  commentId: Overload:Global.IUIActionAttribute.strUIElementName
-  isSpec: "True"
-  fullName: IUIActionAttribute.strUIElementName
-  nameWithType: IUIActionAttribute.strUIElementName
 - uid: Global.MemberInfo_Extension
   name: MemberInfo_Extension
   href: api/Global.MemberInfo_Extension.html
@@ -1313,22 +1350,3 @@ references:
   isSpec: "True"
   fullName: UIToggleCallAttribute.strUIElementName
   nameWithType: UIToggleCallAttribute.strUIElementName
-- uid: Global.UnityEventExtension
-  name: UnityEventExtension
-  href: api/Global.UnityEventExtension.html
-  commentId: T:Global.UnityEventExtension
-  fullName: UnityEventExtension
-  nameWithType: UnityEventExtension
-- uid: Global.UnityEventExtension.GetListenerNumber(UnityEventBase)
-  name: GetListenerNumber(UnityEventBase)
-  href: api/Global.UnityEventExtension.html#Global_UnityEventExtension_GetListenerNumber_UnityEventBase_
-  commentId: M:Global.UnityEventExtension.GetListenerNumber(UnityEventBase)
-  fullName: UnityEventExtension.GetListenerNumber(UnityEventBase)
-  nameWithType: UnityEventExtension.GetListenerNumber(UnityEventBase)
-- uid: Global.UnityEventExtension.GetListenerNumber*
-  name: GetListenerNumber
-  href: api/Global.UnityEventExtension.html#Global_UnityEventExtension_GetListenerNumber_
-  commentId: Overload:Global.UnityEventExtension.GetListenerNumber
-  isSpec: "True"
-  fullName: UnityEventExtension.GetListenerNumber
-  nameWithType: UnityEventExtension.GetListenerNumber

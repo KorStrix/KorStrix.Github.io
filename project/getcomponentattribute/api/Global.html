@@ -88,20 +88,28 @@
     <h3 id="classes">Classes
   </h3>
       <h4><a class="xref" href="Global.Component_Extension.html">Component_Extension</a></h4>
-      <section></section>
+      <section><p>혹여나 플러그인 밖에서 <span class="xref">GetComponentAttribute</span> 관련 (예시로 이름으로 <see cref="!:Component"></see> 찾기 등) 기능이 필요할 경우</p>
+<p>편히 쓰게 하기 위한 <see cref="!:Component"></see>용 확장 class</p>
+</section>
       <h4><a class="xref" href="Global.GetComponentAttribute.html">GetComponentAttribute</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Global.GetComponentAttributeBase.html">GetComponentAttributeBase</a></h4>
-      <section></section>
+      <section><p><span class="xref">GetComponentAttributeSetter.DoUpdate_GetComponentAttribute(MonoBehaviour)</span>함수 호출을 통해</p>
+<p><see cref="!:UnityEngine.Component.GetComponents(Type)"></see>으로 변수/프로퍼티를 할당합니다.</p>
+</section>
       <h4><a class="xref" href="Global.GetComponentAttributeSetter.html">GetComponentAttributeSetter</a></h4>
-      <section><p>GetComponent Attribute가 적힌 필드 / 프로퍼티를 할당시켜주는 Static Class</p>
+      <section><p><span class="xref">GetComponentAttribute</span>가 있는 필드 / 프로퍼티를 할당시켜주는 <span class="xref">static</span> class</p>
 </section>
       <h4><a class="xref" href="Global.GetComponentInChildrenAttribute.html">GetComponentInChildrenAttribute</a></h4>
-      <section></section>
+      <section><p><span class="xref">GetComponentAttributeSetter.DoUpdate_GetComponentAttribute(MonoBehaviour)</span>함수 호출을 통해</p>
+<p><see cref="!:UnityEngine.Component.GetComponentsInChildren(Type)"></see>으로 변수/프로퍼티를 할당합니다.</p>
+<remarks>성능을 우선한다면 <span class="xref">GetComponentInChildrenAttribute.bInclude_DisableObject</span>값을 <span class="xref">false</span>로 하세요.</remarks>
+</section>
       <h4><a class="xref" href="Global.GetComponentInParentAttribute.html">GetComponentInParentAttribute</a></h4>
-      <section></section>
+      <section><p><span class="xref">GetComponentAttributeSetter.DoUpdate_GetComponentAttribute(MonoBehaviour)</span>함수 호출을 통해</p>
+<p><see cref="!:UnityEngine.Component.GetComponentInParent(Type)"></see>으로 변수/프로퍼티를 할당합니다.</p>
+</section>
       <h4><a class="xref" href="Global.MemberInfo_Extension.html">MemberInfo_Extension</a></h4>
-      <section></section>
+      <section><p><span class="xref">GetComponentAttributeSetter</span>에서 편하게 사용하기 위한 <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.memberinfo">MemberInfo</a>용 확장 클래스</p>
+</section>
       <h4><a class="xref" href="Global.UIActionAttribute_Example.html">UIActionAttribute_Example</a></h4>
       <section></section>
       <h4><a class="xref" href="Global.UIActionAttributeSetter.html">UIActionAttributeSetter</a></h4>
@@ -114,16 +122,6 @@
 <p>인자가 0개, 1개일 수 있으며,</p>
 <p>인자가 1개면 <see cref="!:Button"></see>타입의 인자 1개만 허용됩니다.</p>
 </section>
-      <h4><a class="xref" href="Global.UnityEventExtension.html">UnityEventExtension</a></h4>
-      <section></section>
-    <h3 id="interfaces">Interfaces
-  </h3>
-      <h4><a class="xref" href="Global.IGetComponentAttribute.html">IGetComponentAttribute</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Global.IGetComponentChildrenAttribute.html">IGetComponentChildrenAttribute</a></h4>
-      <section></section>
-      <h4><a class="xref" href="Global.IUIActionAttribute.html">IUIActionAttribute</a></h4>
-      <section></section>
     <h3 id="enums">Enums
   </h3>
       <h4><a class="xref" href="Global.UIActionAttribute_Example.EButtonName.html">UIActionAttribute_Example.EButtonName</a></h4>

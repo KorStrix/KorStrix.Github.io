@@ -83,26 +83,29 @@
   
   <h1 id="Global_GetComponentInChildrenAttribute" data-uid="Global.GetComponentInChildrenAttribute" class="text-break">Class GetComponentInChildrenAttribute
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p><span class="xref">GetComponentAttributeSetter.DoUpdate_GetComponentAttribute(MonoBehaviour)</span>함수 호출을 통해</p>
+<p><see cref="!:UnityEngine.Component.GetComponentsInChildren(Type)"></see>으로 변수/프로퍼티를 할당합니다.</p>
+<remarks>성능을 우선한다면 <span class="xref">GetComponentInChildrenAttribute.bInclude_DisableObject</span>값을 <span class="xref">false</span>로 하세요.</remarks>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="Global.GetComponentAttributeBase.html">GetComponentAttributeBase</a></div>
+    <div class="level1"><a class="xref" href="GetComponentAttributeCore.GetComponentAttributeBase.html">GetComponentAttributeBase</a></div>
     <div class="level2"><span class="xref">GetComponentInChildrenAttribute</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Global.IGetComponentChildrenAttribute.html">IGetComponentChildrenAttribute</a></div>
-    <div><a class="xref" href="Global.IGetComponentAttribute.html">IGetComponentAttribute</a></div>
+    <div><a class="xref" href="GetComponentAttributeCore.IGetComponentChildrenAttribute.html">IGetComponentChildrenAttribute</a></div>
+    <div><a class="xref" href="GetComponentAttributeCore.IGetComponentAttribute.html">IGetComponentAttribute</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Global.GetComponentAttributeBase.html#Global_GetComponentAttributeBase_bIsPrint_OnNotFound_GetComponent">GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent</a>
+      <a class="xref" href="GetComponentAttributeCore.GetComponentAttributeBase.html#GetComponentAttributeCore_GetComponentAttributeBase_bIsPrint_OnNotFound_GetComponent">GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent</a>
     </div>
     <div>
-      <a class="xref" href="Global.GetComponentAttributeBase.html#Global_GetComponentAttributeBase_bIsPrint_OnNotFound">GetComponentAttributeBase.bIsPrint_OnNotFound</a>
+      <a class="xref" href="GetComponentAttributeCore.GetComponentAttributeBase.html#GetComponentAttributeCore_GetComponentAttributeBase_bIsPrint_OnNotFound">GetComponentAttributeBase.bIsPrint_OnNotFound</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
@@ -111,6 +114,30 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class GetComponentInChildrenAttribute : GetComponentAttributeBase, IGetComponentChildrenAttribute, IGetComponentAttribute</code></pre>
   </div>
+  <h5 id="Global_GetComponentInChildrenAttribute_examples"><strong>Examples</strong></h5>
+  <p>다음은 사용 예시입니다.</p>
+<pre><code>[GetComponentInChildren()]
+public Rigidbody _rigidbody = null;
+
+
+Find ObjectName Component Example
+enum SomeEnum { First, Second }
+
+[GetComponentInChildren(SomeEnum.First)]
+public Rigidbody _rigidbody = null;
+
+[GetComponentInChildren(&quot;Second&quot;)]
+public Rigidbody _rigidbody { get; private set; }
+
+
+List Example
+[GetComponentInChildren]
+public List(Rigidbody) _rigidbodies = null; // = { Rigidbody(First) }, { Rigidbody(Second) }
+
+Dictionary Example
+[GetComponentInChildren]
+public Dictionary(SomeEnum, Rigidbody) _rigidbodies {get; private set;} // = { First, Rigidbody } , { Second, Rigidbody }</code></pre>
+
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
@@ -118,15 +145,16 @@
     <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=Global_GetComponentInChildrenAttribute__ctor_System_Boolean_.md&amp;value=---%0Auid%3A%20Global.GetComponentInChildrenAttribute.%23ctor(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L77">View Source</a>
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L216">View Source</a>
   </span>
   <a id="Global_GetComponentInChildrenAttribute__ctor_" data-uid="Global.GetComponentInChildrenAttribute.#ctor*"></a>
   <h4 id="Global_GetComponentInChildrenAttribute__ctor_System_Boolean_" data-uid="Global.GetComponentInChildrenAttribute.#ctor(System.Boolean)">GetComponentInChildrenAttribute(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p><see cref="!:UnityEngine.Component.GetComponentsInChildren(Type)"></see>을 호출하여 자식 컴포넌트를 찾아 할당합니다.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GetComponentInChildrenAttribute(bool bInclude_OnDisable = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public GetComponentInChildrenAttribute(bool bInclude_DisableObject = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -140,8 +168,9 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">bInclude_OnDisable</span></td>
-        <td></td>
+        <td><span class="parametername">bInclude_DisableObject</span></td>
+        <td><p>Disable 된 오브젝트까지 포함할 지</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -150,15 +179,16 @@
     <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=Global_GetComponentInChildrenAttribute__ctor_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Global.GetComponentInChildrenAttribute.%23ctor(System.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L83">View Source</a>
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L227">View Source</a>
   </span>
   <a id="Global_GetComponentInChildrenAttribute__ctor_" data-uid="Global.GetComponentInChildrenAttribute.#ctor*"></a>
   <h4 id="Global_GetComponentInChildrenAttribute__ctor_System_Boolean_System_Boolean_" data-uid="Global.GetComponentInChildrenAttribute.#ctor(System.Boolean,System.Boolean)">GetComponentInChildrenAttribute(Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p><see cref="!:UnityEngine.Component.GetComponentsInChildren(Type)"></see>을 호출하여 자식 컴포넌트를 찾아 할당합니다.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GetComponentInChildrenAttribute(bool bInclude_OnDisable, bool bIsPrint_OnNotFound = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public GetComponentInChildrenAttribute(bool bInclude_DisableObject, bool bIsPrint_OnNotFound = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -172,13 +202,15 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">bInclude_OnDisable</span></td>
-        <td></td>
+        <td><span class="parametername">bInclude_DisableObject</span></td>
+        <td><p>Disable 된 오브젝트까지 포함할 지</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">bIsPrint_OnNotFound</span></td>
-        <td></td>
+        <td><p>오브젝트를 못찾았을 경우 <see cref="!:Debug.LogError(Object)"></see>를 출력할 지</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -187,15 +219,16 @@
     <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=Global_GetComponentInChildrenAttribute__ctor_System_Object_.md&amp;value=---%0Auid%3A%20Global.GetComponentInChildrenAttribute.%23ctor(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L90">View Source</a>
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L238">View Source</a>
   </span>
   <a id="Global_GetComponentInChildrenAttribute__ctor_" data-uid="Global.GetComponentInChildrenAttribute.#ctor*"></a>
   <h4 id="Global_GetComponentInChildrenAttribute__ctor_System_Object_" data-uid="Global.GetComponentInChildrenAttribute.#ctor(System.Object)">GetComponentInChildrenAttribute(Object)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p><see cref="!:UnityEngine.Component.GetComponentsInChildren(Type)"></see>을 호출하여 자식 컴포넌트를 찾아 할당합니다.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GetComponentInChildrenAttribute(object pComponentName)</code></pre>
+    <pre><code class="lang-csharp hljs">public GetComponentInChildrenAttribute(object pFindComponentName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -209,8 +242,9 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
-        <td><span class="parametername">pComponentName</span></td>
-        <td></td>
+        <td><span class="parametername">pFindComponentName</span></td>
+        <td><p>여기엔 <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>혹은 <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.enum">Enum</a> 타입만 들어가야 합니다. 찾고자 하는 컴포넌트 이름입니다.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -219,15 +253,16 @@
     <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=Global_GetComponentInChildrenAttribute__ctor_System_Object_System_Boolean_.md&amp;value=---%0Auid%3A%20Global.GetComponentInChildrenAttribute.%23ctor(System.Object%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L97">View Source</a>
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L250">View Source</a>
   </span>
   <a id="Global_GetComponentInChildrenAttribute__ctor_" data-uid="Global.GetComponentInChildrenAttribute.#ctor*"></a>
   <h4 id="Global_GetComponentInChildrenAttribute__ctor_System_Object_System_Boolean_" data-uid="Global.GetComponentInChildrenAttribute.#ctor(System.Object,System.Boolean)">GetComponentInChildrenAttribute(Object, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p><see cref="!:UnityEngine.Component.GetComponentsInChildren(Type)"></see>을 호출하여 자식 컴포넌트를 찾아 할당합니다.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GetComponentInChildrenAttribute(object pComponentName, bool bInclude_OnDisable)</code></pre>
+    <pre><code class="lang-csharp hljs">public GetComponentInChildrenAttribute(object pFindComponentName, bool bInclude_DisableObject)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -241,13 +276,15 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
-        <td><span class="parametername">pComponentName</span></td>
-        <td></td>
+        <td><span class="parametername">pFindComponentName</span></td>
+        <td><p>여기엔 <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>혹은 <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.enum">Enum</a> 타입만 들어가야 합니다. 찾고자 하는 컴포넌트 이름입니다.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">bInclude_OnDisable</span></td>
-        <td></td>
+        <td><span class="parametername">bInclude_DisableObject</span></td>
+        <td><p>Disable 된 오브젝트까지 포함할 지</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -256,15 +293,16 @@
     <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=Global_GetComponentInChildrenAttribute__ctor_System_Object_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Global.GetComponentInChildrenAttribute.%23ctor(System.Object%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L104">View Source</a>
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L263">View Source</a>
   </span>
   <a id="Global_GetComponentInChildrenAttribute__ctor_" data-uid="Global.GetComponentInChildrenAttribute.#ctor*"></a>
   <h4 id="Global_GetComponentInChildrenAttribute__ctor_System_Object_System_Boolean_System_Boolean_" data-uid="Global.GetComponentInChildrenAttribute.#ctor(System.Object,System.Boolean,System.Boolean)">GetComponentInChildrenAttribute(Object, Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p><see cref="!:UnityEngine.Component.GetComponentsInChildren(Type)"></see>을 호출하여 자식 컴포넌트를 찾아 할당합니다.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GetComponentInChildrenAttribute(object pComponentName, bool bInclude_OnDisable, bool bIsPrint_OnNotFound = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public GetComponentInChildrenAttribute(object pFindComponentName, bool bInclude_DisableObject, bool bIsPrint_OnNotFound = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -278,18 +316,21 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
-        <td><span class="parametername">pComponentName</span></td>
-        <td></td>
+        <td><span class="parametername">pFindComponentName</span></td>
+        <td><p>여기엔 <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>혹은 <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.enum">Enum</a> 타입만 들어가야 합니다. 찾고자 하는 컴포넌트 이름입니다.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td><span class="parametername">bInclude_OnDisable</span></td>
-        <td></td>
+        <td><span class="parametername">bInclude_DisableObject</span></td>
+        <td><p>Disable 된 오브젝트까지 포함할 지</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
         <td><span class="parametername">bIsPrint_OnNotFound</span></td>
-        <td></td>
+        <td><p>오브젝트를 못찾았을 경우 <see cref="!:Debug.LogError(Object)"></see>를 출력할 지</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -297,17 +338,17 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=Global_GetComponentInChildrenAttribute_bInclude_OnDisable.md&amp;value=---%0Auid%3A%20Global.GetComponentInChildrenAttribute.bInclude_OnDisable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=Global_GetComponentInChildrenAttribute_bInclude_DisableObject.md&amp;value=---%0Auid%3A%20Global.GetComponentInChildrenAttribute.bInclude_DisableObject%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L74">View Source</a>
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L209">View Source</a>
   </span>
-  <h4 id="Global_GetComponentInChildrenAttribute_bInclude_OnDisable" data-uid="Global.GetComponentInChildrenAttribute.bInclude_OnDisable">bInclude_OnDisable</h4>
+  <h4 id="Global_GetComponentInChildrenAttribute_bInclude_DisableObject" data-uid="Global.GetComponentInChildrenAttribute.bInclude_DisableObject">bInclude_DisableObject</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool bInclude_OnDisable</code></pre>
+    <pre><code class="lang-csharp hljs">public bool bInclude_DisableObject</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -329,7 +370,7 @@
     <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=Global_GetComponentInChildrenAttribute_bSearch_By_ComponentName.md&amp;value=---%0Auid%3A%20Global.GetComponentInChildrenAttribute.bSearch_By_ComponentName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L73">View Source</a>
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L208">View Source</a>
   </span>
   <h4 id="Global_GetComponentInChildrenAttribute_bSearch_By_ComponentName" data-uid="Global.GetComponentInChildrenAttribute.bSearch_By_ComponentName">bSearch_By_ComponentName</h4>
   <div class="markdown level1 summary"></div>
@@ -358,7 +399,7 @@
     <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=Global_GetComponentInChildrenAttribute_strComponentName.md&amp;value=---%0Auid%3A%20Global.GetComponentInChildrenAttribute.strComponentName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L75">View Source</a>
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L210">View Source</a>
   </span>
   <h4 id="Global_GetComponentInChildrenAttribute_strComponentName" data-uid="Global.GetComponentInChildrenAttribute.strComponentName">strComponentName</h4>
   <div class="markdown level1 summary"></div>
@@ -389,7 +430,7 @@
     <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=Global_GetComponentInChildrenAttribute_bSearch_By_ComponentName_ForGetComponent.md&amp;value=---%0Auid%3A%20Global.GetComponentInChildrenAttribute.bSearch_By_ComponentName_ForGetComponent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L69">View Source</a>
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L204">View Source</a>
   </span>
   <a id="Global_GetComponentInChildrenAttribute_bSearch_By_ComponentName_ForGetComponent_" data-uid="Global.GetComponentInChildrenAttribute.bSearch_By_ComponentName_ForGetComponent*"></a>
   <h4 id="Global_GetComponentInChildrenAttribute_bSearch_By_ComponentName_ForGetComponent" data-uid="Global.GetComponentInChildrenAttribute.bSearch_By_ComponentName_ForGetComponent">bSearch_By_ComponentName_ForGetComponent</h4>
@@ -419,7 +460,7 @@
     <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=Global_GetComponentInChildrenAttribute_strComponentName_ForGetComponent.md&amp;value=---%0Auid%3A%20Global.GetComponentInChildrenAttribute.strComponentName_ForGetComponent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L70">View Source</a>
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L205">View Source</a>
   </span>
   <a id="Global_GetComponentInChildrenAttribute_strComponentName_ForGetComponent_" data-uid="Global.GetComponentInChildrenAttribute.strComponentName_ForGetComponent*"></a>
   <h4 id="Global_GetComponentInChildrenAttribute_strComponentName_ForGetComponent" data-uid="Global.GetComponentInChildrenAttribute.strComponentName_ForGetComponent">strComponentName_ForGetComponent</h4>
@@ -451,7 +492,7 @@
     <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=Global_GetComponentInChildrenAttribute_GetComponent_MonoBehaviour_System_Type_.md&amp;value=---%0Auid%3A%20Global.GetComponentInChildrenAttribute.GetComponent(MonoBehaviour%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L113">View Source</a>
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L272">View Source</a>
   </span>
   <a id="Global_GetComponentInChildrenAttribute_GetComponent_" data-uid="Global.GetComponentInChildrenAttribute.GetComponent*"></a>
   <h4 id="Global_GetComponentInChildrenAttribute_GetComponent_MonoBehaviour_System_Type_" data-uid="Global.GetComponentInChildrenAttribute.GetComponent(MonoBehaviour,System.Type)">GetComponent(MonoBehaviour, Type)</h4>
@@ -499,13 +540,13 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Global.GetComponentAttributeBase.html#Global_GetComponentAttributeBase_GetComponent_MonoBehaviour_System_Type_">GetComponentAttributeBase.GetComponent(MonoBehaviour, Type)</a></div>
+  <div><a class="xref" href="GetComponentAttributeCore.GetComponentAttributeBase.html#GetComponentAttributeCore_GetComponentAttributeBase_GetComponent_MonoBehaviour_System_Type_">GetComponentAttributeBase.GetComponent(MonoBehaviour, Type)</a></div>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="Global.IGetComponentChildrenAttribute.html">IGetComponentChildrenAttribute</a>
+      <a class="xref" href="GetComponentAttributeCore.IGetComponentChildrenAttribute.html">IGetComponentChildrenAttribute</a>
   </div>
   <div>
-      <a class="xref" href="Global.IGetComponentAttribute.html">IGetComponentAttribute</a>
+      <a class="xref" href="GetComponentAttributeCore.IGetComponentAttribute.html">IGetComponentAttribute</a>
   </div>
 <div id="disqus_thread"></div>
                 <script>
@@ -528,7 +569,7 @@
                     <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=Global_GetComponentInChildrenAttribute.md&amp;value=---%0Auid%3A%20Global.GetComponentInChildrenAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L67" class="contribution-link">View Source</a>
+                    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L202" class="contribution-link">View Source</a>
                   </li>
                   <li>
                     <a href="#disqus_thread" class="contribution-link">0 Comments</a>

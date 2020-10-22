@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class GetComponentAttributeSetter
+    <title>Class GetComponentAttributeBase
    | Example Title </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class GetComponentAttributeSetter
+    <meta name="title" content="Class GetComponentAttributeBase
    | Example Title ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -78,42 +78,111 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.GetComponentAttributeSetter">
+            <article class="content wrap" id="_content" data-uid="GetComponentAttributeCore.GetComponentAttributeBase">
   
   
-  <h1 id="Global_GetComponentAttributeSetter" data-uid="Global.GetComponentAttributeSetter" class="text-break">Class GetComponentAttributeSetter
+  <h1 id="GetComponentAttributeCore_GetComponentAttributeBase" data-uid="GetComponentAttributeCore.GetComponentAttributeBase" class="text-break">Class GetComponentAttributeBase
   </h1>
-  <div class="markdown level0 summary"><p><span class="xref">GetComponentAttribute</span>가 있는 필드 / 프로퍼티를 할당시켜주는 <span class="xref">static</span> class</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">GetComponentAttributeSetter</span></div>
+    <div class="level1"><span class="xref">GetComponentAttributeBase</span></div>
+      <div class="level2"><a class="xref" href="Global.GetComponentAttribute.html">GetComponentAttribute</a></div>
+      <div class="level2"><a class="xref" href="Global.GetComponentInChildrenAttribute.html">GetComponentInChildrenAttribute</a></div>
+      <div class="level2"><a class="xref" href="Global.GetComponentInParentAttribute.html">GetComponentInParentAttribute</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="GetComponentAttributeCore.IGetComponentAttribute.html">IGetComponentAttribute</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GetComponentAttributeCore.html">GetComponentAttributeCore</a></h6>
   <h6><strong>Assembly</strong>: KorStrix.GetComponentAttribute.Runtime.dll</h6>
-  <h5 id="Global_GetComponentAttributeSetter_syntax">Syntax</h5>
+  <h5 id="GetComponentAttributeCore_GetComponentAttributeBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class GetComponentAttributeSetter</code></pre>
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)]
+public abstract class GetComponentAttributeBase : PropertyAttribute, IGetComponentAttribute</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=GetComponentAttributeCore_GetComponentAttributeBase_bIsPrint_OnNotFound.md&amp;value=---%0Auid%3A%20GetComponentAttributeCore.GetComponentAttributeBase.bIsPrint_OnNotFound%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L48">View Source</a>
+  </span>
+  <h4 id="GetComponentAttributeCore_GetComponentAttributeBase_bIsPrint_OnNotFound" data-uid="GetComponentAttributeCore.GetComponentAttributeBase.bIsPrint_OnNotFound">bIsPrint_OnNotFound</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool bIsPrint_OnNotFound</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=GetComponentAttributeCore_GetComponentAttributeBase_bIsPrint_OnNotFound_GetComponent.md&amp;value=---%0Auid%3A%20GetComponentAttributeCore.GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L47">View Source</a>
+  </span>
+  <a id="GetComponentAttributeCore_GetComponentAttributeBase_bIsPrint_OnNotFound_GetComponent_" data-uid="GetComponentAttributeCore.GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent*"></a>
+  <h4 id="GetComponentAttributeCore_GetComponentAttributeBase_bIsPrint_OnNotFound_GetComponent" data-uid="GetComponentAttributeCore.GetComponentAttributeBase.bIsPrint_OnNotFound_GetComponent">bIsPrint_OnNotFound_GetComponent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool bIsPrint_OnNotFound_GetComponent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=Global_GetComponentAttributeSetter_DoUpdate_GetComponentAttribute_MonoBehaviour_.md&amp;value=---%0Auid%3A%20Global.GetComponentAttributeSetter.DoUpdate_GetComponentAttribute(MonoBehaviour)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=GetComponentAttributeCore_GetComponentAttributeBase_GetComponent_MonoBehaviour_System_Type_.md&amp;value=---%0Auid%3A%20GetComponentAttributeCore.GetComponentAttributeBase.GetComponent(MonoBehaviour%2CSystem.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L295">View Source</a>
+    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L50">View Source</a>
   </span>
-  <a id="Global_GetComponentAttributeSetter_DoUpdate_GetComponentAttribute_" data-uid="Global.GetComponentAttributeSetter.DoUpdate_GetComponentAttribute*"></a>
-  <h4 id="Global_GetComponentAttributeSetter_DoUpdate_GetComponentAttribute_MonoBehaviour_" data-uid="Global.GetComponentAttributeSetter.DoUpdate_GetComponentAttribute(MonoBehaviour)">DoUpdate_GetComponentAttribute(MonoBehaviour)</h4>
-  <div class="markdown level1 summary"><p>매개변수로 넣는 모노비헤비어의 <span class="xref">GetComponentAttribute</span>를 붙인 필드/프로퍼티를 모두 찾아 할당합니다.</p>
-</div>
+  <a id="GetComponentAttributeCore_GetComponentAttributeBase_GetComponent_" data-uid="GetComponentAttributeCore.GetComponentAttributeBase.GetComponent*"></a>
+  <h4 id="GetComponentAttributeCore_GetComponentAttributeBase_GetComponent_MonoBehaviour_System_Type_" data-uid="GetComponentAttributeCore.GetComponentAttributeBase.GetComponent(MonoBehaviour,System.Type)">GetComponent(MonoBehaviour, Type)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DoUpdate_GetComponentAttribute(MonoBehaviour pMonoTarget)</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract object GetComponent(MonoBehaviour pMono, Type pElementType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -127,97 +196,35 @@
     <tbody>
       <tr>
         <td><span class="xref">MonoBehaviour</span></td>
-        <td><span class="parametername">pMonoTarget</span></td>
-        <td><p><span class="xref">GetComponentAttribute</span>를 실행할 대상</p>
-</td>
+        <td><span class="parametername">pMono</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
+        <td><span class="parametername">pElementType</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=Global_GetComponentAttributeSetter_DoUpdate_GetComponentAttribute_MonoBehaviour_System_Object_.md&amp;value=---%0Auid%3A%20Global.GetComponentAttributeSetter.DoUpdate_GetComponentAttribute(MonoBehaviour%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L303">View Source</a>
-  </span>
-  <a id="Global_GetComponentAttributeSetter_DoUpdate_GetComponentAttribute_" data-uid="Global.GetComponentAttributeSetter.DoUpdate_GetComponentAttribute*"></a>
-  <h4 id="Global_GetComponentAttributeSetter_DoUpdate_GetComponentAttribute_MonoBehaviour_System_Object_" data-uid="Global.GetComponentAttributeSetter.DoUpdate_GetComponentAttribute(MonoBehaviour,System.Object)">DoUpdate_GetComponentAttribute(MonoBehaviour, Object)</h4>
-  <div class="markdown level1 summary"><p>매개변수로 넣는 클래스(아무 상속받지 않은 class도 가능)에서</p>
-<p><span class="xref">GetComponentAttribute</span>를 붙인 필드/프로퍼티를 매개변수로 넣은 모노비헤비어 기준으로 찾아 할당합니다.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DoUpdate_GetComponentAttribute(MonoBehaviour pMonoTarget, object pClass_AttributeOwner)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td><span class="xref">MonoBehaviour</span></td>
-        <td><span class="parametername">pMonoTarget</span></td>
-        <td><p><span class="xref">GetComponentAttribute</span>로 찾는 기준 대상</p>
-</td>
-      </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
-        <td><span class="parametername">pClass_AttributeOwner</span></td>
-        <td><p><span class="xref">GetComponentAttribute</span>를 실행할 대상</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=Global_GetComponentAttributeSetter_DoUpdate_GetComponentAttribute_MonoBehaviour_System_Object_System_Reflection_MemberInfo_.md&amp;value=---%0Auid%3A%20Global.GetComponentAttributeSetter.DoUpdate_GetComponentAttribute(MonoBehaviour%2CSystem.Object%2CSystem.Reflection.MemberInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L327">View Source</a>
-  </span>
-  <a id="Global_GetComponentAttributeSetter_DoUpdate_GetComponentAttribute_" data-uid="Global.GetComponentAttributeSetter.DoUpdate_GetComponentAttribute*"></a>
-  <h4 id="Global_GetComponentAttributeSetter_DoUpdate_GetComponentAttribute_MonoBehaviour_System_Object_System_Reflection_MemberInfo_" data-uid="Global.GetComponentAttributeSetter.DoUpdate_GetComponentAttribute(MonoBehaviour,System.Object,System.Reflection.MemberInfo)">DoUpdate_GetComponentAttribute(MonoBehaviour, Object, MemberInfo)</h4>
-  <div class="markdown level1 summary"><p>매개변수로 넣는 클래스(아무 상속받지 않은 class도 가능)에서</p>
-<p><span class="xref">GetComponentAttribute</span>를 붙인 필드/프로퍼티를 매개변수로 넣은 모노비헤비어 기준으로 찾아 할당합니다.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DoUpdate_GetComponentAttribute(MonoBehaviour pMonoTarget, object pClass_AttributeOwner, MemberInfo pMemberInfo)</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="GetComponentAttributeCore.IGetComponentAttribute.html">IGetComponentAttribute</a>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">MonoBehaviour</span></td>
-        <td><span class="parametername">pMonoTarget</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
-        <td><span class="parametername">pClass_AttributeOwner</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.reflection.memberinfo">MemberInfo</a></td>
-        <td><span class="parametername">pMemberInfo</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 <div id="disqus_thread"></div>
                 <script>
                 (function() { // DON'T EDIT BELOW THIS LINE
@@ -236,10 +243,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=Global_GetComponentAttributeSetter.md&amp;value=---%0Auid%3A%20Global.GetComponentAttributeSetter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/new/workspace/Documentation/apiSpec/new?filename=GetComponentAttributeCore_GetComponentAttributeBase.md&amp;value=---%0Auid%3A%20GetComponentAttributeCore.GetComponentAttributeBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L282" class="contribution-link">View Source</a>
+                    <a href="https://github.com/KorStrix/Unity_GetComponentAttribute/blob/workspace/Packages/GetComponentAttribute/Runtime/GetComponentAttribute.cs/#L44" class="contribution-link">View Source</a>
                   </li>
                   <li>
                     <a href="#disqus_thread" class="contribution-link">0 Comments</a>
