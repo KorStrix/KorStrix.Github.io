@@ -426,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.GetComponentInChildrenAttribute.html",
-          "hash": "kiKy68TF3+460Z3DjDhbjA=="
+          "hash": "Wp4zjo7lUAwypmhzKi1vQQ=="
         }
       },
       "is_incremental": false,
@@ -470,30 +470,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.UIActionAttribute_Example.EButtonName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.UIActionAttribute_Example.EButtonName.html",
-          "hash": "IOmK4TBoCRnOGf0Ix+wnFg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.UIActionAttribute_Example.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.UIActionAttribute_Example.html",
-          "hash": "gpi/gDj3w7bteR6fch0KeA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Global.UIButtonCallAttribute.yml",
       "output": {
         ".html": {
@@ -522,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "EJRkJVjp3px3dDbHKn3r4g=="
+          "hash": "/RNoXwV48Wf1JWHb1MHeIw=="
         }
       },
       "is_incremental": false,
@@ -546,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "+/8XK2xLLpMZ/mJ/1Cn9Ww=="
+          "hash": "Ok2Bo/rkkH03TrV1hiPc3Q=="
         }
       },
       "is_incremental": false,
@@ -621,7 +597,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 43,
+          "total_file_count": 41,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

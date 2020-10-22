@@ -1179,24 +1179,6 @@ references:
   isSpec: "True"
   fullName: MemberInfo_Extension.SetValue_Extension
   nameWithType: MemberInfo_Extension.SetValue_Extension
-- uid: Global.UIActionAttribute_Example
-  name: UIActionAttribute_Example
-  href: api/Global.UIActionAttribute_Example.html
-  commentId: T:Global.UIActionAttribute_Example
-  fullName: UIActionAttribute_Example
-  nameWithType: UIActionAttribute_Example
-- uid: Global.UIActionAttribute_Example.EButtonName
-  name: UIActionAttribute_Example.EButtonName
-  href: api/Global.UIActionAttribute_Example.EButtonName.html
-  commentId: T:Global.UIActionAttribute_Example.EButtonName
-  fullName: UIActionAttribute_Example.EButtonName
-  nameWithType: UIActionAttribute_Example.EButtonName
-- uid: Global.UIActionAttribute_Example.EButtonName.ButtonAttributeExample
-  name: ButtonAttributeExample
-  href: api/Global.UIActionAttribute_Example.EButtonName.html#Global_UIActionAttribute_Example_EButtonName_ButtonAttributeExample
-  commentId: F:Global.UIActionAttribute_Example.EButtonName.ButtonAttributeExample
-  fullName: UIActionAttribute_Example.EButtonName.ButtonAttributeExample
-  nameWithType: UIActionAttribute_Example.EButtonName.ButtonAttributeExample
 - uid: Global.UIActionAttributeSetter
   name: UIActionAttributeSetter
   href: api/Global.UIActionAttributeSetter.html
