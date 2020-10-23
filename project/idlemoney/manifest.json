@@ -14,6 +14,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.AnimationData_Container.AnimationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AnimationData_Container.AnimationData.html",
+          "hash": "J5YCq9RAjucWtO8CvMUTFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.AnimationData_Container.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AnimationData_Container.html",
+          "hash": "do6p+ydxkz65zXjWqZ5lYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.AxisOptions.yml",
       "output": {
         ".html": {
@@ -30,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Character.ECharacterState.html",
-          "hash": "lTlwsmnpPZQdESmEjj/h3w=="
+          "hash": "WSmvK4EGUnED5pGh/Q/ltQ=="
         }
       },
       "is_incremental": false,
@@ -42,19 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Character.html",
-          "hash": "HuSikchaC343OuAlLfijMg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.CharacterAnimationLogic_SimpleCitizen.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.CharacterAnimationLogic_SimpleCitizen.html",
-          "hash": "Nv57Qw/T0kN/SxlRekAYgg=="
+          "hash": "/XD9fQK5PYqplhF86+Sv+A=="
         }
       },
       "is_incremental": false,
@@ -66,7 +78,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.CharacterAnimator.html",
-          "hash": "DvZbs9P5NwCeLqDHSbcwXw=="
+          "hash": "e16bxfWu4EpWZoeAopy0rQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CommandManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CommandManager-1.html",
+          "hash": "DX8CIBJ19Dupa8gmcyH+1Q=="
         }
       },
       "is_incremental": false,
@@ -110,6 +134,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.ExecutedCommandInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ExecutedCommandInfo.html",
+          "hash": "5YUB09+OCuVYqTYgqtIYHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.FixedJoystick.yml",
       "output": {
         ".html": {
@@ -146,11 +182,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.IAnimationLogic.yml",
+      "source_relative_path": "api/Global.ICharacterInput.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.IAnimationLogic.html",
-          "hash": "wSFkgmVOqo9uqblNYt8J8A=="
+          "relative_path": "api/Global.ICharacterInput.html",
+          "hash": "bYZFIKmnZOaPVy0lkIYy0g=="
         }
       },
       "is_incremental": false,
@@ -158,11 +194,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.ICharacterInput.yml",
+      "source_relative_path": "api/Global.ICommand.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.ICharacterInput.html",
-          "hash": "GPfuJw6VWZxSkC3qv7XpFw=="
+          "relative_path": "api/Global.ICommand.html",
+          "hash": "/X+ewz8nBmy3lXoaET8JXQ=="
         }
       },
       "is_incremental": false,
@@ -194,11 +230,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.JoystickPlayer.yml",
+      "source_relative_path": "api/Global.JoystickInput.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.JoystickPlayer.html",
-          "hash": "Om/4jea14y3o11OGWJbjEQ=="
+          "relative_path": "api/Global.JoystickInput.html",
+          "hash": "jQAtGs/a4k4/zsTVbpu7Iw=="
         }
       },
       "is_incremental": false,
@@ -246,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MoveAble.html",
-          "hash": "zk8V1tw3vLJvfqCMMHL3Uw=="
+          "hash": "V+j4yhsPAQ36jHNnGK4KIg=="
         }
       },
       "is_incremental": false,
@@ -258,7 +294,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MoveAbleLogic.html",
-          "hash": "vrIYjNNnpGq08kOdX4RiDQ=="
+          "hash": "UK2ob88zhLlnHtxaAA4PbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MoveAbleLogic_Rigidbody2D.EMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MoveAbleLogic_Rigidbody2D.EMode.html",
+          "hash": "Z0zLvBy7jwz9iUB7yrIiag=="
         }
       },
       "is_incremental": false,
@@ -270,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MoveAbleLogic_Rigidbody2D.html",
-          "hash": "GWpad6KsIBB7SCr8bSxKrQ=="
+          "hash": "mv8dEoSU9uI+7TeUmWb3cQ=="
         }
       },
       "is_incremental": false,
@@ -282,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MoveAbleLogic_Transform.html",
-          "hash": "aD2gj3KG0F5XjfAOQGE3ow=="
+          "hash": "72sVnd2f9hc94tDwC1qBPQ=="
         }
       },
       "is_incremental": false,
@@ -294,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.ObjectBase.html",
-          "hash": "2SJ+INCqOUQH2FDJfMQGbQ=="
+          "hash": "nNwaYWAmEXGnEJYy2NlrRg=="
         }
       },
       "is_incremental": false,
@@ -390,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "68TbRNkCxlA+WO5hNQzGpA=="
+          "hash": "RL255BQbjYixOMscYQWgzQ=="
         }
       },
       "is_incremental": false,
@@ -438,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Yi1EkJhXqhho+914Lg6B7Q=="
+          "hash": "FMBilmb2grcnUY1SKf0zrg=="
         }
       },
       "is_incremental": false,
@@ -513,7 +561,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 34,
+          "total_file_count": 38,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

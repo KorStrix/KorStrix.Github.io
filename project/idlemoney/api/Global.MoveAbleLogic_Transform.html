@@ -94,16 +94,22 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_CreateLogic_Rigidbody2D_MonoBehaviour_">MoveAbleLogic.CreateLogic_Rigidbody2D(MonoBehaviour)</a>
+      <a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_CreateLogic_Rigidbody2D_MonoBehaviour_MoveAbleLogic_Rigidbody2D_EMode_">MoveAbleLogic.CreateLogic_Rigidbody2D(MonoBehaviour, MoveAbleLogic_Rigidbody2D.EMode)</a>
     </div>
     <div>
       <a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_CreateLogic_Transform_MonoBehaviour_">MoveAbleLogic.CreateLogic_Transform(MonoBehaviour)</a>
     </div>
     <div>
-      <a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_fMoveSpeed">MoveAbleLogic.fMoveSpeed</a>
+      <a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_fInitMoveSpeed">MoveAbleLogic.fInitMoveSpeed</a>
     </div>
     <div>
-      <a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_DoSet_MoveSpeed_System_Single_">MoveAbleLogic.DoSet_MoveSpeed(Single)</a>
+      <a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_fCurrentMoveSpeed">MoveAbleLogic.fCurrentMoveSpeed</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_fInputX_Minus1_1">MoveAbleLogic.fInputX_Minus1_1</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_DoSet_InitMoveSpeed_System_Single_">MoveAbleLogic.DoSet_InitMoveSpeed(Single)</a>
     </div>
     <div>
       <a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_DoMove_System_Single_">MoveAbleLogic.DoMove(Single)</a>
@@ -125,7 +131,7 @@
     <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_MoveAbleLogic_Transform__ctor_MonoBehaviour_.md&amp;value=---%0Auid%3A%20Global.MoveAbleLogic_Transform.%23ctor(MonoBehaviour)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/MoveAble.cs/#L62">View Source</a>
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/MoveAble.cs/#L91">View Source</a>
   </span>
   <a id="Global_MoveAbleLogic_Transform__ctor_" data-uid="Global.MoveAbleLogic_Transform.#ctor*"></a>
   <h4 id="Global_MoveAbleLogic_Transform__ctor_MonoBehaviour_" data-uid="Global.MoveAbleLogic_Transform.#ctor(MonoBehaviour)">MoveAbleLogic_Transform(MonoBehaviour)</h4>
@@ -156,10 +162,42 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_MoveAbleLogic_Transform_GetCurrentSpeed.md&amp;value=---%0Auid%3A%20Global.MoveAbleLogic_Transform.GetCurrentSpeed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/MoveAble.cs/#L108">View Source</a>
+  </span>
+  <a id="Global_MoveAbleLogic_Transform_GetCurrentSpeed_" data-uid="Global.MoveAbleLogic_Transform.GetCurrentSpeed*"></a>
+  <h4 id="Global_MoveAbleLogic_Transform_GetCurrentSpeed" data-uid="Global.MoveAbleLogic_Transform.GetCurrentSpeed">GetCurrentSpeed()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override float GetCurrentSpeed()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.MoveAbleLogic.html#Global_MoveAbleLogic_GetCurrentSpeed">MoveAbleLogic.GetCurrentSpeed()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_MoveAbleLogic_Transform_OnMove_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Global.MoveAbleLogic_Transform.OnMove(System.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/MoveAble.cs/#L67">View Source</a>
+    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/MoveAble.cs/#L96">View Source</a>
   </span>
   <a id="Global_MoveAbleLogic_Transform_OnMove_" data-uid="Global.MoveAbleLogic_Transform.OnMove*"></a>
   <h4 id="Global_MoveAbleLogic_Transform_OnMove_System_Single_System_Single_System_Single_" data-uid="Global.MoveAbleLogic_Transform.OnMove(System.Single,System.Single,System.Single)">OnMove(Single, Single, Single)</h4>
@@ -167,7 +205,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnMove(float fMoveX_0_1, float fMoveSpeed, float fDeltaTime)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnMove(float fMoveX_Minus1_1, float fMoveSpeed, float fDeltaTime)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -181,7 +219,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">fMoveX_0_1</span></td>
+        <td><span class="parametername">fMoveX_Minus1_1</span></td>
         <td></td>
       </tr>
       <tr>
@@ -219,7 +257,7 @@
                     <a href="https://github.com/KorStrix/UnityECS_TakeMoneyGame/new/main/Develop/trunk/IdleMoney/Documentation/apiSpec/new?filename=Global_MoveAbleLogic_Transform.md&amp;value=---%0Auid%3A%20Global.MoveAbleLogic_Transform%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/MoveAble.cs/#L58" class="contribution-link">View Source</a>
+                    <a href="https://github.com/KorStrix/Unity_TakeMoneyGame/blob/main/Develop/trunk/IdleMoney/Assets/MoveAble.cs/#L86" class="contribution-link">View Source</a>
                   </li>
                   <li>
                     <a href="#disqus_thread" class="contribution-link">0 Comments</a>

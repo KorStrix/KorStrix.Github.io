@@ -9,6 +9,165 @@ references:
   fullName.vb: ''
   nameWithType: Global
   nameWithType.vb: ''
+- uid: Global.AnimationData_Container
+  name: AnimationData_Container
+  href: api/Global.AnimationData_Container.html
+  commentId: T:Global.AnimationData_Container
+  fullName: AnimationData_Container
+  nameWithType: AnimationData_Container
+- uid: Global.AnimationData_Container.AnimationData
+  name: AnimationData_Container.AnimationData
+  href: api/Global.AnimationData_Container.AnimationData.html
+  commentId: T:Global.AnimationData_Container.AnimationData
+  fullName: AnimationData_Container.AnimationData
+  nameWithType: AnimationData_Container.AnimationData
+- uid: Global.AnimationData_Container.AnimationData.bIsLoop
+  name: bIsLoop
+  href: api/Global.AnimationData_Container.AnimationData.html#Global_AnimationData_Container_AnimationData_bIsLoop
+  commentId: F:Global.AnimationData_Container.AnimationData.bIsLoop
+  fullName: AnimationData_Container.AnimationData.bIsLoop
+  nameWithType: AnimationData_Container.AnimationData.bIsLoop
+- uid: Global.AnimationData_Container.AnimationData.iAnimatorLayer
+  name: iAnimatorLayer
+  href: api/Global.AnimationData_Container.AnimationData.html#Global_AnimationData_Container_AnimationData_iAnimatorLayer
+  commentId: F:Global.AnimationData_Container.AnimationData.iAnimatorLayer
+  fullName: AnimationData_Container.AnimationData.iAnimatorLayer
+  nameWithType: AnimationData_Container.AnimationData.iAnimatorLayer
+- uid: Global.AnimationData_Container.AnimationData.strAnimationKey
+  name: strAnimationKey
+  href: api/Global.AnimationData_Container.AnimationData.html#Global_AnimationData_Container_AnimationData_strAnimationKey
+  commentId: F:Global.AnimationData_Container.AnimationData.strAnimationKey
+  fullName: AnimationData_Container.AnimationData.strAnimationKey
+  nameWithType: AnimationData_Container.AnimationData.strAnimationKey
+- uid: Global.AnimationData_Container.AnimationData.strAnimationName
+  name: strAnimationName
+  href: api/Global.AnimationData_Container.AnimationData.html#Global_AnimationData_Container_AnimationData_strAnimationName
+  commentId: F:Global.AnimationData_Container.AnimationData.strAnimationName
+  fullName: AnimationData_Container.AnimationData.strAnimationName
+  nameWithType: AnimationData_Container.AnimationData.strAnimationName
+- uid: Global.AnimationData_Container.ContainsKey(System.String)
+  name: ContainsKey(String)
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_ContainsKey_System_String_
+  commentId: M:Global.AnimationData_Container.ContainsKey(System.String)
+  fullName: AnimationData_Container.ContainsKey(System.String)
+  nameWithType: AnimationData_Container.ContainsKey(String)
+- uid: Global.AnimationData_Container.ContainsKey*
+  name: ContainsKey
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_ContainsKey_
+  commentId: Overload:Global.AnimationData_Container.ContainsKey
+  isSpec: "True"
+  fullName: AnimationData_Container.ContainsKey
+  nameWithType: AnimationData_Container.ContainsKey
+- uid: Global.AnimationData_Container.Count
+  name: Count
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_Count
+  commentId: P:Global.AnimationData_Container.Count
+  fullName: AnimationData_Container.Count
+  nameWithType: AnimationData_Container.Count
+- uid: Global.AnimationData_Container.Count*
+  name: Count
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_Count_
+  commentId: Overload:Global.AnimationData_Container.Count
+  isSpec: "True"
+  fullName: AnimationData_Container.Count
+  nameWithType: AnimationData_Container.Count
+- uid: Global.AnimationData_Container.DoInit
+  name: DoInit()
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_DoInit
+  commentId: M:Global.AnimationData_Container.DoInit
+  fullName: AnimationData_Container.DoInit()
+  nameWithType: AnimationData_Container.DoInit()
+- uid: Global.AnimationData_Container.DoInit*
+  name: DoInit
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_DoInit_
+  commentId: Overload:Global.AnimationData_Container.DoInit
+  isSpec: "True"
+  fullName: AnimationData_Container.DoInit
+  nameWithType: AnimationData_Container.DoInit
+- uid: Global.AnimationData_Container.GetEnumerator
+  name: GetEnumerator()
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_GetEnumerator
+  commentId: M:Global.AnimationData_Container.GetEnumerator
+  fullName: AnimationData_Container.GetEnumerator()
+  nameWithType: AnimationData_Container.GetEnumerator()
+- uid: Global.AnimationData_Container.GetEnumerator*
+  name: GetEnumerator
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_GetEnumerator_
+  commentId: Overload:Global.AnimationData_Container.GetEnumerator
+  isSpec: "True"
+  fullName: AnimationData_Container.GetEnumerator
+  nameWithType: AnimationData_Container.GetEnumerator
+- uid: Global.AnimationData_Container.Item(System.String)
+  name: Item[String]
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_Item_System_String_
+  commentId: P:Global.AnimationData_Container.Item(System.String)
+  name.vb: Item(String)
+  fullName: AnimationData_Container.Item[System.String]
+  fullName.vb: AnimationData_Container.Item(System.String)
+  nameWithType: AnimationData_Container.Item[String]
+  nameWithType.vb: AnimationData_Container.Item(String)
+- uid: Global.AnimationData_Container.Item*
+  name: Item
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_Item_
+  commentId: Overload:Global.AnimationData_Container.Item
+  isSpec: "True"
+  fullName: AnimationData_Container.Item
+  nameWithType: AnimationData_Container.Item
+- uid: Global.AnimationData_Container.Keys
+  name: Keys
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_Keys
+  commentId: P:Global.AnimationData_Container.Keys
+  fullName: AnimationData_Container.Keys
+  nameWithType: AnimationData_Container.Keys
+- uid: Global.AnimationData_Container.Keys*
+  name: Keys
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_Keys_
+  commentId: Overload:Global.AnimationData_Container.Keys
+  isSpec: "True"
+  fullName: AnimationData_Container.Keys
+  nameWithType: AnimationData_Container.Keys
+- uid: Global.AnimationData_Container.listAnimationData
+  name: listAnimationData
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_listAnimationData
+  commentId: P:Global.AnimationData_Container.listAnimationData
+  fullName: AnimationData_Container.listAnimationData
+  nameWithType: AnimationData_Container.listAnimationData
+- uid: Global.AnimationData_Container.listAnimationData*
+  name: listAnimationData
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_listAnimationData_
+  commentId: Overload:Global.AnimationData_Container.listAnimationData
+  isSpec: "True"
+  fullName: AnimationData_Container.listAnimationData
+  nameWithType: AnimationData_Container.listAnimationData
+- uid: Global.AnimationData_Container.TryGetValue(System.String,AnimationData_Container.AnimationData@)
+  name: TryGetValue(String, out AnimationData_Container.AnimationData)
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_TryGetValue_System_String_AnimationData_Container_AnimationData__
+  commentId: M:Global.AnimationData_Container.TryGetValue(System.String,AnimationData_Container.AnimationData@)
+  name.vb: TryGetValue(String, ByRef AnimationData_Container.AnimationData)
+  fullName: AnimationData_Container.TryGetValue(System.String, out AnimationData_Container.AnimationData)
+  fullName.vb: AnimationData_Container.TryGetValue(System.String, ByRef AnimationData_Container.AnimationData)
+  nameWithType: AnimationData_Container.TryGetValue(String, out AnimationData_Container.AnimationData)
+  nameWithType.vb: AnimationData_Container.TryGetValue(String, ByRef AnimationData_Container.AnimationData)
+- uid: Global.AnimationData_Container.TryGetValue*
+  name: TryGetValue
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_TryGetValue_
+  commentId: Overload:Global.AnimationData_Container.TryGetValue
+  isSpec: "True"
+  fullName: AnimationData_Container.TryGetValue
+  nameWithType: AnimationData_Container.TryGetValue
+- uid: Global.AnimationData_Container.Values
+  name: Values
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_Values
+  commentId: P:Global.AnimationData_Container.Values
+  fullName: AnimationData_Container.Values
+  nameWithType: AnimationData_Container.Values
+- uid: Global.AnimationData_Container.Values*
+  name: Values
+  href: api/Global.AnimationData_Container.html#Global_AnimationData_Container_Values_
+  commentId: Overload:Global.AnimationData_Container.Values
+  isSpec: "True"
+  fullName: AnimationData_Container.Values
+  nameWithType: AnimationData_Container.Values
 - uid: Global.AxisOptions
   name: AxisOptions
   href: api/Global.AxisOptions.html
@@ -52,6 +211,19 @@ references:
   isSpec: "True"
   fullName: Character.DoInit
   nameWithType: Character.DoInit
+- uid: Global.Character.DoSet_CharacterInput(ICharacterInput)
+  name: DoSet_CharacterInput(ICharacterInput)
+  href: api/Global.Character.html#Global_Character_DoSet_CharacterInput_ICharacterInput_
+  commentId: M:Global.Character.DoSet_CharacterInput(ICharacterInput)
+  fullName: Character.DoSet_CharacterInput(ICharacterInput)
+  nameWithType: Character.DoSet_CharacterInput(ICharacterInput)
+- uid: Global.Character.DoSet_CharacterInput*
+  name: DoSet_CharacterInput
+  href: api/Global.Character.html#Global_Character_DoSet_CharacterInput_
+  commentId: Overload:Global.Character.DoSet_CharacterInput
+  isSpec: "True"
+  fullName: Character.DoSet_CharacterInput
+  nameWithType: Character.DoSet_CharacterInput
 - uid: Global.Character.ECharacterState
   name: Character.ECharacterState
   href: api/Global.Character.ECharacterState.html
@@ -82,6 +254,19 @@ references:
   commentId: F:Global.Character.ECharacterState.Walk
   fullName: Character.ECharacterState.Walk
   nameWithType: Character.ECharacterState.Walk
+- uid: Global.Character.OnAwake
+  name: OnAwake()
+  href: api/Global.Character.html#Global_Character_OnAwake
+  commentId: M:Global.Character.OnAwake
+  fullName: Character.OnAwake()
+  nameWithType: Character.OnAwake()
+- uid: Global.Character.OnAwake*
+  name: OnAwake
+  href: api/Global.Character.html#Global_Character_OnAwake_
+  commentId: Overload:Global.Character.OnAwake
+  isSpec: "True"
+  fullName: Character.OnAwake
+  nameWithType: Character.OnAwake
 - uid: Global.Character.OnChangeState
   name: OnChangeState
   href: api/Global.Character.html#Global_Character_OnChangeState
@@ -95,44 +280,38 @@ references:
   isSpec: "True"
   fullName: Character.OnChangeState
   nameWithType: Character.OnChangeState
-- uid: Global.CharacterAnimationLogic_SimpleCitizen
-  name: CharacterAnimationLogic_SimpleCitizen
-  href: api/Global.CharacterAnimationLogic_SimpleCitizen.html
-  commentId: T:Global.CharacterAnimationLogic_SimpleCitizen
-  fullName: CharacterAnimationLogic_SimpleCitizen
-  nameWithType: CharacterAnimationLogic_SimpleCitizen
-- uid: Global.CharacterAnimationLogic_SimpleCitizen.DoPlayAnimation(System.String)
-  name: DoPlayAnimation(String)
-  href: api/Global.CharacterAnimationLogic_SimpleCitizen.html#Global_CharacterAnimationLogic_SimpleCitizen_DoPlayAnimation_System_String_
-  commentId: M:Global.CharacterAnimationLogic_SimpleCitizen.DoPlayAnimation(System.String)
-  fullName: CharacterAnimationLogic_SimpleCitizen.DoPlayAnimation(System.String)
-  nameWithType: CharacterAnimationLogic_SimpleCitizen.DoPlayAnimation(String)
-- uid: Global.CharacterAnimationLogic_SimpleCitizen.DoPlayAnimation*
-  name: DoPlayAnimation
-  href: api/Global.CharacterAnimationLogic_SimpleCitizen.html#Global_CharacterAnimationLogic_SimpleCitizen_DoPlayAnimation_
-  commentId: Overload:Global.CharacterAnimationLogic_SimpleCitizen.DoPlayAnimation
-  isSpec: "True"
-  fullName: CharacterAnimationLogic_SimpleCitizen.DoPlayAnimation
-  nameWithType: CharacterAnimationLogic_SimpleCitizen.DoPlayAnimation
-- uid: Global.CharacterAnimationLogic_SimpleCitizen.DoPlayAnimation_Loop(System.String)
-  name: DoPlayAnimation_Loop(String)
-  href: api/Global.CharacterAnimationLogic_SimpleCitizen.html#Global_CharacterAnimationLogic_SimpleCitizen_DoPlayAnimation_Loop_System_String_
-  commentId: M:Global.CharacterAnimationLogic_SimpleCitizen.DoPlayAnimation_Loop(System.String)
-  fullName: CharacterAnimationLogic_SimpleCitizen.DoPlayAnimation_Loop(System.String)
-  nameWithType: CharacterAnimationLogic_SimpleCitizen.DoPlayAnimation_Loop(String)
-- uid: Global.CharacterAnimationLogic_SimpleCitizen.DoPlayAnimation_Loop*
-  name: DoPlayAnimation_Loop
-  href: api/Global.CharacterAnimationLogic_SimpleCitizen.html#Global_CharacterAnimationLogic_SimpleCitizen_DoPlayAnimation_Loop_
-  commentId: Overload:Global.CharacterAnimationLogic_SimpleCitizen.DoPlayAnimation_Loop
-  isSpec: "True"
-  fullName: CharacterAnimationLogic_SimpleCitizen.DoPlayAnimation_Loop
-  nameWithType: CharacterAnimationLogic_SimpleCitizen.DoPlayAnimation_Loop
 - uid: Global.CharacterAnimator
   name: CharacterAnimator
   href: api/Global.CharacterAnimator.html
   commentId: T:Global.CharacterAnimator
   fullName: CharacterAnimator
   nameWithType: CharacterAnimator
+- uid: Global.CharacterAnimator.DoPlayAnimation(System.String)
+  name: DoPlayAnimation(String)
+  href: api/Global.CharacterAnimator.html#Global_CharacterAnimator_DoPlayAnimation_System_String_
+  commentId: M:Global.CharacterAnimator.DoPlayAnimation(System.String)
+  fullName: CharacterAnimator.DoPlayAnimation(System.String)
+  nameWithType: CharacterAnimator.DoPlayAnimation(String)
+- uid: Global.CharacterAnimator.DoPlayAnimation*
+  name: DoPlayAnimation
+  href: api/Global.CharacterAnimator.html#Global_CharacterAnimator_DoPlayAnimation_
+  commentId: Overload:Global.CharacterAnimator.DoPlayAnimation
+  isSpec: "True"
+  fullName: CharacterAnimator.DoPlayAnimation
+  nameWithType: CharacterAnimator.DoPlayAnimation
+- uid: Global.CharacterAnimator.DoPlayAnimation_Loop(System.String)
+  name: DoPlayAnimation_Loop(String)
+  href: api/Global.CharacterAnimator.html#Global_CharacterAnimator_DoPlayAnimation_Loop_System_String_
+  commentId: M:Global.CharacterAnimator.DoPlayAnimation_Loop(System.String)
+  fullName: CharacterAnimator.DoPlayAnimation_Loop(System.String)
+  nameWithType: CharacterAnimator.DoPlayAnimation_Loop(String)
+- uid: Global.CharacterAnimator.DoPlayAnimation_Loop*
+  name: DoPlayAnimation_Loop
+  href: api/Global.CharacterAnimator.html#Global_CharacterAnimator_DoPlayAnimation_Loop_
+  commentId: Overload:Global.CharacterAnimator.DoPlayAnimation_Loop
+  isSpec: "True"
+  fullName: CharacterAnimator.DoPlayAnimation_Loop
+  nameWithType: CharacterAnimator.DoPlayAnimation_Loop
 - uid: Global.CharacterAnimator.OnAwake
   name: OnAwake()
   href: api/Global.CharacterAnimator.html#Global_CharacterAnimator_OnAwake
@@ -146,6 +325,38 @@ references:
   isSpec: "True"
   fullName: CharacterAnimator.OnAwake
   nameWithType: CharacterAnimator.OnAwake
+- uid: Global.CharacterAnimator.pAnimationData
+  name: pAnimationData
+  href: api/Global.CharacterAnimator.html#Global_CharacterAnimator_pAnimationData
+  commentId: F:Global.CharacterAnimator.pAnimationData
+  fullName: CharacterAnimator.pAnimationData
+  nameWithType: CharacterAnimator.pAnimationData
+- uid: Global.CommandManager`1
+  name: CommandManager<TCommand>
+  href: api/Global.CommandManager-1.html
+  commentId: T:Global.CommandManager`1
+  name.vb: CommandManager(Of TCommand)
+  fullName: CommandManager<TCommand>
+  fullName.vb: CommandManager(Of TCommand)
+  nameWithType: CommandManager<TCommand>
+  nameWithType.vb: CommandManager(Of TCommand)
+- uid: Global.CommandManager`1.DoExecuteCommand(System.String)
+  name: DoExecuteCommand(String)
+  href: api/Global.CommandManager-1.html#Global_CommandManager_1_DoExecuteCommand_System_String_
+  commentId: M:Global.CommandManager`1.DoExecuteCommand(System.String)
+  fullName: CommandManager<TCommand>.DoExecuteCommand(System.String)
+  fullName.vb: CommandManager(Of TCommand).DoExecuteCommand(System.String)
+  nameWithType: CommandManager<TCommand>.DoExecuteCommand(String)
+  nameWithType.vb: CommandManager(Of TCommand).DoExecuteCommand(String)
+- uid: Global.CommandManager`1.DoExecuteCommand*
+  name: DoExecuteCommand
+  href: api/Global.CommandManager-1.html#Global_CommandManager_1_DoExecuteCommand_
+  commentId: Overload:Global.CommandManager`1.DoExecuteCommand
+  isSpec: "True"
+  fullName: CommandManager<TCommand>.DoExecuteCommand
+  fullName.vb: CommandManager(Of TCommand).DoExecuteCommand
+  nameWithType: CommandManager<TCommand>.DoExecuteCommand
+  nameWithType.vb: CommandManager(Of TCommand).DoExecuteCommand
 - uid: Global.DesktopInput
   name: DesktopInput
   href: api/Global.DesktopInput.html
@@ -274,6 +485,12 @@ references:
   isSpec: "True"
   fullName: DynamicJoystickEditor.OnInspectorGUI
   nameWithType: DynamicJoystickEditor.OnInspectorGUI
+- uid: Global.ExecutedCommandInfo
+  name: ExecutedCommandInfo
+  href: api/Global.ExecutedCommandInfo.html
+  commentId: T:Global.ExecutedCommandInfo
+  fullName: ExecutedCommandInfo
+  nameWithType: ExecutedCommandInfo
 - uid: Global.FixedJoystick
   name: FixedJoystick
   href: api/Global.FixedJoystick.html
@@ -344,44 +561,76 @@ references:
   isSpec: "True"
   fullName: FloatingJoystickEditor.OnInspectorGUI
   nameWithType: FloatingJoystickEditor.OnInspectorGUI
-- uid: Global.IAnimationLogic
-  name: IAnimationLogic
-  href: api/Global.IAnimationLogic.html
-  commentId: T:Global.IAnimationLogic
-  fullName: IAnimationLogic
-  nameWithType: IAnimationLogic
-- uid: Global.IAnimationLogic.DoPlayAnimation(System.String)
-  name: DoPlayAnimation(String)
-  href: api/Global.IAnimationLogic.html#Global_IAnimationLogic_DoPlayAnimation_System_String_
-  commentId: M:Global.IAnimationLogic.DoPlayAnimation(System.String)
-  fullName: IAnimationLogic.DoPlayAnimation(System.String)
-  nameWithType: IAnimationLogic.DoPlayAnimation(String)
-- uid: Global.IAnimationLogic.DoPlayAnimation*
-  name: DoPlayAnimation
-  href: api/Global.IAnimationLogic.html#Global_IAnimationLogic_DoPlayAnimation_
-  commentId: Overload:Global.IAnimationLogic.DoPlayAnimation
-  isSpec: "True"
-  fullName: IAnimationLogic.DoPlayAnimation
-  nameWithType: IAnimationLogic.DoPlayAnimation
-- uid: Global.IAnimationLogic.DoPlayAnimation_Loop(System.String)
-  name: DoPlayAnimation_Loop(String)
-  href: api/Global.IAnimationLogic.html#Global_IAnimationLogic_DoPlayAnimation_Loop_System_String_
-  commentId: M:Global.IAnimationLogic.DoPlayAnimation_Loop(System.String)
-  fullName: IAnimationLogic.DoPlayAnimation_Loop(System.String)
-  nameWithType: IAnimationLogic.DoPlayAnimation_Loop(String)
-- uid: Global.IAnimationLogic.DoPlayAnimation_Loop*
-  name: DoPlayAnimation_Loop
-  href: api/Global.IAnimationLogic.html#Global_IAnimationLogic_DoPlayAnimation_Loop_
-  commentId: Overload:Global.IAnimationLogic.DoPlayAnimation_Loop
-  isSpec: "True"
-  fullName: IAnimationLogic.DoPlayAnimation_Loop
-  nameWithType: IAnimationLogic.DoPlayAnimation_Loop
 - uid: Global.ICharacterInput
   name: ICharacterInput
   href: api/Global.ICharacterInput.html
   commentId: T:Global.ICharacterInput
   fullName: ICharacterInput
   nameWithType: ICharacterInput
+- uid: Global.ICharacterInput.ICharacterInput_GetInput_MoveX
+  name: ICharacterInput_GetInput_MoveX()
+  href: api/Global.ICharacterInput.html#Global_ICharacterInput_ICharacterInput_GetInput_MoveX
+  commentId: M:Global.ICharacterInput.ICharacterInput_GetInput_MoveX
+  fullName: ICharacterInput.ICharacterInput_GetInput_MoveX()
+  nameWithType: ICharacterInput.ICharacterInput_GetInput_MoveX()
+- uid: Global.ICharacterInput.ICharacterInput_GetInput_MoveX*
+  name: ICharacterInput_GetInput_MoveX
+  href: api/Global.ICharacterInput.html#Global_ICharacterInput_ICharacterInput_GetInput_MoveX_
+  commentId: Overload:Global.ICharacterInput.ICharacterInput_GetInput_MoveX
+  isSpec: "True"
+  fullName: ICharacterInput.ICharacterInput_GetInput_MoveX
+  nameWithType: ICharacterInput.ICharacterInput_GetInput_MoveX
+- uid: Global.ICommand
+  name: ICommand
+  href: api/Global.ICommand.html
+  commentId: T:Global.ICommand
+  fullName: ICommand
+  nameWithType: ICommand
+- uid: Global.ICommand.ICommand_ExecuteCommand(System.Func{ExecutedCommandInfo})
+  name: ICommand_ExecuteCommand(Func<ExecutedCommandInfo>)
+  href: api/Global.ICommand.html#Global_ICommand_ICommand_ExecuteCommand_System_Func_ExecutedCommandInfo__
+  commentId: M:Global.ICommand.ICommand_ExecuteCommand(System.Func{ExecutedCommandInfo})
+  name.vb: ICommand_ExecuteCommand(Func(Of ExecutedCommandInfo))
+  fullName: ICommand.ICommand_ExecuteCommand(System.Func<ExecutedCommandInfo>)
+  fullName.vb: ICommand.ICommand_ExecuteCommand(System.Func(Of ExecutedCommandInfo))
+  nameWithType: ICommand.ICommand_ExecuteCommand(Func<ExecutedCommandInfo>)
+  nameWithType.vb: ICommand.ICommand_ExecuteCommand(Func(Of ExecutedCommandInfo))
+- uid: Global.ICommand.ICommand_ExecuteCommand*
+  name: ICommand_ExecuteCommand
+  href: api/Global.ICommand.html#Global_ICommand_ICommand_ExecuteCommand_
+  commentId: Overload:Global.ICommand.ICommand_ExecuteCommand
+  isSpec: "True"
+  fullName: ICommand.ICommand_ExecuteCommand
+  nameWithType: ICommand.ICommand_ExecuteCommand
+- uid: Global.ICommand.ICommand_ExecuteUndoCommand(System.Func{ExecutedCommandInfo})
+  name: ICommand_ExecuteUndoCommand(Func<ExecutedCommandInfo>)
+  href: api/Global.ICommand.html#Global_ICommand_ICommand_ExecuteUndoCommand_System_Func_ExecutedCommandInfo__
+  commentId: M:Global.ICommand.ICommand_ExecuteUndoCommand(System.Func{ExecutedCommandInfo})
+  name.vb: ICommand_ExecuteUndoCommand(Func(Of ExecutedCommandInfo))
+  fullName: ICommand.ICommand_ExecuteUndoCommand(System.Func<ExecutedCommandInfo>)
+  fullName.vb: ICommand.ICommand_ExecuteUndoCommand(System.Func(Of ExecutedCommandInfo))
+  nameWithType: ICommand.ICommand_ExecuteUndoCommand(Func<ExecutedCommandInfo>)
+  nameWithType.vb: ICommand.ICommand_ExecuteUndoCommand(Func(Of ExecutedCommandInfo))
+- uid: Global.ICommand.ICommand_ExecuteUndoCommand*
+  name: ICommand_ExecuteUndoCommand
+  href: api/Global.ICommand.html#Global_ICommand_ICommand_ExecuteUndoCommand_
+  commentId: Overload:Global.ICommand.ICommand_ExecuteUndoCommand
+  isSpec: "True"
+  fullName: ICommand.ICommand_ExecuteUndoCommand
+  nameWithType: ICommand.ICommand_ExecuteUndoCommand
+- uid: Global.ICommand.strCommandID
+  name: strCommandID
+  href: api/Global.ICommand.html#Global_ICommand_strCommandID
+  commentId: P:Global.ICommand.strCommandID
+  fullName: ICommand.strCommandID
+  nameWithType: ICommand.strCommandID
+- uid: Global.ICommand.strCommandID*
+  name: strCommandID
+  href: api/Global.ICommand.html#Global_ICommand_strCommandID_
+  commentId: Overload:Global.ICommand.strCommandID
+  isSpec: "True"
+  fullName: ICommand.strCommandID
+  nameWithType: ICommand.strCommandID
 - uid: Global.Joystick
   name: Joystick
   href: api/Global.Joystick.html
@@ -646,37 +895,44 @@ references:
   isSpec: "True"
   fullName: JoystickEditor.OnInspectorGUI
   nameWithType: JoystickEditor.OnInspectorGUI
-- uid: Global.JoystickPlayer
-  name: JoystickPlayer
-  href: api/Global.JoystickPlayer.html
-  commentId: T:Global.JoystickPlayer
-  fullName: JoystickPlayer
-  nameWithType: JoystickPlayer
-- uid: Global.JoystickPlayer.FixedUpdate
-  name: FixedUpdate()
-  href: api/Global.JoystickPlayer.html#Global_JoystickPlayer_FixedUpdate
-  commentId: M:Global.JoystickPlayer.FixedUpdate
-  fullName: JoystickPlayer.FixedUpdate()
-  nameWithType: JoystickPlayer.FixedUpdate()
-- uid: Global.JoystickPlayer.FixedUpdate*
-  name: FixedUpdate
-  href: api/Global.JoystickPlayer.html#Global_JoystickPlayer_FixedUpdate_
-  commentId: Overload:Global.JoystickPlayer.FixedUpdate
+- uid: Global.JoystickInput
+  name: JoystickInput
+  href: api/Global.JoystickInput.html
+  commentId: T:Global.JoystickInput
+  fullName: JoystickInput
+  nameWithType: JoystickInput
+- uid: Global.JoystickInput.ICharacterInput_GetInput_MoveX
+  name: ICharacterInput_GetInput_MoveX()
+  href: api/Global.JoystickInput.html#Global_JoystickInput_ICharacterInput_GetInput_MoveX
+  commentId: M:Global.JoystickInput.ICharacterInput_GetInput_MoveX
+  fullName: JoystickInput.ICharacterInput_GetInput_MoveX()
+  nameWithType: JoystickInput.ICharacterInput_GetInput_MoveX()
+- uid: Global.JoystickInput.ICharacterInput_GetInput_MoveX*
+  name: ICharacterInput_GetInput_MoveX
+  href: api/Global.JoystickInput.html#Global_JoystickInput_ICharacterInput_GetInput_MoveX_
+  commentId: Overload:Global.JoystickInput.ICharacterInput_GetInput_MoveX
   isSpec: "True"
-  fullName: JoystickPlayer.FixedUpdate
-  nameWithType: JoystickPlayer.FixedUpdate
-- uid: Global.JoystickPlayer.speed
-  name: speed
-  href: api/Global.JoystickPlayer.html#Global_JoystickPlayer_speed
-  commentId: F:Global.JoystickPlayer.speed
-  fullName: JoystickPlayer.speed
-  nameWithType: JoystickPlayer.speed
-- uid: Global.JoystickPlayer.variableJoystick
+  fullName: JoystickInput.ICharacterInput_GetInput_MoveX
+  nameWithType: JoystickInput.ICharacterInput_GetInput_MoveX
+- uid: Global.JoystickInput.OnAwake
+  name: OnAwake()
+  href: api/Global.JoystickInput.html#Global_JoystickInput_OnAwake
+  commentId: M:Global.JoystickInput.OnAwake
+  fullName: JoystickInput.OnAwake()
+  nameWithType: JoystickInput.OnAwake()
+- uid: Global.JoystickInput.OnAwake*
+  name: OnAwake
+  href: api/Global.JoystickInput.html#Global_JoystickInput_OnAwake_
+  commentId: Overload:Global.JoystickInput.OnAwake
+  isSpec: "True"
+  fullName: JoystickInput.OnAwake
+  nameWithType: JoystickInput.OnAwake
+- uid: Global.JoystickInput.variableJoystick
   name: variableJoystick
-  href: api/Global.JoystickPlayer.html#Global_JoystickPlayer_variableJoystick
-  commentId: F:Global.JoystickPlayer.variableJoystick
-  fullName: JoystickPlayer.variableJoystick
-  nameWithType: JoystickPlayer.variableJoystick
+  href: api/Global.JoystickInput.html#Global_JoystickInput_variableJoystick
+  commentId: F:Global.JoystickInput.variableJoystick
+  fullName: JoystickInput.variableJoystick
+  nameWithType: JoystickInput.variableJoystick
 - uid: Global.JoystickPlayerExample
   name: JoystickPlayerExample
   href: api/Global.JoystickPlayerExample.html
@@ -826,6 +1082,12 @@ references:
   commentId: T:Global.MoveAble
   fullName: MoveAble
   nameWithType: MoveAble
+- uid: Global.MoveAble.DoInit(MoveAbleLogic)
+  name: DoInit(MoveAbleLogic)
+  href: api/Global.MoveAble.html#Global_MoveAble_DoInit_MoveAbleLogic_
+  commentId: M:Global.MoveAble.DoInit(MoveAbleLogic)
+  fullName: MoveAble.DoInit(MoveAbleLogic)
+  nameWithType: MoveAble.DoInit(MoveAbleLogic)
 - uid: Global.MoveAble.DoInit(MoveAbleLogic,System.Single)
   name: DoInit(MoveAbleLogic, Single)
   href: api/Global.MoveAble.html#Global_MoveAble_DoInit_MoveAbleLogic_System_Single_
@@ -852,12 +1114,71 @@ references:
   isSpec: "True"
   fullName: MoveAble.DoMove
   nameWithType: MoveAble.DoMove
-- uid: Global.MoveAble.fMoveSpeed
-  name: fMoveSpeed
-  href: api/Global.MoveAble.html#Global_MoveAble_fMoveSpeed
-  commentId: F:Global.MoveAble.fMoveSpeed
-  fullName: MoveAble.fMoveSpeed
-  nameWithType: MoveAble.fMoveSpeed
+- uid: Global.MoveAble.DoUpdate_Manual(System.Single)
+  name: DoUpdate_Manual(Single)
+  href: api/Global.MoveAble.html#Global_MoveAble_DoUpdate_Manual_System_Single_
+  commentId: M:Global.MoveAble.DoUpdate_Manual(System.Single)
+  fullName: MoveAble.DoUpdate_Manual(System.Single)
+  nameWithType: MoveAble.DoUpdate_Manual(Single)
+- uid: Global.MoveAble.DoUpdate_Manual*
+  name: DoUpdate_Manual
+  href: api/Global.MoveAble.html#Global_MoveAble_DoUpdate_Manual_
+  commentId: Overload:Global.MoveAble.DoUpdate_Manual
+  isSpec: "True"
+  fullName: MoveAble.DoUpdate_Manual
+  nameWithType: MoveAble.DoUpdate_Manual
+- uid: Global.MoveAble.fCurrentMoveSpeed
+  name: fCurrentMoveSpeed
+  href: api/Global.MoveAble.html#Global_MoveAble_fCurrentMoveSpeed
+  commentId: P:Global.MoveAble.fCurrentMoveSpeed
+  fullName: MoveAble.fCurrentMoveSpeed
+  nameWithType: MoveAble.fCurrentMoveSpeed
+- uid: Global.MoveAble.fCurrentMoveSpeed*
+  name: fCurrentMoveSpeed
+  href: api/Global.MoveAble.html#Global_MoveAble_fCurrentMoveSpeed_
+  commentId: Overload:Global.MoveAble.fCurrentMoveSpeed
+  isSpec: "True"
+  fullName: MoveAble.fCurrentMoveSpeed
+  nameWithType: MoveAble.fCurrentMoveSpeed
+- uid: Global.MoveAble.fInitMoveSpeed
+  name: fInitMoveSpeed
+  href: api/Global.MoveAble.html#Global_MoveAble_fInitMoveSpeed
+  commentId: P:Global.MoveAble.fInitMoveSpeed
+  fullName: MoveAble.fInitMoveSpeed
+  nameWithType: MoveAble.fInitMoveSpeed
+- uid: Global.MoveAble.fInitMoveSpeed*
+  name: fInitMoveSpeed
+  href: api/Global.MoveAble.html#Global_MoveAble_fInitMoveSpeed_
+  commentId: Overload:Global.MoveAble.fInitMoveSpeed
+  isSpec: "True"
+  fullName: MoveAble.fInitMoveSpeed
+  nameWithType: MoveAble.fInitMoveSpeed
+- uid: Global.MoveAble.fInputX_Minus1_1
+  name: fInputX_Minus1_1
+  href: api/Global.MoveAble.html#Global_MoveAble_fInputX_Minus1_1
+  commentId: P:Global.MoveAble.fInputX_Minus1_1
+  fullName: MoveAble.fInputX_Minus1_1
+  nameWithType: MoveAble.fInputX_Minus1_1
+- uid: Global.MoveAble.fInputX_Minus1_1*
+  name: fInputX_Minus1_1
+  href: api/Global.MoveAble.html#Global_MoveAble_fInputX_Minus1_1_
+  commentId: Overload:Global.MoveAble.fInputX_Minus1_1
+  isSpec: "True"
+  fullName: MoveAble.fInputX_Minus1_1
+  nameWithType: MoveAble.fInputX_Minus1_1
+- uid: Global.MoveAble.OnAwake
+  name: OnAwake()
+  href: api/Global.MoveAble.html#Global_MoveAble_OnAwake
+  commentId: M:Global.MoveAble.OnAwake
+  fullName: MoveAble.OnAwake()
+  nameWithType: MoveAble.OnAwake()
+- uid: Global.MoveAble.OnAwake*
+  name: OnAwake
+  href: api/Global.MoveAble.html#Global_MoveAble_OnAwake_
+  commentId: Overload:Global.MoveAble.OnAwake
+  isSpec: "True"
+  fullName: MoveAble.OnAwake
+  nameWithType: MoveAble.OnAwake
 - uid: Global.MoveAbleLogic
   name: MoveAbleLogic
   href: api/Global.MoveAbleLogic.html
@@ -877,12 +1198,12 @@ references:
   isSpec: "True"
   fullName: MoveAbleLogic.MoveAbleLogic
   nameWithType: MoveAbleLogic.MoveAbleLogic
-- uid: Global.MoveAbleLogic.CreateLogic_Rigidbody2D(MonoBehaviour)
-  name: CreateLogic_Rigidbody2D(MonoBehaviour)
-  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_CreateLogic_Rigidbody2D_MonoBehaviour_
-  commentId: M:Global.MoveAbleLogic.CreateLogic_Rigidbody2D(MonoBehaviour)
-  fullName: MoveAbleLogic.CreateLogic_Rigidbody2D(MonoBehaviour)
-  nameWithType: MoveAbleLogic.CreateLogic_Rigidbody2D(MonoBehaviour)
+- uid: Global.MoveAbleLogic.CreateLogic_Rigidbody2D(MonoBehaviour,MoveAbleLogic_Rigidbody2D.EMode)
+  name: CreateLogic_Rigidbody2D(MonoBehaviour, MoveAbleLogic_Rigidbody2D.EMode)
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_CreateLogic_Rigidbody2D_MonoBehaviour_MoveAbleLogic_Rigidbody2D_EMode_
+  commentId: M:Global.MoveAbleLogic.CreateLogic_Rigidbody2D(MonoBehaviour,MoveAbleLogic_Rigidbody2D.EMode)
+  fullName: MoveAbleLogic.CreateLogic_Rigidbody2D(MonoBehaviour, MoveAbleLogic_Rigidbody2D.EMode)
+  nameWithType: MoveAbleLogic.CreateLogic_Rigidbody2D(MonoBehaviour, MoveAbleLogic_Rigidbody2D.EMode)
 - uid: Global.MoveAbleLogic.CreateLogic_Rigidbody2D*
   name: CreateLogic_Rigidbody2D
   href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_CreateLogic_Rigidbody2D_
@@ -916,19 +1237,19 @@ references:
   isSpec: "True"
   fullName: MoveAbleLogic.DoMove
   nameWithType: MoveAbleLogic.DoMove
-- uid: Global.MoveAbleLogic.DoSet_MoveSpeed(System.Single)
-  name: DoSet_MoveSpeed(Single)
-  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_DoSet_MoveSpeed_System_Single_
-  commentId: M:Global.MoveAbleLogic.DoSet_MoveSpeed(System.Single)
-  fullName: MoveAbleLogic.DoSet_MoveSpeed(System.Single)
-  nameWithType: MoveAbleLogic.DoSet_MoveSpeed(Single)
-- uid: Global.MoveAbleLogic.DoSet_MoveSpeed*
-  name: DoSet_MoveSpeed
-  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_DoSet_MoveSpeed_
-  commentId: Overload:Global.MoveAbleLogic.DoSet_MoveSpeed
+- uid: Global.MoveAbleLogic.DoSet_InitMoveSpeed(System.Single)
+  name: DoSet_InitMoveSpeed(Single)
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_DoSet_InitMoveSpeed_System_Single_
+  commentId: M:Global.MoveAbleLogic.DoSet_InitMoveSpeed(System.Single)
+  fullName: MoveAbleLogic.DoSet_InitMoveSpeed(System.Single)
+  nameWithType: MoveAbleLogic.DoSet_InitMoveSpeed(Single)
+- uid: Global.MoveAbleLogic.DoSet_InitMoveSpeed*
+  name: DoSet_InitMoveSpeed
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_DoSet_InitMoveSpeed_
+  commentId: Overload:Global.MoveAbleLogic.DoSet_InitMoveSpeed
   isSpec: "True"
-  fullName: MoveAbleLogic.DoSet_MoveSpeed
-  nameWithType: MoveAbleLogic.DoSet_MoveSpeed
+  fullName: MoveAbleLogic.DoSet_InitMoveSpeed
+  nameWithType: MoveAbleLogic.DoSet_InitMoveSpeed
 - uid: Global.MoveAbleLogic.DoUpdate(System.Single)
   name: DoUpdate(Single)
   href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_DoUpdate_System_Single_
@@ -942,19 +1263,58 @@ references:
   isSpec: "True"
   fullName: MoveAbleLogic.DoUpdate
   nameWithType: MoveAbleLogic.DoUpdate
-- uid: Global.MoveAbleLogic.fMoveSpeed
-  name: fMoveSpeed
-  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_fMoveSpeed
-  commentId: P:Global.MoveAbleLogic.fMoveSpeed
-  fullName: MoveAbleLogic.fMoveSpeed
-  nameWithType: MoveAbleLogic.fMoveSpeed
-- uid: Global.MoveAbleLogic.fMoveSpeed*
-  name: fMoveSpeed
-  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_fMoveSpeed_
-  commentId: Overload:Global.MoveAbleLogic.fMoveSpeed
+- uid: Global.MoveAbleLogic.fCurrentMoveSpeed
+  name: fCurrentMoveSpeed
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_fCurrentMoveSpeed
+  commentId: P:Global.MoveAbleLogic.fCurrentMoveSpeed
+  fullName: MoveAbleLogic.fCurrentMoveSpeed
+  nameWithType: MoveAbleLogic.fCurrentMoveSpeed
+- uid: Global.MoveAbleLogic.fCurrentMoveSpeed*
+  name: fCurrentMoveSpeed
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_fCurrentMoveSpeed_
+  commentId: Overload:Global.MoveAbleLogic.fCurrentMoveSpeed
   isSpec: "True"
-  fullName: MoveAbleLogic.fMoveSpeed
-  nameWithType: MoveAbleLogic.fMoveSpeed
+  fullName: MoveAbleLogic.fCurrentMoveSpeed
+  nameWithType: MoveAbleLogic.fCurrentMoveSpeed
+- uid: Global.MoveAbleLogic.fInitMoveSpeed
+  name: fInitMoveSpeed
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_fInitMoveSpeed
+  commentId: P:Global.MoveAbleLogic.fInitMoveSpeed
+  fullName: MoveAbleLogic.fInitMoveSpeed
+  nameWithType: MoveAbleLogic.fInitMoveSpeed
+- uid: Global.MoveAbleLogic.fInitMoveSpeed*
+  name: fInitMoveSpeed
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_fInitMoveSpeed_
+  commentId: Overload:Global.MoveAbleLogic.fInitMoveSpeed
+  isSpec: "True"
+  fullName: MoveAbleLogic.fInitMoveSpeed
+  nameWithType: MoveAbleLogic.fInitMoveSpeed
+- uid: Global.MoveAbleLogic.fInputX_Minus1_1
+  name: fInputX_Minus1_1
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_fInputX_Minus1_1
+  commentId: P:Global.MoveAbleLogic.fInputX_Minus1_1
+  fullName: MoveAbleLogic.fInputX_Minus1_1
+  nameWithType: MoveAbleLogic.fInputX_Minus1_1
+- uid: Global.MoveAbleLogic.fInputX_Minus1_1*
+  name: fInputX_Minus1_1
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_fInputX_Minus1_1_
+  commentId: Overload:Global.MoveAbleLogic.fInputX_Minus1_1
+  isSpec: "True"
+  fullName: MoveAbleLogic.fInputX_Minus1_1
+  nameWithType: MoveAbleLogic.fInputX_Minus1_1
+- uid: Global.MoveAbleLogic.GetCurrentSpeed
+  name: GetCurrentSpeed()
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_GetCurrentSpeed
+  commentId: M:Global.MoveAbleLogic.GetCurrentSpeed
+  fullName: MoveAbleLogic.GetCurrentSpeed()
+  nameWithType: MoveAbleLogic.GetCurrentSpeed()
+- uid: Global.MoveAbleLogic.GetCurrentSpeed*
+  name: GetCurrentSpeed
+  href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_GetCurrentSpeed_
+  commentId: Overload:Global.MoveAbleLogic.GetCurrentSpeed
+  isSpec: "True"
+  fullName: MoveAbleLogic.GetCurrentSpeed
+  nameWithType: MoveAbleLogic.GetCurrentSpeed
 - uid: Global.MoveAbleLogic.OnMove(System.Single,System.Single,System.Single)
   name: OnMove(Single, Single, Single)
   href: api/Global.MoveAbleLogic.html#Global_MoveAbleLogic_OnMove_System_Single_System_Single_System_Single_
@@ -974,12 +1334,12 @@ references:
   commentId: T:Global.MoveAbleLogic_Rigidbody2D
   fullName: MoveAbleLogic_Rigidbody2D
   nameWithType: MoveAbleLogic_Rigidbody2D
-- uid: Global.MoveAbleLogic_Rigidbody2D.#ctor(MonoBehaviour)
-  name: MoveAbleLogic_Rigidbody2D(MonoBehaviour)
-  href: api/Global.MoveAbleLogic_Rigidbody2D.html#Global_MoveAbleLogic_Rigidbody2D__ctor_MonoBehaviour_
-  commentId: M:Global.MoveAbleLogic_Rigidbody2D.#ctor(MonoBehaviour)
-  fullName: MoveAbleLogic_Rigidbody2D.MoveAbleLogic_Rigidbody2D(MonoBehaviour)
-  nameWithType: MoveAbleLogic_Rigidbody2D.MoveAbleLogic_Rigidbody2D(MonoBehaviour)
+- uid: Global.MoveAbleLogic_Rigidbody2D.#ctor(MonoBehaviour,MoveAbleLogic_Rigidbody2D.EMode)
+  name: MoveAbleLogic_Rigidbody2D(MonoBehaviour, MoveAbleLogic_Rigidbody2D.EMode)
+  href: api/Global.MoveAbleLogic_Rigidbody2D.html#Global_MoveAbleLogic_Rigidbody2D__ctor_MonoBehaviour_MoveAbleLogic_Rigidbody2D_EMode_
+  commentId: M:Global.MoveAbleLogic_Rigidbody2D.#ctor(MonoBehaviour,MoveAbleLogic_Rigidbody2D.EMode)
+  fullName: MoveAbleLogic_Rigidbody2D.MoveAbleLogic_Rigidbody2D(MonoBehaviour, MoveAbleLogic_Rigidbody2D.EMode)
+  nameWithType: MoveAbleLogic_Rigidbody2D.MoveAbleLogic_Rigidbody2D(MonoBehaviour, MoveAbleLogic_Rigidbody2D.EMode)
 - uid: Global.MoveAbleLogic_Rigidbody2D.#ctor*
   name: MoveAbleLogic_Rigidbody2D
   href: api/Global.MoveAbleLogic_Rigidbody2D.html#Global_MoveAbleLogic_Rigidbody2D__ctor_
@@ -987,6 +1347,37 @@ references:
   isSpec: "True"
   fullName: MoveAbleLogic_Rigidbody2D.MoveAbleLogic_Rigidbody2D
   nameWithType: MoveAbleLogic_Rigidbody2D.MoveAbleLogic_Rigidbody2D
+- uid: Global.MoveAbleLogic_Rigidbody2D.EMode
+  name: MoveAbleLogic_Rigidbody2D.EMode
+  href: api/Global.MoveAbleLogic_Rigidbody2D.EMode.html
+  commentId: T:Global.MoveAbleLogic_Rigidbody2D.EMode
+  fullName: MoveAbleLogic_Rigidbody2D.EMode
+  nameWithType: MoveAbleLogic_Rigidbody2D.EMode
+- uid: Global.MoveAbleLogic_Rigidbody2D.EMode.AddForce
+  name: AddForce
+  href: api/Global.MoveAbleLogic_Rigidbody2D.EMode.html#Global_MoveAbleLogic_Rigidbody2D_EMode_AddForce
+  commentId: F:Global.MoveAbleLogic_Rigidbody2D.EMode.AddForce
+  fullName: MoveAbleLogic_Rigidbody2D.EMode.AddForce
+  nameWithType: MoveAbleLogic_Rigidbody2D.EMode.AddForce
+- uid: Global.MoveAbleLogic_Rigidbody2D.EMode.SetVelocity
+  name: SetVelocity
+  href: api/Global.MoveAbleLogic_Rigidbody2D.EMode.html#Global_MoveAbleLogic_Rigidbody2D_EMode_SetVelocity
+  commentId: F:Global.MoveAbleLogic_Rigidbody2D.EMode.SetVelocity
+  fullName: MoveAbleLogic_Rigidbody2D.EMode.SetVelocity
+  nameWithType: MoveAbleLogic_Rigidbody2D.EMode.SetVelocity
+- uid: Global.MoveAbleLogic_Rigidbody2D.GetCurrentSpeed
+  name: GetCurrentSpeed()
+  href: api/Global.MoveAbleLogic_Rigidbody2D.html#Global_MoveAbleLogic_Rigidbody2D_GetCurrentSpeed
+  commentId: M:Global.MoveAbleLogic_Rigidbody2D.GetCurrentSpeed
+  fullName: MoveAbleLogic_Rigidbody2D.GetCurrentSpeed()
+  nameWithType: MoveAbleLogic_Rigidbody2D.GetCurrentSpeed()
+- uid: Global.MoveAbleLogic_Rigidbody2D.GetCurrentSpeed*
+  name: GetCurrentSpeed
+  href: api/Global.MoveAbleLogic_Rigidbody2D.html#Global_MoveAbleLogic_Rigidbody2D_GetCurrentSpeed_
+  commentId: Overload:Global.MoveAbleLogic_Rigidbody2D.GetCurrentSpeed
+  isSpec: "True"
+  fullName: MoveAbleLogic_Rigidbody2D.GetCurrentSpeed
+  nameWithType: MoveAbleLogic_Rigidbody2D.GetCurrentSpeed
 - uid: Global.MoveAbleLogic_Rigidbody2D.OnMove(System.Single,System.Single,System.Single)
   name: OnMove(Single, Single, Single)
   href: api/Global.MoveAbleLogic_Rigidbody2D.html#Global_MoveAbleLogic_Rigidbody2D_OnMove_System_Single_System_Single_System_Single_
@@ -1019,6 +1410,19 @@ references:
   isSpec: "True"
   fullName: MoveAbleLogic_Transform.MoveAbleLogic_Transform
   nameWithType: MoveAbleLogic_Transform.MoveAbleLogic_Transform
+- uid: Global.MoveAbleLogic_Transform.GetCurrentSpeed
+  name: GetCurrentSpeed()
+  href: api/Global.MoveAbleLogic_Transform.html#Global_MoveAbleLogic_Transform_GetCurrentSpeed
+  commentId: M:Global.MoveAbleLogic_Transform.GetCurrentSpeed
+  fullName: MoveAbleLogic_Transform.GetCurrentSpeed()
+  nameWithType: MoveAbleLogic_Transform.GetCurrentSpeed()
+- uid: Global.MoveAbleLogic_Transform.GetCurrentSpeed*
+  name: GetCurrentSpeed
+  href: api/Global.MoveAbleLogic_Transform.html#Global_MoveAbleLogic_Transform_GetCurrentSpeed_
+  commentId: Overload:Global.MoveAbleLogic_Transform.GetCurrentSpeed
+  isSpec: "True"
+  fullName: MoveAbleLogic_Transform.GetCurrentSpeed
+  nameWithType: MoveAbleLogic_Transform.GetCurrentSpeed
 - uid: Global.MoveAbleLogic_Transform.OnMove(System.Single,System.Single,System.Single)
   name: OnMove(Single, Single, Single)
   href: api/Global.MoveAbleLogic_Transform.html#Global_MoveAbleLogic_Transform_OnMove_System_Single_System_Single_System_Single_
