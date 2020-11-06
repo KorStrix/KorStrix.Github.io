@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Unity_PackageProject_Template | Example Title </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Unity_PackageProject_Template | Example Title ">
+    <meta name="generator" content="docfx 2.56.4.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="unity_packageproject_template">Unity_PackageProject_Template</h1>
+
+<p>이 프로젝트는 Unity Package 프로젝트에서 자주 보이는 패턴을 담아 Template 프로젝트로 만들었습니다.</p>
+<h2 id="무엇이-있는지">무엇이 있는지?</h2>
+<h3 id="master-workspace-branch">Master, Workspace Branch</h3>
+<p>하단은 <code>Unity Project</code> 폴더 구조입니다.</p>
+<pre><code> Unity Project Sample
+ |-- Assets
+ |-- Packages
+ └-- ProjectSettings
+</code></pre>
+<p>그리고 하단은 <code>Unity Package Project</code> 폴더의 구조입니다.</p>
+<pre><code>Unity Package Project Sample
+|-- Editor
+|-- Runtime
+|-- Tests
+└-- package.json
+</code></pre>
+<p><code>폴더 구조가 다르기 때문에</code></p>
+<p>workspace 브렌치는 Unity Project와 이 Template 대상인 Package를 담고 있으며,
+workspace 브렌치에서 커밋할 경우 Github Action에 따라 master 브렌치로 Package 내용만 동기화 하는 구조입니다.</p>
+<h3 id="github-action">Github Action</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>COMMENT</th>
+<th>Branch</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><b>UnityTest and Upload Package</b></td>
+<td>Unity UnitTest를 실행 후 이상이 없으면 Package를 master로 커밋합니다.</td>
+<td>workspace</td>
+</tr>
+<tr>
+<td><b>Build and Deploy DocFX</b></td>
+<td>문서화 도구인 DocFX를 빌드합니다.</td>
+<td>workspace</td>
+</tr>
+<tr>
+<td><b>Copy Master to Workspace Branch</b></td>
+<td>Master Branch에서 바로 작업한 경우 workspace로 커밋합니다.</td>
+<td>master</td>
+</tr>
+</tbody>
+</table>
+<h2 id="설치-방법">설치 방법</h2>
+<p>설치 후 자동화가 필요한 공정입니다.</p>
+<h3 id="파일-수정">파일 수정</h3>
+<ol>
+<li><code>master</code> branch의 <code>./github/workflows/</code>에 있는 <code>.yml</code> 파일들의 <code>env</code> 항목들을 수정합니다.</li>
+<li><code>workspace</code> branch의 <code>./github/workflows/</code>에 있는 <code>.yml</code> 파일들의 <code>env</code> 항목들을 수정합니다.</li>
+<li><code>workspace</code> branch의 <code>Documentation/docfx.json</code> 파일의 <code>build/globalMetadata/_gitContribute/repo</code> 항목을 수정합니다.</li>
+</ol>
+<h3 id="unity-license-secret-얻어오기">Unity License Secret 얻어오기</h3>
+<p>Unity - <code>UnitTest</code> 의 경우 <code>UnityEngine</code> 에서 실행합니다.
+하지만 <code>UnityEngine</code> 을 사용하려면 <code>Unity License</code> 가 있어야 합니다. (무료, 유료 관계없이)</p>
+<p>이 <code>Repo</code> 는 <code>webbertakken/unity-test-runner</code>를 사용하기 때문에,
+해당 <code>action</code>의 메뉴얼에 가서 <code>Unity License</code>를 설정해야 합니다.</p>
+<p>링크 : <a href="https://unity-ci.com/docs">https://unity-ci.com/docs</a></p>
+<div id="disqus_thread"></div>
+                <script>
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://strix-1.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Korstrix/Unity_SODB/blob/workspace/Documentation/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="#disqus_thread" class="contribution-link">0 Comments</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Example Footer
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- mermaid support -->
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script> <script type="text/javascript" src="styles/docfx.js"></script> <script type="text/javascript" src="styles/main.js"></script>
+    
+    <script src="https://unpkg.com/mermaid@8.4/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: false
+        });
+    
+        window.onload = function () {
+            const elements = document.getElementsByClassName("lang-mermaid");
+            let index = 0;
+    
+            while (elements.length != 0) {
+                let element = elements[0];
+                mermaid.render('graph'+index, element.innerText, (svgGraph) => {                    
+                    element.parentElement.outerHTML = "<div class='mermaid'>" + svgGraph + "</div>";
+                });
+                ++index;
+            }
+        }
+    </script>  </body>
+</html>
